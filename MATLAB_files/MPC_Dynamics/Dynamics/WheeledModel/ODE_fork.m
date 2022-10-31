@@ -1,0 +1,48 @@
+function [temp] = ODE_fork(z,u)
+
+theta=z(3);
+thetadot=z(9);
+
+qdot=[z(7);z(8);z(9);z(10);z(11)];
+
+alpha = z(6);
+alphadot = u(2);
+
+T1 = u(1);
+T = [0;0;0;T1;0];
+
+mw= 0.1;                      % mass of wheels
+mB= 10;                     % mass of the chassis
+d= -0.0;                      % distance from the center of the wheels to the center of mass of chassis
+D=0.5;                     % half of wheel-to-wheel distance 
+IB=0.5*mB*D^2;              % moment of inertia of the chassis
+ro=0.127;                   % radius of the wheels
+mT=mB+2*mw;                      % total mass
+mx = mB*d+mw*D;
+IT=IB+mB*d^2;
+Iyy=mw*(ro^2)/2;
+
+
+M=[mT                   0            mx*sin(theta)      0   0;...
+   0                    mT          -mx*cos(theta)      0   0;...
+   mx*sin(theta) -mx*cos(theta)         IT              0   0;...
+   0                    0               0               Iyy 0;...
+   0                    0               0               0  Iyy];
+
+B= mx*thetadot^2*[cos(theta);sin(theta);0;0;0];
+
+C=[1 0 D*sin(theta)  -cos(theta+alpha)*ro 0;...
+   0 1 -D*cos(theta) -sin(theta+alpha)*ro 0;...
+   1 0 0 0 -cos(theta)*ro;...
+   0 1 0 0 -sin(theta)*ro];
+
+Cdot=[0 0 D*thetadot*cos(theta) sin(theta+alpha)*ro*(thetadot+alphadot) 0;...
+      0 0 D*thetadot*sin(theta) -cos(theta+alpha)*ro*(thetadot+alphadot) 0;...
+      0 0 0 0  sin(theta)*thetadot*ro;...
+      0 0 0 0 -cos(theta)*thetadot*ro];
+  
+
+lambdas=-inv(C*inv(M)*C')*(C*inv(M)*(T-B)+Cdot*qdot);
+
+temp=inv(M)*(T-B+C'*lambdas);
+end
