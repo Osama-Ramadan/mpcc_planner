@@ -43,7 +43,7 @@ class LOCAL_PATH_PLANNER(Node):
         ## Create Local Path Object
         self.path_sampling_para = 100
         #self.originalwaypoints = [[39,4],[38,18],[22,22],[12,33]]
-        self.originalwaypoints = [[13,9],[38,21],[40.5,33]]
+        self.originalwaypoints = [[13,9],[39,21],[40.5,33]]
         #self.originalwaypoints = [[10.5,5],[10.5,9.5],[10.5,18]]
 
         self.lookahead = 2
@@ -64,8 +64,6 @@ class LOCAL_PATH_PLANNER(Node):
         self.path_planner_timer = self.create_timer(1, self.local_path_callback)
         
         ## Log Path ##
-        typef = "Orig"
-        self.log_local_path(self.local_path_msg,typef)
         
         
         
@@ -278,7 +276,7 @@ class LOCAL_PATH_PLANNER(Node):
         while(not search_finished and counter < MAX_COUNT):
 
             # Get the obstacles around the collision point
-            obst_list = map.get_obst_around_pose(p,1.5,1.5,1.5,1.5)
+            obst_list = map.get_obst_around_pose(p,1,1,1,1)
             if(len(obst_list)==0):
                 search_finished = True 
                 best_p = p 
