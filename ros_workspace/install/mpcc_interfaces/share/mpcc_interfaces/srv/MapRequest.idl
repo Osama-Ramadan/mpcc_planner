@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mpcc_interfaces/srv/MapRequest.srv
+// generated code does not contain a copyright notice
+
+#include "nav2_msgs/msg/Costmap.idl"
+
+module mpcc_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      " This servies takes 4 cornere point of a rectange and return the cost map corresponding to the specified area")
+    struct MapRequest_Request {
+      float x_min;
+
+      float x_max;
+
+      float y_min;
+
+      float y_max;
+    };
+    struct MapRequest_Response {
+      nav2_msgs::msg::Costmap costmap;
+    };
+  };
+};

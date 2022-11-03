@@ -6,7 +6,7 @@
 # distribution of this software and related documentation without an express
 # license agreement from NVIDIA CORPORATION is strictly prohibited.
 
-#sudo apt update
+#sudo apt update && sudo apt-get install python3-scipy python3-pandas && sudo apt install ros-foxy-navigation2 && sudo apt install ros-foxy-nav2-bringup
 #sudo apt install python3-pip
 #sudo apt-get install python3-scipy python3-pandas
 #sudo apt install ros-foxy-navigation2

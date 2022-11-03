@@ -1,9 +1,10 @@
 import casadi.*
 clear;clc;
 %% Define The Global Map
-mapmat = load('Maps/warehouse_map.mat');
+mapmat = load('/home/ossama/mpcc_planner/MATLAB_files/MPC_Dynamics/path tracking/Maps/omni_map2.mat');
 mapmat = mapmat.imageOccupancy;
 map = occupancyMap(mapmat,5);
+show(map); hold on
 %% Generate the Path
 goalsp = [[39, 3]; [37, 13]; [35.3, 14.09]; [35.3, 13.4]; [20, 24]];
 [Xout, wayps, Q_p] = Generate_Trajectory(goalsp,1,4);

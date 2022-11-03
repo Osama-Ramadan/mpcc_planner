@@ -10,7 +10,7 @@ from sys import path
 import pandas as pd 
 
  #Import CasADi 
-path.append(r"/home/casadi-linux-py36-v3.5.5-64bit")
+path.append(r"/home/ossama/mpcc_planner/ros_workspace/casadi-linux-py36-v3.5.5-64bit")
 from casadi import *
 
 
@@ -51,27 +51,39 @@ class LOCAL_PATH_PLANNER(Node):
         # Local Path Message
         
         self.local_path= self.generate_path(self.path_sampling_para,self.originalwaypoints,self.lookahead)
+        
+        self.local_path_msg = self.update_local_path_msg(self.local_path)
+        typef = "Orig"
+        self.log_local_path(self.local_path_msg,typef)
+        
         self.local_path = self.check_path(self.local_path, self.costmap)       
         self.local_path_msg = self.update_local_path_msg(self.local_path)
-        #print(self.local_path_msg.waypoints_x)
-        #print(self.local_path_msg.waypoints_y)
+        typef = "Final"
+        self.log_local_path(self.local_path_msg,typef)
         
         self.path_planner_timer = self.create_timer(1, self.local_path_callback)
         
         ## Log Path ##
-        self.log_local_path(self.local_path_msg)
+        typef = "Orig"
+        self.log_local_path(self.local_path_msg,typef)
         
         
         
-    def log_local_path(self,local_path_msg):
+    def log_local_path(self,local_path_msg,type):
         path_pts = np.dstack([local_path_msg.sampled_pt_x,local_path_msg.sampled_pt_y,local_path_msg.sampled_pt_th])
         control_pts = np.dstack([local_path_msg.qx, local_path_msg.qy])
         waypoints = np.dstack([local_path_msg.waypoints_x,local_path_msg.waypoints_y])
         orig_waypts = np.array(self.originalwaypoints)
-        pd.DataFrame(path_pts[0]).to_csv("/home/ros2_workspace/local_path_log/path_pts.csv")
-        pd.DataFrame(control_pts[0]).to_csv("/home/ros2_workspace/local_path_log/control_pts.csv")    
-        pd.DataFrame(waypoints[0]).to_csv("/home/ros2_workspace/local_path_log/waypoints.csv") 
-        pd.DataFrame(orig_waypts).to_csv("/home/ros2_workspace/local_path_log/orig_waypoints.csv") 
+        if type == "Orig":
+            pd.DataFrame(path_pts[0]).to_csv("/home/ros_workspace/local_path_log/path_pts_orig.csv")
+            pd.DataFrame(control_pts[0]).to_csv("/home/ros_workspace/local_path_log/control_pts_orig.csv")    
+            pd.DataFrame(waypoints[0]).to_csv("/home/ros_workspace/local_path_log/waypoints_orig.csv") 
+            pd.DataFrame(orig_waypts).to_csv("/home/ros_workspace/local_path_log/orig_waypoints_orig.csv") 
+        else:
+            pd.DataFrame(path_pts[0]).to_csv("/home/ros_workspace/local_path_log/path_pts.csv")
+            pd.DataFrame(control_pts[0]).to_csv("/home/ros_workspace/local_path_log/control_pts.csv")    
+            pd.DataFrame(waypoints[0]).to_csv("/home/ros_workspace/local_path_log/waypoints.csv") 
+            pd.DataFrame(orig_waypts).to_csv("/home/ros_workspace/local_path_log/orig_waypoints.csv") 
 
     def local_path_callback(self):
         self.local_path_publisher_.publish(self.local_path_msg)

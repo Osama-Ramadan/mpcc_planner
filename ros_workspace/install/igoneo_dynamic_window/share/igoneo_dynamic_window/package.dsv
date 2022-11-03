@@ -1,0 +1,6 @@
+source;share/igoneo_dynamic_window/hook/pythonpath.ps1
+source;share/igoneo_dynamic_window/hook/pythonpath.dsv
+source;share/igoneo_dynamic_window/hook/pythonpath.sh
+source;share/igoneo_dynamic_window/hook/ament_prefix_path.ps1
+source;share/igoneo_dynamic_window/hook/ament_prefix_path.dsv
+source;share/igoneo_dynamic_window/hook/ament_prefix_path.sh

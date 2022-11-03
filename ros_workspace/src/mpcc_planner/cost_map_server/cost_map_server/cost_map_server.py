@@ -26,7 +26,7 @@ class CostMapServer(Node):
         self.cost_map = None
 
         ## Request Map from the map_server node ## 
-        self.map_url = '/home/ros2_workspace/src/mpcc_planner/mpcc_local_planner/maps/ware_house.yaml'
+        self.map_url = '/home/ros_workspace/src/mpcc_planner/mpcc_local_planner/maps/ware_house.yaml'
         req = LoadMap.Request()
         req.map_url = self.map_url
         future = self.cost_map_cli.call_async(req)

@@ -1,7 +1,7 @@
 clear; clc;
 
 %% Set the Map
-mapmat = load('/home/developer/Ossama_Repo/MasterThesisOssama/MATLAB_files/MPC_Dynamics/path tracking/Maps/warehouse_map.mat');
+mapmat = load('/home/ossama/mpcc_planner/MATLAB_files/MPC_Dynamics/path tracking/Maps/warehouse_map.mat');
 mapmat = mapmat.imageOccupancy;
 map = occupancyMap(mapmat,5);
 
@@ -51,7 +51,7 @@ for i = 1:controller_data_points
     mpcc_t = (mpcc_time{i}.data)*1000;
 
     mpcc_cmd = [mpcc_cmd ; cmd];
-    vehicle_traj = [vehicle_traj ; feedback];
+    vehicle_traj = [vehicle_traj ; feedback'];
     mpcc_time_ctr = [mpcc_time_ctr ; mpcc_t];
 end
 

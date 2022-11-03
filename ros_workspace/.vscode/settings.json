@@ -1,0 +1,26 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/ros_workspace/install/simple_igoneo_commander/lib/python3.8/site-packages",
+        "/home/ros_workspace/install/dwb_msgs/lib/python3.8/site-packages",
+        "/home/ros_workspace/install/nav_2d_msgs/lib/python3.8/site-packages",
+        "/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages",
+        "/home/ros_workspace/install/nav2_gazebo_spawner/lib/python3.8/site-packages",
+        "/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages",
+        "/home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages",
+        "/home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages",
+        "/home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ros_workspace/install/simple_igoneo_commander/lib/python3.8/site-packages",
+        "/home/ros_workspace/install/dwb_msgs/lib/python3.8/site-packages",
+        "/home/ros_workspace/install/nav_2d_msgs/lib/python3.8/site-packages",
+        "/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages",
+        "/home/ros_workspace/install/nav2_gazebo_spawner/lib/python3.8/site-packages",
+        "/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages",
+        "/home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages",
+        "/home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages",
+        "/home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ]
+}

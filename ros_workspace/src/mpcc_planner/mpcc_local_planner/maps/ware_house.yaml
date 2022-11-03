@@ -1,4 +1,4 @@
-image: /home/ros2_workspace/src/mpcc_planner/mpcc_local_planner/maps/ware_house.png
+image: /home/ros_workspace/src/mpcc_planner/mpcc_local_planner/maps/ware_house.png
 resolution: 0.20000
 origin: [0, 0, 0.0]
 negate: 0

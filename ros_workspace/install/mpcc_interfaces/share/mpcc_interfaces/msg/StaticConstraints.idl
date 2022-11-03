@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mpcc_interfaces/msg/StaticConstraints.msg
+// generated code does not contain a copyright notice
+
+
+module mpcc_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      " This message contains the static collision constraints for the Vehicle")
+    struct StaticConstraints {
+      string point_type;
+
+      sequence<float> ul_x;
+
+      sequence<float> ul_y;
+
+      sequence<float> lr_x;
+
+      sequence<float> lr_y;
+    };
+  };
+};

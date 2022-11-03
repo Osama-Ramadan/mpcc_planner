@@ -1,0 +1,8 @@
+msg/LocalPath.idl
+msg/LocalPath.msg
+msg/StaticConstraints.idl
+msg/StaticConstraints.msg
+srv/MapRequest.idl
+srv/MapRequest.srv
+srv/MapRequest_Request.msg
+srv/MapRequest_Response.msg

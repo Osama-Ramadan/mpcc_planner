@@ -1,0 +1,21 @@
+[2.703s] Invoking command in '/home/ros_workspace/src/mpc_dynamic_obstacles': PYTHONPATH=/home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mpc_dynamic_obstacles build --build-base /home/ros_workspace/build/mpc_dynamic_obstacles/build install --prefix /home/ros_workspace/install/mpc_dynamic_obstacles --record /home/ros_workspace/build/mpc_dynamic_obstacles/install.log --single-version-externally-managed
+[3.334s] running egg_info
+[3.338s] writing ../../build/mpc_dynamic_obstacles/mpc_dynamic_obstacles.egg-info/PKG-INFO
+[3.339s] writing dependency_links to ../../build/mpc_dynamic_obstacles/mpc_dynamic_obstacles.egg-info/dependency_links.txt
+[3.340s] writing entry points to ../../build/mpc_dynamic_obstacles/mpc_dynamic_obstacles.egg-info/entry_points.txt
+[3.344s] writing requirements to ../../build/mpc_dynamic_obstacles/mpc_dynamic_obstacles.egg-info/requires.txt
+[3.345s] writing top-level names to ../../build/mpc_dynamic_obstacles/mpc_dynamic_obstacles.egg-info/top_level.txt
+[3.463s] reading manifest file '../../build/mpc_dynamic_obstacles/mpc_dynamic_obstacles.egg-info/SOURCES.txt'
+[3.467s] writing manifest file '../../build/mpc_dynamic_obstacles/mpc_dynamic_obstacles.egg-info/SOURCES.txt'
+[3.469s] running build
+[3.478s] running build_py
+[3.482s] running install
+[3.486s] running install_lib
+[3.491s] running install_data
+[3.493s] running install_egg_info
+[3.498s] removing '/home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages/mpc_dynamic_obstacles-0.0.0-py3.8.egg-info' (and everything under it)
+[3.500s] Copying ../../build/mpc_dynamic_obstacles/mpc_dynamic_obstacles.egg-info to /home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages/mpc_dynamic_obstacles-0.0.0-py3.8.egg-info
+[3.504s] running install_scripts
+[3.551s] Installing mpc_dyn_obst script to /home/ros_workspace/install/mpc_dynamic_obstacles/lib/mpc_dynamic_obstacles
+[3.554s] writing list of installed files to '/home/ros_workspace/build/mpc_dynamic_obstacles/install.log'
+[3.685s] Invoked command in '/home/ros_workspace/src/mpc_dynamic_obstacles' returned '0': PYTHONPATH=/home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mpc_dynamic_obstacles build --build-base /home/ros_workspace/build/mpc_dynamic_obstacles/build install --prefix /home/ros_workspace/install/mpc_dynamic_obstacles --record /home/ros_workspace/build/mpc_dynamic_obstacles/install.log --single-version-externally-managed

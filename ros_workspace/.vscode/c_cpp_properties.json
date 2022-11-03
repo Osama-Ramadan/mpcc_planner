@@ -1,0 +1,47 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/ros_workspace/install/dwb_msgs/include/**",
+        "/home/ros_workspace/install/nav_2d_msgs/include/**",
+        "/home/ros_workspace/install/nav2_voxel_grid/include/**",
+        "/home/ros_workspace/install/nav2_msgs/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/ros_workspace/src/mpcc_planner/mpcc_local_planner/include/**",
+        "/home/ros_workspace/src/navigation2/nav2_amcl/include/**",
+        "/home/ros_workspace/src/navigation2/nav2_behavior_tree/include/**",
+        "/home/ros_workspace/src/navigation2/nav2_bt_navigator/include/**",
+        "/home/ros_workspace/src/navigation2/nav2_controller/include/**",
+        "/home/ros_workspace/src/navigation2/nav2_core/include/**",
+        "/home/ros_workspace/src/navigation2/nav2_costmap_2d/include/**",
+        "/home/ros_workspace/src/navigation2/nav2_dwb_controller/costmap_queue/include/**",
+        "/home/ros_workspace/src/navigation2/nav2_dwb_controller/dwb_core/include/**",
+        "/home/ros_workspace/src/navigation2/nav2_dwb_controller/dwb_critics/include/**",
+        "/home/ros_workspace/src/navigation2/nav2_dwb_controller/dwb_plugins/include/**",
+        "/home/ros_workspace/src/navigation2/nav2_dwb_controller/nav_2d_utils/include/**",
+        "/home/ros_workspace/src/navigation2/nav2_lifecycle_manager/include/**",
+        "/home/ros_workspace/src/navigation2/nav2_map_server/include/**",
+        "/home/ros_workspace/src/navigation2/nav2_navfn_planner/include/**",
+        "/home/ros_workspace/src/navigation2/nav2_planner/include/**",
+        "/home/ros_workspace/src/navigation2/nav2_recoveries/include/**",
+        "/home/ros_workspace/src/navigation2/nav2_regulated_pure_pursuit_controller/include/**",
+        "/home/ros_workspace/src/navigation2/nav2_rviz_plugins/include/**",
+        "/home/ros_workspace/src/navigation2/nav2_util/include/**",
+        "/home/ros_workspace/src/navigation2/nav2_voxel_grid/include/**",
+        "/home/ros_workspace/src/navigation2/nav2_waypoint_follower/include/**",
+        "/home/ros_workspace/src/navigation2/smac_planner/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
