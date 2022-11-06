@@ -81,14 +81,6 @@ hight = abs((ul_corner(2)-lr_corner(2))*0.2);
 %figure(2)
 %show(search_map)
 
-
-
-
-
-
-
-
-
 %% Construct Vehicle Safe Area
 function [safe_zone_min_x,safe_zone_max_x,safe_zone_min_y,safe_zone_max_y,safe_zone] = safe_area(config,x0,map,predicted_x,safe_zone,mpciter)
     max_search_x = 2;

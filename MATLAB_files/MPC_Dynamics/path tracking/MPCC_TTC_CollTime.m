@@ -1,7 +1,7 @@
 import casadi.*
 clear; clc;
 %% Define The Global Map
-mapmat = load('Maps/omni_map1.mat');
+mapmat = load('Maps/omni_map2.mat');
 mapmat = mapmat.imageOccupancy;
 map = occupancyMap(mapmat,5);
 
@@ -119,7 +119,7 @@ safe_zone_f = [];
 safe_zone_b = [];
 
 %% Genetrate the Circular Trajectory
-goalsp = [10 18 ; 10 10 ; 18,10]; % (warehouse)
+goalsp = [18 10 ; 10 10 ; 13,4]; % (warehouse)
 %goalsp = [5 17 ; 25 20; 35 22; 35 32]; % (warehouse)
 %goalsp = [3 10 ; 9 8 ; 18 1];
 %goalsp = [3 10 ; 9 10 ; 18 13];
