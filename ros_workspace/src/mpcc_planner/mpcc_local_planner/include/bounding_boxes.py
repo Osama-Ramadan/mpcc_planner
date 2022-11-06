@@ -74,7 +74,7 @@ class BOUNDING_BOXES():
             self.get_logger().error("CostMap is not Avaialable")
             return[]
         [local_search_map,map_ul_corner] = self.costmap.get_local_cost_map(point,search_max_x,search_min_x,search_max_y,search_min_y)
-        max_area = 0
+        max_area = -1
         max_row = -1
         rows = len(local_search_map)
         cols = np.shape(local_search_map)
@@ -83,6 +83,9 @@ class BOUNDING_BOXES():
         if rows < 1 or np.size(local_search_map) < 1:
             raise error("LocalMap is Empty")
 
+
+        if int(rows/2) == 0:
+            return [[],[]]
         for r in range(int(rows/2),rows):
             result = self.get_histogramArea(local_search_map[:r+1],rows)
             if result[0]>max_area:

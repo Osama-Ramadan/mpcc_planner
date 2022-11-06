@@ -20,12 +20,13 @@ from tf2_ros.transform_listener import TransformListener
 from tf2_ros import TransformException
 
 import numpy as np
+import pandas as pd 
 from scipy.spatial import KDTree
 import time
 
 
 #Import CasADi 
-path.append(r"/home/casadi-linux-py36-v3.5.5-64bit")
+path.append(r"casadi-linux-py36-v3.5.5-64bit")
 from casadi import *
 
 
@@ -75,7 +76,7 @@ class MPCC_CONTROLLER(Node):
         self.tf_listener = TransformListener(self.tf_buffer, self)
         
         ## Create Controller Timer callback ##
-        self.mpcc_dt_ = 0.15        #(s)
+        self.mpcc_dt_ = 50        #(s)
         self.mpcc_timer = self.create_timer(self.mpcc_dt_, self.mpcc_timer_callback)
 
         ## Initialize MPC ## 
@@ -122,29 +123,51 @@ class MPCC_CONTROLLER(Node):
         self.bounding_boxes = BOUNDING_BOXES(self.costmap)
         self.boundary_table = {}
         ## Create Bounding Boxes Timer callback ##
+        
+        self.time_logged = False
              
     def mpcc_timer_callback(self):
         
-        if self.costmap == 0 or not(self.ispath_boundary_created):
-            return
+        point = [10,16]
+        max_x = 0.3
+        max_y = 0.3
+        time_bound = []
+        if not self.time_logged:
+            while (max_x <= 5):
+                elapsed_time = 0
+                for i in range(4):
+                    st = time.time()
+                    self.bounding_boxes.get_safe_area(point,max_x,max_x,max_y,max_y)
+                    et = time.time()
+                    elapsed_time = elapsed_time + (et - st)
+                log = [elapsed_time/3,max_x]
+                time_bound.append(log)
+                max_x = max_x +0.1
+                max_y = max_y + 0.1
+            self.time_logged = True
+            path = "local_path_log/"+str("Time")+".csv"
+            pd.DataFrame(time_bound).to_csv(path)
+            print("-------------------------------------------------------------------")    
+        #if self.costmap == 0 or not(self.ispath_boundary_created):
+            #return
         
         # Update the State of the IgoNeo and returns a copy of the state
-        feedback = self.update_state()
-        st = time.time()
-        [mpcc_flag , predicted_traj] = self.mpcc_run(feedback,self.local_path,self.boundary_table)
-        et = time.time()
-        elapsed_time = et - st
+        #feedback = self.update_state()
+        #st = time.time()
+        #[mpcc_flag , predicted_traj] = self.mpcc_run(feedback,self.local_path,self.boundary_table)
+        #et = time.time()
+        #elapsed_time = et - st
         
         # Publish step time
-        step_time = Float32()
-        step_time.data = float(elapsed_time)
-        self.step_time_pub_.publish(step_time)
+        #step_time = Float32()
+        #step_time.data = float(elapsed_time)
+        #self.step_time_pub_.publish(step_time)
         
         # Publish the Predicted Trajectory on MPCC run success
-        if mpcc_flag and len(predicted_traj)!=0:
-            [predicted_traj_msg_f,predicted_traj_msg_b] = self.create_ros_pose_array(predicted_traj)
-            self.mpcc_pred_traj_pub_.publish(predicted_traj_msg_f)
-            self.mpcc_pred_traj_pub_.publish(predicted_traj_msg_b)
+        #if mpcc_flag and len(predicted_traj)!=0:
+            #[predicted_traj_msg_f,predicted_traj_msg_b] = self.create_ros_pose_array(predicted_traj)
+            #self.mpcc_pred_traj_pub_.publish(predicted_traj_msg_f)
+            #self.mpcc_pred_traj_pub_.publish(predicted_traj_msg_b)
             #self.get_logger().info("MPCC Run Time: %f" %(round(elapsed_time*1000,3)))
 
     def mpcc_run(self,feedback,local_path,path_boundary_table):
@@ -370,7 +393,6 @@ class MPCC_CONTROLLER(Node):
         self.cmdpublisher_.publish(self.joint_state)
 
         return [True, state_opt]
-    
     
     def check_invalid_constraints(self, static_constraints, prev_const,next_waypoint):
         constraint_isfit = True

@@ -9,11 +9,10 @@ from launch.actions import ExecuteProcess
 
 
 def generate_launch_description():
-
     map_dir = LaunchConfiguration(
         "map",
         default=os.path.join(
-            '/home/ros_workspace/src/mpcc_planner/mpcc_local_planner','maps', "ware_house.yaml"
+            '/home/src/mpcc_planner/mpcc_local_planner','maps', "ware_house.yaml"
         ),
     )
 

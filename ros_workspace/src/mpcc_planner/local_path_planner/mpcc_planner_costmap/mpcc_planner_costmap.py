@@ -62,8 +62,8 @@ class MPCC_PlannerCostMap(object):
 
     # Convert pose from grid indeces to world pose
     def get_world_x_y(self,costmap_y,costmap_x):                        
-        world_x = costmap_x * self.resolution + self.origin.position.x
-        world_y = self.origin.position.y - costmap_y * self.resolution
+        world_x = (costmap_x * self.resolution) + self.origin.position.x
+        world_y = self.origin.position.y - (costmap_y * self.resolution)
         return np.column_stack((world_x, world_y))
 
    
