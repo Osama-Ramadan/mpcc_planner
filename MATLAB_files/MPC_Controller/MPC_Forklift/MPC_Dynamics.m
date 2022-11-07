@@ -1,0 +1,4 @@
+import casadi.*
+clear
+clc
+

@@ -1,0 +1,33 @@
+ 
+% Configuration file ----------------------
+
+% Controller parameters for Feedback 
+Kp1 = 5;
+Kd1 = 0.1;
+Kp2 = 5;
+Kd2 = 0.1;
+
+% Controller Parameters for the angel contorl
+Kp = 10;
+Kd = 3;
+Ki = 0.3;
+
+
+% Goal Position
+x_d = 10;
+y_d = 10;
+
+% Model Parameter
+base_l  = 0.147;      %0.63;       %0.0335;
+wheel_r = 0.0335;       %0.2;        % 0.147;
+
+% Initial ConditionsS
+x_0 = 0;
+y_0 = 0;
+theta_0 = 2;   % in rad
+
+
+
+
+
+% -----
