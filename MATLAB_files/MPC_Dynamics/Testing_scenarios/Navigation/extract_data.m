@@ -1,7 +1,7 @@
 clear; clc;
 
 %% Set the Map
-mapmat = load('/home/ossama/mpcc_planner/MATLAB_files/MPC_Dynamics/path tracking/Maps/warehouse_map.mat');
+mapmat = load('/home/developer/mpcc_planner/MATLAB_files/MPC_Dynamics/path tracking/Maps/omni_map1.mat');
 mapmat = mapmat.imageOccupancy;
 map = occupancyMap(mapmat,5);
 
@@ -9,13 +9,14 @@ map = occupancyMap(mapmat,5);
 rob_diam = 1;
 obst_diam = 1;
 %% Ros Bag Data Extract
-bagreader = ros2bag('bag_files/Map1_Test11');
+bagreader = ros2bag('bag_files/Map1_RTest5');
 msgs = readMessages(bagreader);
 vehicle_odom = readMessages(select(bagreader,"Topic","/vehicle_odom"));
 joint_command = readMessages(select(bagreader,"Topic","/joint_command"));
 joint_states = readMessages(select(bagreader,"Topic","/joint_states"));
 mpcc_predected_traj = readMessages(select(bagreader,"Topic","/mpcc_predicted_traj"));
 mpcc_time = readMessages(select(bagreader,"Topic","/mpcc_time"));
+collision_time = readMessages(select(bagreader,"Topic","/collision_time"));
 mpcc_feedback = readMessages(select(bagreader,"Topic","/mpcc_feedback"));
 obs_predected_traj = readMessages(select(bagreader,"Topic","/obs_predicted_traj"));
 collision_pts = readMessages(select(bagreader,"Topic","/collision_pts"));
@@ -40,18 +41,23 @@ N = N(2)-1;
 mpcc_cmd = [];
 vehicle_traj = [];
 mpcc_time_ctr = [];
+collision_time_list = [];
 for i = 1:controller_data_points
     
     cmd = joint_command{i}.velocity;
     cmd(2) = cmd(2)*0.127;
     cmd(3) = mpcc_torque{i}.data;
+    if size(collision_time,1)>i
+    coll_time = collision_time{i}.data;
+    collision_time_list = [collision_time_list ; coll_time];
+    end
 
     feedback = mpcc_feedback{i}.data;
     
     mpcc_t = (mpcc_time{i}.data)*1000;
-
+    
     mpcc_cmd = [mpcc_cmd ; cmd];
-    vehicle_traj = [vehicle_traj ; feedback'];
+    vehicle_traj = [vehicle_traj ; feedback];
     mpcc_time_ctr = [mpcc_time_ctr ; mpcc_t];
 end
 
@@ -79,10 +85,10 @@ for i = 1:4:size(path_bound_data,2)-4
 end
 
 %% Local Path Data Extract
-T = readtable('bag_files/Map1_Test11/local_path_log/path_pts.csv');
-T1 = readtable('bag_files/Map1_Test11/local_path_log/control_pts.csv');
-T2 = readtable('bag_files/Map1_Test11/local_path_log/waypoints.csv');
-T3 = readtable('bag_files/Map1_Test11/local_path_log/orig_waypoints.csv');
+T = readtable('bag_files/Map1_RTest5/local_path_log/path_pts.csv');
+T1 = readtable('bag_files/Map1_RTest5/local_path_log/control_pts.csv');
+T2 = readtable('bag_files/Map1_RTest5/local_path_log/waypoints.csv');
+T3 = readtable('bag_files/Map1_RTest5/local_path_log/orig_waypoints.csv');
 
 path_pts = table2array(T(2:end,["Var2","Var3","Var4"]));
 control_pts = table2array(T1(2:end,["Var2","Var3"]));

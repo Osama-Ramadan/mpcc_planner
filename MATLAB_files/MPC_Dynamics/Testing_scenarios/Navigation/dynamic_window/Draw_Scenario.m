@@ -1,4 +1,4 @@
-function Draw_Scenario(vehicle_traj,vehicle_predicted_traj,cmd,N,t_mpc,waypoints,path_pts,rob_diam,obs_diam,map,bounds)
+function Draw_Scenario(vehicle_traj,vehicle_predicted_traj,cmd,N,t_mpc,waypoints,path_pts,rob_diam,obs_diam,map)
 %--------------------------------------------------------------------------
 %-----------------------Simulate robots -----------------------------------
 %--------------------------------------------------------------------------
