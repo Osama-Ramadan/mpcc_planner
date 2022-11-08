@@ -1,6 +1,6 @@
 clear; clc;
 %% Define The Global Map
-mapmat = load('/home/developer/mpcc_planner/MATLAB_files/MPC_Dynamics/path tracking/Maps/omni_map1.mat');
+mapmat = load('/home/ossama/mpcc_planner/MATLAB_files/MPC_Dynamics/path tracking/Maps/omni_map1.mat');
 mapmat = mapmat.imageOccupancy;
 map = occupancyMap(mapmat,5);
 %show(map); hold on
