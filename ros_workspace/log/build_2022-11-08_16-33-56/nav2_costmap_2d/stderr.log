@@ -1,0 +1,8 @@
+CMake Error at /home/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_libraries-extras.cmake:48 (message):
+  Package 'nav2_voxel_grid' exports the library 'voxel_grid' which couldn't
+  be found
+Call Stack (most recent call first):
+  /home/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig.cmake:41 (include)
+  CMakeLists.txt:12 (find_package)
+
+

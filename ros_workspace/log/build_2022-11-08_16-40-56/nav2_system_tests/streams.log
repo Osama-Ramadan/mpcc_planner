@@ -1,0 +1,62 @@
+[0.062s] Invoking command in '/home/ros_workspace/build/nav2_system_tests': AMENT_PREFIX_PATH=/home/ros_workspace/install/nav2_navfn_planner:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_bringup:/home/ros_workspace/install/navigation2:/home/ros_workspace/install/nav2_navfn_planner:/home/ros_workspace/install/nav2_core:/home/ros_workspace/install/nav2_costmap_2d:/home/ros_workspace/install/nav2_bt_navigator:/home/ros_workspace/install/nav2_map_server:/home/ros_workspace/install/nav2_lifecycle_manager:/home/ros_workspace/install/nav2_behavior_tree:/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_voxel_grid:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:/home/ros_workspace/install/nav2_waypoint_follower:/home/ros_workspace/install/nav2_rviz_plugins:/home/ros_workspace/install/mpcc_interfaces:/home/ros_workspace/install/static_collision_avoidance:/home/ros_workspace/install/simple_igoneo_commander:/home/ros_workspace/install/mpcc_local_planner:/home/ros_workspace/install/local_path_planner:/home/ros_workspace/install/dynamic_collision_avoidance:/home/ros_workspace/install/cost_map_server:/home/ros_workspace/install/nav2_gazebo_spawner:/home/ros_workspace/install/mpc_igoneo:/home/ros_workspace/install/mpc_dynamic_obstacles:/home/ros_workspace/install/igoneo_dynamic_window:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_navfn_planner/lib:/home/ros_workspace/install/nav2_costmap_2d/lib:/home/ros_workspace/install/nav2_bt_navigator/lib:/home/ros_workspace/install/nav2_map_server/lib:/home/ros_workspace/install/nav2_lifecycle_manager/lib:/home/ros_workspace/install/nav2_behavior_tree/lib:/home/ros_workspace/install/nav2_util/lib:/home/ros_workspace/install/nav2_voxel_grid/lib:/home/ros_workspace/install/nav2_msgs/lib:/home/ros_workspace/install/nav2_waypoint_follower/lib:/home/ros_workspace/install/nav2_rviz_plugins/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:/home/ros_workspace/install/static_collision_avoidance/lib/python3.8/site-packages:/home/ros_workspace/install/simple_igoneo_commander/lib/python3.8/site-packages:/home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages:/home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages:/home/ros_workspace/install/dynamic_collision_avoidance/lib/python3.8/site-packages:/home/ros_workspace/install/cost_map_server/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages:/home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages:/home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/ros_workspace/src/navigation2/nav2_system_tests -DCMAKE_INSTALL_PREFIX=/home/ros_workspace/install/nav2_system_tests
+[0.148s] -- The C compiler identification is GNU 9.4.0
+[0.225s] -- The CXX compiler identification is GNU 9.4.0
+[0.233s] -- Check for working C compiler: /usr/bin/cc
+[0.327s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.329s] -- Detecting C compiler ABI info
+[0.433s] -- Detecting C compiler ABI info - done
+[0.455s] -- Detecting C compile features
+[0.456s] -- Detecting C compile features - done
+[0.461s] -- Check for working CXX compiler: /usr/bin/c++
+[0.587s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.589s] -- Detecting CXX compiler ABI info
+[0.698s] -- Detecting CXX compiler ABI info - done
+[0.716s] -- Detecting CXX compile features
+[0.717s] -- Detecting CXX compile features - done
+[0.724s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.767s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.767s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.083s] -- Found nav2_common: 0.4.7 (/home/ros_workspace/install/nav2_common/share/nav2_common/cmake)
+[1.089s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.198s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.221s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.389s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.455s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.619s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.733s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.738s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.739s] -- Looking for pthread.h
+[1.850s] -- Looking for pthread.h - found
+[1.850s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.952s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.952s] -- Looking for pthread_create in pthreads
+[2.031s] -- Looking for pthread_create in pthreads - not found
+[2.031s] -- Looking for pthread_create in pthread
+[2.128s] -- Looking for pthread_create in pthread - found
+[2.130s] -- Found Threads: TRUE  
+[2.378s] -- Found nav2_util: 0.4.7 (/home/ros_workspace/install/nav2_util/share/nav2_util/cmake)
+[3.563s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[3.572s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[3.859s] -- Found nav2_map_server: 0.4.7 (/home/ros_workspace/install/nav2_map_server/share/nav2_map_server/cmake)
+[3.868s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[3.984s] CMake Error at CMakeLists.txt:16 (find_package):
+[3.984s]   By not providing "Findgazebo_ros_pkgs.cmake" in CMAKE_MODULE_PATH this
+[3.984s]   project has asked CMake to find a package configuration file provided by
+[3.984s]   "gazebo_ros_pkgs", but CMake did not find one.
+[3.985s] 
+[3.985s]   Could not find a package configuration file provided by "gazebo_ros_pkgs"
+[3.985s]   with any of the following names:
+[3.985s] 
+[3.985s]     gazebo_ros_pkgsConfig.cmake
+[3.985s]     gazebo_ros_pkgs-config.cmake
+[3.986s] 
+[3.986s]   Add the installation prefix of "gazebo_ros_pkgs" to CMAKE_PREFIX_PATH or
+[3.986s]   set "gazebo_ros_pkgs_DIR" to a directory containing one of the above files.
+[3.986s]   If "gazebo_ros_pkgs" provides a separate development package or SDK, be
+[3.986s]   sure it has been installed.
+[3.986s] 
+[3.987s] 
+[3.988s] -- Configuring incomplete, errors occurred!
+[3.988s] See also "/home/ros_workspace/build/nav2_system_tests/CMakeFiles/CMakeOutput.log".
+[3.988s] See also "/home/ros_workspace/build/nav2_system_tests/CMakeFiles/CMakeError.log".
+[3.998s] Invoked command in '/home/ros_workspace/build/nav2_system_tests' returned '1': AMENT_PREFIX_PATH=/home/ros_workspace/install/nav2_navfn_planner:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_bringup:/home/ros_workspace/install/navigation2:/home/ros_workspace/install/nav2_navfn_planner:/home/ros_workspace/install/nav2_core:/home/ros_workspace/install/nav2_costmap_2d:/home/ros_workspace/install/nav2_bt_navigator:/home/ros_workspace/install/nav2_map_server:/home/ros_workspace/install/nav2_lifecycle_manager:/home/ros_workspace/install/nav2_behavior_tree:/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_voxel_grid:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:/home/ros_workspace/install/nav2_waypoint_follower:/home/ros_workspace/install/nav2_rviz_plugins:/home/ros_workspace/install/mpcc_interfaces:/home/ros_workspace/install/static_collision_avoidance:/home/ros_workspace/install/simple_igoneo_commander:/home/ros_workspace/install/mpcc_local_planner:/home/ros_workspace/install/local_path_planner:/home/ros_workspace/install/dynamic_collision_avoidance:/home/ros_workspace/install/cost_map_server:/home/ros_workspace/install/nav2_gazebo_spawner:/home/ros_workspace/install/mpc_igoneo:/home/ros_workspace/install/mpc_dynamic_obstacles:/home/ros_workspace/install/igoneo_dynamic_window:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_navfn_planner/lib:/home/ros_workspace/install/nav2_costmap_2d/lib:/home/ros_workspace/install/nav2_bt_navigator/lib:/home/ros_workspace/install/nav2_map_server/lib:/home/ros_workspace/install/nav2_lifecycle_manager/lib:/home/ros_workspace/install/nav2_behavior_tree/lib:/home/ros_workspace/install/nav2_util/lib:/home/ros_workspace/install/nav2_voxel_grid/lib:/home/ros_workspace/install/nav2_msgs/lib:/home/ros_workspace/install/nav2_waypoint_follower/lib:/home/ros_workspace/install/nav2_rviz_plugins/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:/home/ros_workspace/install/static_collision_avoidance/lib/python3.8/site-packages:/home/ros_workspace/install/simple_igoneo_commander/lib/python3.8/site-packages:/home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages:/home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages:/home/ros_workspace/install/dynamic_collision_avoidance/lib/python3.8/site-packages:/home/ros_workspace/install/cost_map_server/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages:/home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages:/home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/ros_workspace/src/navigation2/nav2_system_tests -DCMAKE_INSTALL_PREFIX=/home/ros_workspace/install/nav2_system_tests

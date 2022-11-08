@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/mpc_dynamic_obstacles/mpc_dynamic_obstacles.egg-info
+writing ../../build/mpc_dynamic_obstacles/mpc_dynamic_obstacles.egg-info/PKG-INFO
+writing dependency_links to ../../build/mpc_dynamic_obstacles/mpc_dynamic_obstacles.egg-info/dependency_links.txt
+writing entry points to ../../build/mpc_dynamic_obstacles/mpc_dynamic_obstacles.egg-info/entry_points.txt
+writing requirements to ../../build/mpc_dynamic_obstacles/mpc_dynamic_obstacles.egg-info/requires.txt
+writing top-level names to ../../build/mpc_dynamic_obstacles/mpc_dynamic_obstacles.egg-info/top_level.txt
+writing manifest file '../../build/mpc_dynamic_obstacles/mpc_dynamic_obstacles.egg-info/SOURCES.txt'
+reading manifest file '../../build/mpc_dynamic_obstacles/mpc_dynamic_obstacles.egg-info/SOURCES.txt'
+writing manifest file '../../build/mpc_dynamic_obstacles/mpc_dynamic_obstacles.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ros_workspace/build/mpc_dynamic_obstacles/build
+creating /home/ros_workspace/build/mpc_dynamic_obstacles/build/lib
+creating /home/ros_workspace/build/mpc_dynamic_obstacles/build/lib/mpc_dynamic_obstacles
+copying mpc_dynamic_obstacles/dynamic_obstacle.py -> /home/ros_workspace/build/mpc_dynamic_obstacles/build/lib/mpc_dynamic_obstacles
+copying mpc_dynamic_obstacles/kalman_filter.py -> /home/ros_workspace/build/mpc_dynamic_obstacles/build/lib/mpc_dynamic_obstacles
+copying mpc_dynamic_obstacles/__init__.py -> /home/ros_workspace/build/mpc_dynamic_obstacles/build/lib/mpc_dynamic_obstacles
+copying mpc_dynamic_obstacles/dynamic_obstacles_publisher.py -> /home/ros_workspace/build/mpc_dynamic_obstacles/build/lib/mpc_dynamic_obstacles
+running install
+running install_lib
+creating /home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages/mpc_dynamic_obstacles
+copying /home/ros_workspace/build/mpc_dynamic_obstacles/build/lib/mpc_dynamic_obstacles/dynamic_obstacle.py -> /home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages/mpc_dynamic_obstacles
+copying /home/ros_workspace/build/mpc_dynamic_obstacles/build/lib/mpc_dynamic_obstacles/kalman_filter.py -> /home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages/mpc_dynamic_obstacles
+copying /home/ros_workspace/build/mpc_dynamic_obstacles/build/lib/mpc_dynamic_obstacles/__init__.py -> /home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages/mpc_dynamic_obstacles
+copying /home/ros_workspace/build/mpc_dynamic_obstacles/build/lib/mpc_dynamic_obstacles/dynamic_obstacles_publisher.py -> /home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages/mpc_dynamic_obstacles
+byte-compiling /home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages/mpc_dynamic_obstacles/dynamic_obstacle.py to dynamic_obstacle.cpython-38.pyc
+byte-compiling /home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages/mpc_dynamic_obstacles/kalman_filter.py to kalman_filter.cpython-38.pyc
+byte-compiling /home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages/mpc_dynamic_obstacles/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages/mpc_dynamic_obstacles/dynamic_obstacles_publisher.py to dynamic_obstacles_publisher.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../build/mpc_dynamic_obstacles/mpc_dynamic_obstacles.egg-info to /home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages/mpc_dynamic_obstacles-0.0.0-py3.8.egg-info
+running install_scripts
+Installing mpc_dyn_obst script to /home/ros_workspace/install/mpc_dynamic_obstacles/lib/mpc_dynamic_obstacles
+writing list of installed files to '/home/ros_workspace/build/mpc_dynamic_obstacles/install.log'

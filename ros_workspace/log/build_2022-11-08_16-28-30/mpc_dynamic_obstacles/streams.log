@@ -1,0 +1,38 @@
+[2.154s] Invoking command in '/home/ros_workspace/src/mpc_dynamic_obstacles': PYTHONPATH=/home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mpc_dynamic_obstacles build --build-base /home/ros_workspace/build/mpc_dynamic_obstacles/build install --prefix /home/ros_workspace/install/mpc_dynamic_obstacles --record /home/ros_workspace/build/mpc_dynamic_obstacles/install.log --single-version-externally-managed
+[2.476s] running egg_info
+[2.477s] creating ../../build/mpc_dynamic_obstacles/mpc_dynamic_obstacles.egg-info
+[2.477s] writing ../../build/mpc_dynamic_obstacles/mpc_dynamic_obstacles.egg-info/PKG-INFO
+[2.478s] writing dependency_links to ../../build/mpc_dynamic_obstacles/mpc_dynamic_obstacles.egg-info/dependency_links.txt
+[2.478s] writing entry points to ../../build/mpc_dynamic_obstacles/mpc_dynamic_obstacles.egg-info/entry_points.txt
+[2.478s] writing requirements to ../../build/mpc_dynamic_obstacles/mpc_dynamic_obstacles.egg-info/requires.txt
+[2.478s] writing top-level names to ../../build/mpc_dynamic_obstacles/mpc_dynamic_obstacles.egg-info/top_level.txt
+[2.480s] writing manifest file '../../build/mpc_dynamic_obstacles/mpc_dynamic_obstacles.egg-info/SOURCES.txt'
+[2.535s] reading manifest file '../../build/mpc_dynamic_obstacles/mpc_dynamic_obstacles.egg-info/SOURCES.txt'
+[2.537s] writing manifest file '../../build/mpc_dynamic_obstacles/mpc_dynamic_obstacles.egg-info/SOURCES.txt'
+[2.537s] running build
+[2.537s] running build_py
+[2.538s] creating /home/ros_workspace/build/mpc_dynamic_obstacles/build
+[2.538s] creating /home/ros_workspace/build/mpc_dynamic_obstacles/build/lib
+[2.538s] creating /home/ros_workspace/build/mpc_dynamic_obstacles/build/lib/mpc_dynamic_obstacles
+[2.538s] copying mpc_dynamic_obstacles/dynamic_obstacle.py -> /home/ros_workspace/build/mpc_dynamic_obstacles/build/lib/mpc_dynamic_obstacles
+[2.539s] copying mpc_dynamic_obstacles/kalman_filter.py -> /home/ros_workspace/build/mpc_dynamic_obstacles/build/lib/mpc_dynamic_obstacles
+[2.539s] copying mpc_dynamic_obstacles/__init__.py -> /home/ros_workspace/build/mpc_dynamic_obstacles/build/lib/mpc_dynamic_obstacles
+[2.539s] copying mpc_dynamic_obstacles/dynamic_obstacles_publisher.py -> /home/ros_workspace/build/mpc_dynamic_obstacles/build/lib/mpc_dynamic_obstacles
+[2.539s] running install
+[2.542s] running install_lib
+[2.543s] creating /home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages/mpc_dynamic_obstacles
+[2.544s] copying /home/ros_workspace/build/mpc_dynamic_obstacles/build/lib/mpc_dynamic_obstacles/dynamic_obstacle.py -> /home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages/mpc_dynamic_obstacles
+[2.544s] copying /home/ros_workspace/build/mpc_dynamic_obstacles/build/lib/mpc_dynamic_obstacles/kalman_filter.py -> /home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages/mpc_dynamic_obstacles
+[2.544s] copying /home/ros_workspace/build/mpc_dynamic_obstacles/build/lib/mpc_dynamic_obstacles/__init__.py -> /home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages/mpc_dynamic_obstacles
+[2.545s] copying /home/ros_workspace/build/mpc_dynamic_obstacles/build/lib/mpc_dynamic_obstacles/dynamic_obstacles_publisher.py -> /home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages/mpc_dynamic_obstacles
+[2.545s] byte-compiling /home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages/mpc_dynamic_obstacles/dynamic_obstacle.py to dynamic_obstacle.cpython-38.pyc
+[2.551s] byte-compiling /home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages/mpc_dynamic_obstacles/kalman_filter.py to kalman_filter.cpython-38.pyc
+[2.553s] byte-compiling /home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages/mpc_dynamic_obstacles/__init__.py to __init__.cpython-38.pyc
+[2.554s] byte-compiling /home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages/mpc_dynamic_obstacles/dynamic_obstacles_publisher.py to dynamic_obstacles_publisher.cpython-38.pyc
+[2.556s] running install_data
+[2.557s] running install_egg_info
+[2.559s] Copying ../../build/mpc_dynamic_obstacles/mpc_dynamic_obstacles.egg-info to /home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages/mpc_dynamic_obstacles-0.0.0-py3.8.egg-info
+[2.563s] running install_scripts
+[2.612s] Installing mpc_dyn_obst script to /home/ros_workspace/install/mpc_dynamic_obstacles/lib/mpc_dynamic_obstacles
+[2.612s] writing list of installed files to '/home/ros_workspace/build/mpc_dynamic_obstacles/install.log'
+[2.668s] Invoked command in '/home/ros_workspace/src/mpc_dynamic_obstacles' returned '0': PYTHONPATH=/home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mpc_dynamic_obstacles build --build-base /home/ros_workspace/build/mpc_dynamic_obstacles/build install --prefix /home/ros_workspace/install/mpc_dynamic_obstacles --record /home/ros_workspace/build/mpc_dynamic_obstacles/install.log --single-version-externally-managed

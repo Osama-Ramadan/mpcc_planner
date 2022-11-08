@@ -1,0 +1,21 @@
+[2.283s] Invoking command in '/home/ros_workspace/src/igoneo_dynamic_window': PYTHONPATH=/home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/igoneo_dynamic_window build --build-base /home/ros_workspace/build/igoneo_dynamic_window/build install --prefix /home/ros_workspace/install/igoneo_dynamic_window --record /home/ros_workspace/build/igoneo_dynamic_window/install.log --single-version-externally-managed
+[2.677s] running egg_info
+[2.678s] writing ../../build/igoneo_dynamic_window/igoneo_dynamic_window.egg-info/PKG-INFO
+[2.678s] writing dependency_links to ../../build/igoneo_dynamic_window/igoneo_dynamic_window.egg-info/dependency_links.txt
+[2.678s] writing entry points to ../../build/igoneo_dynamic_window/igoneo_dynamic_window.egg-info/entry_points.txt
+[2.679s] writing requirements to ../../build/igoneo_dynamic_window/igoneo_dynamic_window.egg-info/requires.txt
+[2.679s] writing top-level names to ../../build/igoneo_dynamic_window/igoneo_dynamic_window.egg-info/top_level.txt
+[2.747s] reading manifest file '../../build/igoneo_dynamic_window/igoneo_dynamic_window.egg-info/SOURCES.txt'
+[2.747s] writing manifest file '../../build/igoneo_dynamic_window/igoneo_dynamic_window.egg-info/SOURCES.txt'
+[2.747s] running build
+[2.748s] running build_py
+[2.748s] running install
+[2.748s] running install_lib
+[2.754s] running install_data
+[2.755s] running install_egg_info
+[2.755s] removing '/home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages/igoneo_dynamic_window-0.0.0-py3.8.egg-info' (and everything under it)
+[2.756s] Copying ../../build/igoneo_dynamic_window/igoneo_dynamic_window.egg-info to /home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages/igoneo_dynamic_window-0.0.0-py3.8.egg-info
+[2.757s] running install_scripts
+[2.789s] Installing dw script to /home/ros_workspace/install/igoneo_dynamic_window/lib/igoneo_dynamic_window
+[2.789s] writing list of installed files to '/home/ros_workspace/build/igoneo_dynamic_window/install.log'
+[2.886s] Invoked command in '/home/ros_workspace/src/igoneo_dynamic_window' returned '0': PYTHONPATH=/home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/igoneo_dynamic_window build --build-base /home/ros_workspace/build/igoneo_dynamic_window/build install --prefix /home/ros_workspace/install/igoneo_dynamic_window --record /home/ros_workspace/build/igoneo_dynamic_window/install.log --single-version-externally-managed

@@ -1,4 +1,4 @@
-image: /home/src/mpcc_planner/mpcc_local_planner/maps/map1.png
+image: /home/ros_workspace/src/mpcc_planner/mpcc_local_planner/maps/map1.png
 resolution: 0.20000
 origin: [0, 0, 0.0]
 negate: 0

@@ -1,0 +1,22 @@
+[2.357s] Invoking command in '/home/ros_workspace/src/mpc_igoneo': PYTHONPATH=/home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mpc_igoneo build --build-base /home/ros_workspace/build/mpc_igoneo/build install --prefix /home/ros_workspace/install/mpc_igoneo --record /home/ros_workspace/build/mpc_igoneo/install.log --single-version-externally-managed
+[2.824s] running egg_info
+[2.826s] writing ../../build/mpc_igoneo/mpc_igoneo.egg-info/PKG-INFO
+[2.827s] writing dependency_links to ../../build/mpc_igoneo/mpc_igoneo.egg-info/dependency_links.txt
+[2.828s] writing entry points to ../../build/mpc_igoneo/mpc_igoneo.egg-info/entry_points.txt
+[2.828s] writing requirements to ../../build/mpc_igoneo/mpc_igoneo.egg-info/requires.txt
+[2.829s] writing top-level names to ../../build/mpc_igoneo/mpc_igoneo.egg-info/top_level.txt
+[2.908s] reading manifest file '../../build/mpc_igoneo/mpc_igoneo.egg-info/SOURCES.txt'
+[2.909s] writing manifest file '../../build/mpc_igoneo/mpc_igoneo.egg-info/SOURCES.txt'
+[2.909s] running build
+[2.910s] running build_py
+[2.910s] running install
+[2.910s] running install_lib
+[2.911s] running install_data
+[2.912s] running install_egg_info
+[2.916s] removing '/home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo-0.0.0-py3.8.egg-info' (and everything under it)
+[2.917s] Copying ../../build/mpc_igoneo/mpc_igoneo.egg-info to /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo-0.0.0-py3.8.egg-info
+[2.917s] running install_scripts
+[2.951s] Installing mpc script to /home/ros_workspace/install/mpc_igoneo/lib/mpc_igoneo
+[2.952s] Installing path_planner script to /home/ros_workspace/install/mpc_igoneo/lib/mpc_igoneo
+[2.959s] writing list of installed files to '/home/ros_workspace/build/mpc_igoneo/install.log'
+[3.029s] Invoked command in '/home/ros_workspace/src/mpc_igoneo' returned '0': PYTHONPATH=/home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mpc_igoneo build --build-base /home/ros_workspace/build/mpc_igoneo/build install --prefix /home/ros_workspace/install/mpc_igoneo --record /home/ros_workspace/build/mpc_igoneo/install.log --single-version-externally-managed

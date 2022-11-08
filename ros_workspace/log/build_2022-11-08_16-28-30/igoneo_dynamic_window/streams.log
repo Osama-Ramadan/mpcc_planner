@@ -1,0 +1,51 @@
+[2.174s] Invoking command in '/home/ros_workspace/src/igoneo_dynamic_window': PYTHONPATH=/home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/igoneo_dynamic_window build --build-base /home/ros_workspace/build/igoneo_dynamic_window/build install --prefix /home/ros_workspace/install/igoneo_dynamic_window --record /home/ros_workspace/build/igoneo_dynamic_window/install.log --single-version-externally-managed
+[2.532s] running egg_info
+[2.533s] creating ../../build/igoneo_dynamic_window/igoneo_dynamic_window.egg-info
+[2.533s] writing ../../build/igoneo_dynamic_window/igoneo_dynamic_window.egg-info/PKG-INFO
+[2.534s] writing dependency_links to ../../build/igoneo_dynamic_window/igoneo_dynamic_window.egg-info/dependency_links.txt
+[2.534s] writing entry points to ../../build/igoneo_dynamic_window/igoneo_dynamic_window.egg-info/entry_points.txt
+[2.534s] writing requirements to ../../build/igoneo_dynamic_window/igoneo_dynamic_window.egg-info/requires.txt
+[2.534s] writing top-level names to ../../build/igoneo_dynamic_window/igoneo_dynamic_window.egg-info/top_level.txt
+[2.537s] writing manifest file '../../build/igoneo_dynamic_window/igoneo_dynamic_window.egg-info/SOURCES.txt'
+[2.611s] reading manifest file '../../build/igoneo_dynamic_window/igoneo_dynamic_window.egg-info/SOURCES.txt'
+[2.613s] writing manifest file '../../build/igoneo_dynamic_window/igoneo_dynamic_window.egg-info/SOURCES.txt'
+[2.613s] running build
+[2.613s] running build_py
+[2.613s] creating /home/ros_workspace/build/igoneo_dynamic_window/build
+[2.614s] creating /home/ros_workspace/build/igoneo_dynamic_window/build/lib
+[2.614s] creating /home/ros_workspace/build/igoneo_dynamic_window/build/lib/igoneo_dynamic_window
+[2.614s] copying igoneo_dynamic_window/igoneo_dynamic_window.py -> /home/ros_workspace/build/igoneo_dynamic_window/build/lib/igoneo_dynamic_window
+[2.614s] copying igoneo_dynamic_window/__init__.py -> /home/ros_workspace/build/igoneo_dynamic_window/build/lib/igoneo_dynamic_window
+[2.614s] copying igoneo_dynamic_window/igoneo_dynamic_window_node.py -> /home/ros_workspace/build/igoneo_dynamic_window/build/lib/igoneo_dynamic_window
+[2.615s] creating /home/ros_workspace/build/igoneo_dynamic_window/build/lib/dynamic_window
+[2.615s] copying dynamic_window/igoneo_dw.py -> /home/ros_workspace/build/igoneo_dynamic_window/build/lib/dynamic_window
+[2.615s] copying dynamic_window/__init__.py -> /home/ros_workspace/build/igoneo_dynamic_window/build/lib/dynamic_window
+[2.615s] creating /home/ros_workspace/build/igoneo_dynamic_window/build/lib/dw_costmap
+[2.615s] copying dw_costmap/dw_costmap.py -> /home/ros_workspace/build/igoneo_dynamic_window/build/lib/dw_costmap
+[2.615s] copying dw_costmap/__init__.py -> /home/ros_workspace/build/igoneo_dynamic_window/build/lib/dw_costmap
+[2.616s] running install
+[2.617s] running install_lib
+[2.619s] creating /home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages/dynamic_window
+[2.619s] copying /home/ros_workspace/build/igoneo_dynamic_window/build/lib/dynamic_window/igoneo_dw.py -> /home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages/dynamic_window
+[2.619s] copying /home/ros_workspace/build/igoneo_dynamic_window/build/lib/dynamic_window/__init__.py -> /home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages/dynamic_window
+[2.620s] creating /home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages/dw_costmap
+[2.620s] copying /home/ros_workspace/build/igoneo_dynamic_window/build/lib/dw_costmap/dw_costmap.py -> /home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages/dw_costmap
+[2.621s] copying /home/ros_workspace/build/igoneo_dynamic_window/build/lib/dw_costmap/__init__.py -> /home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages/dw_costmap
+[2.621s] creating /home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages/igoneo_dynamic_window
+[2.621s] copying /home/ros_workspace/build/igoneo_dynamic_window/build/lib/igoneo_dynamic_window/igoneo_dynamic_window.py -> /home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages/igoneo_dynamic_window
+[2.622s] copying /home/ros_workspace/build/igoneo_dynamic_window/build/lib/igoneo_dynamic_window/__init__.py -> /home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages/igoneo_dynamic_window
+[2.622s] copying /home/ros_workspace/build/igoneo_dynamic_window/build/lib/igoneo_dynamic_window/igoneo_dynamic_window_node.py -> /home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages/igoneo_dynamic_window
+[2.623s] byte-compiling /home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages/dynamic_window/igoneo_dw.py to igoneo_dw.cpython-38.pyc
+[2.627s] byte-compiling /home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages/dynamic_window/__init__.py to __init__.cpython-38.pyc
+[2.628s] byte-compiling /home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages/dw_costmap/dw_costmap.py to dw_costmap.cpython-38.pyc
+[2.630s] byte-compiling /home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages/dw_costmap/__init__.py to __init__.cpython-38.pyc
+[2.630s] byte-compiling /home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages/igoneo_dynamic_window/igoneo_dynamic_window.py to igoneo_dynamic_window.cpython-38.pyc
+[2.633s] byte-compiling /home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages/igoneo_dynamic_window/__init__.py to __init__.cpython-38.pyc
+[2.634s] byte-compiling /home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages/igoneo_dynamic_window/igoneo_dynamic_window_node.py to igoneo_dynamic_window_node.cpython-38.pyc
+[2.635s] running install_data
+[2.635s] running install_egg_info
+[2.642s] Copying ../../build/igoneo_dynamic_window/igoneo_dynamic_window.egg-info to /home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages/igoneo_dynamic_window-0.0.0-py3.8.egg-info
+[2.643s] running install_scripts
+[2.668s] Installing dw script to /home/ros_workspace/install/igoneo_dynamic_window/lib/igoneo_dynamic_window
+[2.669s] writing list of installed files to '/home/ros_workspace/build/igoneo_dynamic_window/install.log'
+[2.734s] Invoked command in '/home/ros_workspace/src/igoneo_dynamic_window' returned '0': PYTHONPATH=/home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/igoneo_dynamic_window build --build-base /home/ros_workspace/build/igoneo_dynamic_window/build install --prefix /home/ros_workspace/install/igoneo_dynamic_window --record /home/ros_workspace/build/igoneo_dynamic_window/install.log --single-version-externally-managed

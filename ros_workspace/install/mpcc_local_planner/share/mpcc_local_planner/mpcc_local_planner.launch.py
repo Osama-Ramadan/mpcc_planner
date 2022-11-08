@@ -7,9 +7,7 @@ import launch_ros.actions
 from launch.actions import ExecuteProcess
 
 
-
 def generate_launch_description():
-
     map_dir = LaunchConfiguration(
         "map",
         default=os.path.join(

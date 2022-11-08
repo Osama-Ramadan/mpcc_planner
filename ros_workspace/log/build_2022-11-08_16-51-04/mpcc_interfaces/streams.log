@@ -1,0 +1,168 @@
+[0.075s] Invoking command in '/home/ros_workspace/build/mpcc_interfaces': CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_navfn_planner:/home/ros_workspace/install/nav2_bringup:/home/ros_workspace/install/navigation2:/home/ros_workspace/install/nav2_waypoint_follower:/home/ros_workspace/install/nav2_core:/home/ros_workspace/install/nav2_costmap_2d:/home/ros_workspace/install/nav2_voxel_grid:/home/ros_workspace/install/nav2_rviz_plugins:/home/ros_workspace/install/nav2_map_server:/home/ros_workspace/install/nav2_lifecycle_manager:/home/ros_workspace/install/nav2_bt_navigator:/home/ros_workspace/install/nav2_behavior_tree:/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/mpcc_interfaces:/home/ros_workspace/install/nav2_common:/home/ros_workspace/install/static_collision_avoidance:/home/ros_workspace/install/simple_igoneo_commander:/home/ros_workspace/install/mpcc_local_planner:/home/ros_workspace/install/local_path_planner:/home/ros_workspace/install/dynamic_collision_avoidance:/home/ros_workspace/install/cost_map_server:/home/ros_workspace/install/nav2_gazebo_spawner:/home/ros_workspace/install/mpc_igoneo:/home/ros_workspace/install/mpc_dynamic_obstacles:/home/ros_workspace/install/igoneo_dynamic_window:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_msgs/lib:/home/ros_workspace/install/nav2_navfn_planner/lib:/home/ros_workspace/install/mpcc_interfaces/lib:/home/ros_workspace/install/nav2_waypoint_follower/lib:/home/ros_workspace/install/nav2_costmap_2d/lib:/home/ros_workspace/install/nav2_voxel_grid/lib:/home/ros_workspace/install/nav2_rviz_plugins/lib:/home/ros_workspace/install/nav2_map_server/lib:/home/ros_workspace/install/nav2_lifecycle_manager/lib:/home/ros_workspace/install/nav2_bt_navigator/lib:/home/ros_workspace/install/nav2_behavior_tree/lib:/home/ros_workspace/install/nav2_util/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/mpcc_interfaces/lib/python3.8/site-packages:/home/ros_workspace/install/static_collision_avoidance/lib/python3.8/site-packages:/home/ros_workspace/install/simple_igoneo_commander/lib/python3.8/site-packages:/home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages:/home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages:/home/ros_workspace/install/dynamic_collision_avoidance/lib/python3.8/site-packages:/home/ros_workspace/install/cost_map_server/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:/home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages:/home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages:/home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/ros_workspace/build/mpcc_interfaces -- -j8 -l8
+[0.176s] [  2%] Built target mpcc_interfaces__cpp
+[0.237s] [ 12%] Built target mpcc_interfaces__rosidl_generator_c
+[0.302s] [ 23%] Built target mpcc_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.320s] [ 34%] Built target mpcc_interfaces__rosidl_typesupport_introspection_cpp
+[0.345s] [ 44%] Built target mpcc_interfaces__rosidl_typesupport_cpp
+[0.398s] [ 55%] Built target mpcc_interfaces__rosidl_typesupport_introspection_c
+[0.402s] [ 65%] Built target mpcc_interfaces__rosidl_typesupport_fastrtps_c
+[0.404s] [ 76%] Built target mpcc_interfaces__rosidl_typesupport_c
+[0.435s] [ 76%] Built target mpcc_interfaces
+[0.469s] [ 78%] Built target mpcc_interfaces__py
+[0.518s] [ 87%] Built target mpcc_interfaces__python
+[0.560s] [ 91%] Built target mpcc_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.561s] [ 95%] Built target mpcc_interfaces__rosidl_typesupport_c__pyext
+[0.561s] [100%] Built target mpcc_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.578s] Invoked command in '/home/ros_workspace/build/mpcc_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_navfn_planner:/home/ros_workspace/install/nav2_bringup:/home/ros_workspace/install/navigation2:/home/ros_workspace/install/nav2_waypoint_follower:/home/ros_workspace/install/nav2_core:/home/ros_workspace/install/nav2_costmap_2d:/home/ros_workspace/install/nav2_voxel_grid:/home/ros_workspace/install/nav2_rviz_plugins:/home/ros_workspace/install/nav2_map_server:/home/ros_workspace/install/nav2_lifecycle_manager:/home/ros_workspace/install/nav2_bt_navigator:/home/ros_workspace/install/nav2_behavior_tree:/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/mpcc_interfaces:/home/ros_workspace/install/nav2_common:/home/ros_workspace/install/static_collision_avoidance:/home/ros_workspace/install/simple_igoneo_commander:/home/ros_workspace/install/mpcc_local_planner:/home/ros_workspace/install/local_path_planner:/home/ros_workspace/install/dynamic_collision_avoidance:/home/ros_workspace/install/cost_map_server:/home/ros_workspace/install/nav2_gazebo_spawner:/home/ros_workspace/install/mpc_igoneo:/home/ros_workspace/install/mpc_dynamic_obstacles:/home/ros_workspace/install/igoneo_dynamic_window:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_msgs/lib:/home/ros_workspace/install/nav2_navfn_planner/lib:/home/ros_workspace/install/mpcc_interfaces/lib:/home/ros_workspace/install/nav2_waypoint_follower/lib:/home/ros_workspace/install/nav2_costmap_2d/lib:/home/ros_workspace/install/nav2_voxel_grid/lib:/home/ros_workspace/install/nav2_rviz_plugins/lib:/home/ros_workspace/install/nav2_map_server/lib:/home/ros_workspace/install/nav2_lifecycle_manager/lib:/home/ros_workspace/install/nav2_bt_navigator/lib:/home/ros_workspace/install/nav2_behavior_tree/lib:/home/ros_workspace/install/nav2_util/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/mpcc_interfaces/lib/python3.8/site-packages:/home/ros_workspace/install/static_collision_avoidance/lib/python3.8/site-packages:/home/ros_workspace/install/simple_igoneo_commander/lib/python3.8/site-packages:/home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages:/home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages:/home/ros_workspace/install/dynamic_collision_avoidance/lib/python3.8/site-packages:/home/ros_workspace/install/cost_map_server/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:/home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages:/home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages:/home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/ros_workspace/build/mpcc_interfaces -- -j8 -l8
+[0.748s] Invoking command in '/home/ros_workspace/build/mpcc_interfaces': CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_navfn_planner:/home/ros_workspace/install/nav2_bringup:/home/ros_workspace/install/navigation2:/home/ros_workspace/install/nav2_waypoint_follower:/home/ros_workspace/install/nav2_core:/home/ros_workspace/install/nav2_costmap_2d:/home/ros_workspace/install/nav2_voxel_grid:/home/ros_workspace/install/nav2_rviz_plugins:/home/ros_workspace/install/nav2_map_server:/home/ros_workspace/install/nav2_lifecycle_manager:/home/ros_workspace/install/nav2_bt_navigator:/home/ros_workspace/install/nav2_behavior_tree:/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/mpcc_interfaces:/home/ros_workspace/install/nav2_common:/home/ros_workspace/install/static_collision_avoidance:/home/ros_workspace/install/simple_igoneo_commander:/home/ros_workspace/install/mpcc_local_planner:/home/ros_workspace/install/local_path_planner:/home/ros_workspace/install/dynamic_collision_avoidance:/home/ros_workspace/install/cost_map_server:/home/ros_workspace/install/nav2_gazebo_spawner:/home/ros_workspace/install/mpc_igoneo:/home/ros_workspace/install/mpc_dynamic_obstacles:/home/ros_workspace/install/igoneo_dynamic_window:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_msgs/lib:/home/ros_workspace/install/nav2_navfn_planner/lib:/home/ros_workspace/install/mpcc_interfaces/lib:/home/ros_workspace/install/nav2_waypoint_follower/lib:/home/ros_workspace/install/nav2_costmap_2d/lib:/home/ros_workspace/install/nav2_voxel_grid/lib:/home/ros_workspace/install/nav2_rviz_plugins/lib:/home/ros_workspace/install/nav2_map_server/lib:/home/ros_workspace/install/nav2_lifecycle_manager/lib:/home/ros_workspace/install/nav2_bt_navigator/lib:/home/ros_workspace/install/nav2_behavior_tree/lib:/home/ros_workspace/install/nav2_util/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/mpcc_interfaces/lib/python3.8/site-packages:/home/ros_workspace/install/static_collision_avoidance/lib/python3.8/site-packages:/home/ros_workspace/install/simple_igoneo_commander/lib/python3.8/site-packages:/home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages:/home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages:/home/ros_workspace/install/dynamic_collision_avoidance/lib/python3.8/site-packages:/home/ros_workspace/install/cost_map_server/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:/home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages:/home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages:/home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/ros_workspace/build/mpcc_interfaces
+[0.766s] -- Install configuration: ""
+[0.766s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/ament_index/resource_index/rosidl_interfaces/mpcc_interfaces
+[0.767s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces
+[0.767s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/srv
+[0.767s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/srv/detail
+[0.767s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/srv/detail/map_request__struct.h
+[0.768s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/srv/detail/map_request__type_support.h
+[0.768s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/srv/detail/map_request__functions.h
+[0.768s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/srv/detail/map_request__functions.c
+[0.768s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/srv/map_request.h
+[0.769s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg
+[0.769s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail
+[0.769s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail/local_path__type_support.h
+[0.769s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail/local_path__functions.c
+[0.770s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail/static_constraints__functions.c
+[0.770s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail/static_constraints__type_support.h
+[0.770s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail/static_constraints__struct.h
+[0.770s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail/local_path__functions.h
+[0.771s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail/local_path__struct.h
+[0.771s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail/static_constraints__functions.h
+[0.772s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/local_path.h
+[0.772s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.772s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/static_constraints.h
+[0.773s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/environment/library_path.sh
+[0.773s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/environment/library_path.dsv
+[0.773s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/lib/libmpcc_interfaces__rosidl_generator_c.so
+[0.774s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces
+[0.774s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/srv
+[0.774s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/srv/detail
+[0.775s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/srv/detail/map_request__rosidl_typesupport_fastrtps_c.h
+[0.775s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg
+[0.775s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail
+[0.775s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail/local_path__rosidl_typesupport_fastrtps_c.h
+[0.776s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail/static_constraints__rosidl_typesupport_fastrtps_c.h
+[0.776s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.776s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/lib/libmpcc_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.777s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces
+[0.777s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/srv
+[0.777s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/srv/detail
+[0.777s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/srv/detail/map_request__rosidl_typesupport_fastrtps_cpp.hpp
+[0.778s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/srv/detail/dds_fastrtps
+[0.778s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg
+[0.778s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.778s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail
+[0.779s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail/local_path__rosidl_typesupport_fastrtps_cpp.hpp
+[0.779s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail/static_constraints__rosidl_typesupport_fastrtps_cpp.hpp
+[0.779s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail/dds_fastrtps
+[0.779s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/lib/libmpcc_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.779s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces
+[0.779s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/srv
+[0.780s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/srv/detail
+[0.780s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/srv/detail/map_request__type_support.c
+[0.780s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/srv/detail/map_request__rosidl_typesupport_introspection_c.h
+[0.780s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg
+[0.780s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.780s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail
+[0.780s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail/static_constraints__type_support.c
+[0.781s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail/local_path__type_support.c
+[0.781s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail/static_constraints__rosidl_typesupport_introspection_c.h
+[0.781s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail/local_path__rosidl_typesupport_introspection_c.h
+[0.781s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/lib/libmpcc_interfaces__rosidl_typesupport_introspection_c.so
+[0.782s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/lib/libmpcc_interfaces__rosidl_typesupport_c.so
+[0.782s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces
+[0.782s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/srv
+[0.791s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/srv/detail
+[0.791s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/srv/detail/map_request__traits.hpp
+[0.791s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/srv/detail/map_request__builder.hpp
+[0.791s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/srv/detail/map_request__struct.hpp
+[0.792s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/srv/map_request.hpp
+[0.792s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg
+[0.792s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail
+[0.793s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail/local_path__struct.hpp
+[0.793s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail/local_path__traits.hpp
+[0.793s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail/local_path__builder.hpp
+[0.794s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail/static_constraints__traits.hpp
+[0.794s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail/static_constraints__struct.hpp
+[0.794s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail/static_constraints__builder.hpp
+[0.794s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/local_path.hpp
+[0.795s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/static_constraints.hpp
+[0.795s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces
+[0.795s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/srv
+[0.796s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/srv/detail
+[0.796s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/srv/detail/map_request__rosidl_typesupport_introspection_cpp.hpp
+[0.796s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/srv/detail/map_request__type_support.cpp
+[0.797s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg
+[0.797s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail
+[0.798s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail/local_path__type_support.cpp
+[0.799s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail/static_constraints__type_support.cpp
+[0.799s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail/local_path__rosidl_typesupport_introspection_cpp.hpp
+[0.799s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/include/mpcc_interfaces/msg/detail/static_constraints__rosidl_typesupport_introspection_cpp.hpp
+[0.799s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/lib/libmpcc_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.800s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/lib/libmpcc_interfaces__rosidl_typesupport_cpp.so
+[0.801s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/environment/pythonpath.sh
+[0.801s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/environment/pythonpath.dsv
+[0.801s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/lib/python3.8/site-packages/mpcc_interfaces/__init__.py
+[0.887s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/lib/python3.8/site-packages/mpcc_interfaces/msg
+[0.887s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/lib/python3.8/site-packages/mpcc_interfaces/msg/_static_constraints_s.c
+[0.888s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/lib/python3.8/site-packages/mpcc_interfaces/msg/_static_constraints.py
+[0.888s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/lib/python3.8/site-packages/mpcc_interfaces/msg/_local_path_s.c
+[0.888s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/lib/python3.8/site-packages/mpcc_interfaces/msg/__init__.py
+[0.889s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/lib/python3.8/site-packages/mpcc_interfaces/msg/_local_path.py
+[0.889s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/lib/python3.8/site-packages/mpcc_interfaces/srv
+[0.890s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/lib/python3.8/site-packages/mpcc_interfaces/srv/__init__.py
+[0.890s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/lib/python3.8/site-packages/mpcc_interfaces/srv/_map_request.py
+[0.890s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/lib/python3.8/site-packages/mpcc_interfaces/srv/_map_request_s.c
+[0.891s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/lib/python3.8/site-packages/mpcc_interfaces/mpcc_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.892s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/lib/python3.8/site-packages/mpcc_interfaces/mpcc_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.893s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/lib/python3.8/site-packages/mpcc_interfaces/mpcc_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.895s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/lib/libmpcc_interfaces__python.so
+[0.895s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/msg/LocalPath.idl
+[0.896s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/msg/StaticConstraints.idl
+[0.898s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/srv/MapRequest.idl
+[0.898s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/msg/LocalPath.msg
+[0.898s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/msg/StaticConstraints.msg
+[0.898s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/srv/MapRequest.srv
+[0.899s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/srv/MapRequest_Request.msg
+[0.899s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/srv/MapRequest_Response.msg
+[0.899s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/ament_index/resource_index/package_run_dependencies/mpcc_interfaces
+[0.900s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/ament_index/resource_index/parent_prefix_path/mpcc_interfaces
+[0.900s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/environment/ament_prefix_path.sh
+[0.900s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/environment/ament_prefix_path.dsv
+[0.900s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/environment/path.sh
+[0.901s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/environment/path.dsv
+[0.901s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/local_setup.bash
+[0.901s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/local_setup.sh
+[0.902s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/local_setup.zsh
+[0.902s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/local_setup.dsv
+[0.903s] -- Installing: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/package.dsv
+[0.904s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/ament_index/resource_index/packages/mpcc_interfaces
+[0.904s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/cmake/mpcc_interfaces__rosidl_generator_cExport.cmake
+[0.906s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/cmake/mpcc_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.906s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/cmake/mpcc_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.906s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/cmake/mpcc_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.907s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/cmake/mpcc_interfaces__rosidl_typesupport_cExport.cmake
+[0.907s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/cmake/mpcc_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.907s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/cmake/mpcc_interfaces__rosidl_generator_cppExport.cmake
+[0.908s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/cmake/mpcc_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.908s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/cmake/mpcc_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.909s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/cmake/mpcc_interfaces__rosidl_typesupport_cppExport.cmake
+[0.909s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/cmake/mpcc_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.909s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.909s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.910s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.910s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.910s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.910s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.910s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.910s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/cmake/mpcc_interfacesConfig.cmake
+[0.911s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/cmake/mpcc_interfacesConfig-version.cmake
+[0.911s] -- Up-to-date: /home/ros_workspace/install/mpcc_interfaces/share/mpcc_interfaces/package.xml
+[0.922s] Invoked command in '/home/ros_workspace/build/mpcc_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_navfn_planner:/home/ros_workspace/install/nav2_bringup:/home/ros_workspace/install/navigation2:/home/ros_workspace/install/nav2_waypoint_follower:/home/ros_workspace/install/nav2_core:/home/ros_workspace/install/nav2_costmap_2d:/home/ros_workspace/install/nav2_voxel_grid:/home/ros_workspace/install/nav2_rviz_plugins:/home/ros_workspace/install/nav2_map_server:/home/ros_workspace/install/nav2_lifecycle_manager:/home/ros_workspace/install/nav2_bt_navigator:/home/ros_workspace/install/nav2_behavior_tree:/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/mpcc_interfaces:/home/ros_workspace/install/nav2_common:/home/ros_workspace/install/static_collision_avoidance:/home/ros_workspace/install/simple_igoneo_commander:/home/ros_workspace/install/mpcc_local_planner:/home/ros_workspace/install/local_path_planner:/home/ros_workspace/install/dynamic_collision_avoidance:/home/ros_workspace/install/cost_map_server:/home/ros_workspace/install/nav2_gazebo_spawner:/home/ros_workspace/install/mpc_igoneo:/home/ros_workspace/install/mpc_dynamic_obstacles:/home/ros_workspace/install/igoneo_dynamic_window:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_msgs/lib:/home/ros_workspace/install/nav2_navfn_planner/lib:/home/ros_workspace/install/mpcc_interfaces/lib:/home/ros_workspace/install/nav2_waypoint_follower/lib:/home/ros_workspace/install/nav2_costmap_2d/lib:/home/ros_workspace/install/nav2_voxel_grid/lib:/home/ros_workspace/install/nav2_rviz_plugins/lib:/home/ros_workspace/install/nav2_map_server/lib:/home/ros_workspace/install/nav2_lifecycle_manager/lib:/home/ros_workspace/install/nav2_bt_navigator/lib:/home/ros_workspace/install/nav2_behavior_tree/lib:/home/ros_workspace/install/nav2_util/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/mpcc_interfaces/lib/python3.8/site-packages:/home/ros_workspace/install/static_collision_avoidance/lib/python3.8/site-packages:/home/ros_workspace/install/simple_igoneo_commander/lib/python3.8/site-packages:/home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages:/home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages:/home/ros_workspace/install/dynamic_collision_avoidance/lib/python3.8/site-packages:/home/ros_workspace/install/cost_map_server/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:/home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages:/home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages:/home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/ros_workspace/build/mpcc_interfaces

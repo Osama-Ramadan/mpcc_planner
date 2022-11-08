@@ -1,0 +1,47 @@
+running egg_info
+creating ../../../build/mpcc_local_planner/mpcc_local_planner.egg-info
+writing ../../../build/mpcc_local_planner/mpcc_local_planner.egg-info/PKG-INFO
+writing dependency_links to ../../../build/mpcc_local_planner/mpcc_local_planner.egg-info/dependency_links.txt
+writing entry points to ../../../build/mpcc_local_planner/mpcc_local_planner.egg-info/entry_points.txt
+writing requirements to ../../../build/mpcc_local_planner/mpcc_local_planner.egg-info/requires.txt
+writing top-level names to ../../../build/mpcc_local_planner/mpcc_local_planner.egg-info/top_level.txt
+writing manifest file '../../../build/mpcc_local_planner/mpcc_local_planner.egg-info/SOURCES.txt'
+reading manifest file '../../../build/mpcc_local_planner/mpcc_local_planner.egg-info/SOURCES.txt'
+writing manifest file '../../../build/mpcc_local_planner/mpcc_local_planner.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ros_workspace/build/mpcc_local_planner/build
+creating /home/ros_workspace/build/mpcc_local_planner/build/lib
+creating /home/ros_workspace/build/mpcc_local_planner/build/lib/mpcc_local_planner
+copying mpcc_local_planner/mpcc_controller_node.py -> /home/ros_workspace/build/mpcc_local_planner/build/lib/mpcc_local_planner
+copying mpcc_local_planner/mpcc_controller.py -> /home/ros_workspace/build/mpcc_local_planner/build/lib/mpcc_local_planner
+copying mpcc_local_planner/__init__.py -> /home/ros_workspace/build/mpcc_local_planner/build/lib/mpcc_local_planner
+creating /home/ros_workspace/build/mpcc_local_planner/build/lib/include
+copying include/static_cost_map.py -> /home/ros_workspace/build/mpcc_local_planner/build/lib/include
+copying include/igoneo_mpc.py -> /home/ros_workspace/build/mpcc_local_planner/build/lib/include
+copying include/bounding_boxes.py -> /home/ros_workspace/build/mpcc_local_planner/build/lib/include
+copying include/__init__.py -> /home/ros_workspace/build/mpcc_local_planner/build/lib/include
+running install
+running install_lib
+creating /home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages/mpcc_local_planner
+copying /home/ros_workspace/build/mpcc_local_planner/build/lib/mpcc_local_planner/mpcc_controller_node.py -> /home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages/mpcc_local_planner
+copying /home/ros_workspace/build/mpcc_local_planner/build/lib/mpcc_local_planner/mpcc_controller.py -> /home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages/mpcc_local_planner
+copying /home/ros_workspace/build/mpcc_local_planner/build/lib/mpcc_local_planner/__init__.py -> /home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages/mpcc_local_planner
+creating /home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages/include
+copying /home/ros_workspace/build/mpcc_local_planner/build/lib/include/static_cost_map.py -> /home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages/include
+copying /home/ros_workspace/build/mpcc_local_planner/build/lib/include/igoneo_mpc.py -> /home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages/include
+copying /home/ros_workspace/build/mpcc_local_planner/build/lib/include/bounding_boxes.py -> /home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages/include
+copying /home/ros_workspace/build/mpcc_local_planner/build/lib/include/__init__.py -> /home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages/include
+byte-compiling /home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages/mpcc_local_planner/mpcc_controller_node.py to mpcc_controller_node.cpython-38.pyc
+byte-compiling /home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages/mpcc_local_planner/mpcc_controller.py to mpcc_controller.cpython-38.pyc
+byte-compiling /home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages/mpcc_local_planner/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages/include/static_cost_map.py to static_cost_map.cpython-38.pyc
+byte-compiling /home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages/include/igoneo_mpc.py to igoneo_mpc.cpython-38.pyc
+byte-compiling /home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages/include/bounding_boxes.py to bounding_boxes.cpython-38.pyc
+byte-compiling /home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages/include/__init__.py to __init__.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../../build/mpcc_local_planner/mpcc_local_planner.egg-info to /home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages/mpcc_local_planner-0.0.0-py3.8.egg-info
+running install_scripts
+Installing mpcc script to /home/ros_workspace/install/mpcc_local_planner/lib/mpcc_local_planner
+writing list of installed files to '/home/ros_workspace/build/mpcc_local_planner/install.log'

@@ -11,7 +11,8 @@ from sys import path
 import pandas as pd 
 import random
  #Import CasADi 
-path.append(r"casadi-linux-py36-v3.5.5-64bit")
+ 
+path.append(r"/home/ros_workspace/casadi-linux-py36-v3.5.5-64bit")
 from casadi import *
 
 
@@ -43,11 +44,11 @@ class LOCAL_PATH_PLANNER(Node):
         self.costmap = MPCC_PlannerCostMap(result.costmap)
         ## Create Local Path Object
         self.path_sampling_para = 100
-        self.originalwaypoints = [[40.3,3.2],[9.5,30.8]]
-        #self.originalwaypoints = [[2,3],[2,11],[18,10]]
-        #self.originalwaypoints = [[13,2],[10,11],[5.5,10],[1.5,10]]
+        #self.originalwaypoints = [[3,18],[7.5,11.8]]
+        #self.originalwaypoints = [[3,18],[10,10],[18,15]]
+        self.originalwaypoints = [[17,10.5],[9,9.5],[17,15],[3,18]]
 
-        self.lookahead = 2
+        self.lookahead = 3
 
         
         # Local Path Message
@@ -105,25 +106,24 @@ class LOCAL_PATH_PLANNER(Node):
             if len(obst_list)==0:
                 points.append([x_p,y_p])
         return points
-        
     def log_local_path(self,local_path_msg,type,num):
         path_pts = np.dstack([local_path_msg.sampled_pt_x,local_path_msg.sampled_pt_y,local_path_msg.sampled_pt_th])
         control_pts = np.dstack([local_path_msg.qx, local_path_msg.qy])
         waypoints = np.dstack([local_path_msg.waypoints_x,local_path_msg.waypoints_y])
         orig_waypts = np.array(self.originalwaypoints)
         if type == "Orig":
-            path = "/home/local_path_log/path_pts_orig"+str(num)+".csv"
+            path = "/home/ros_workspace/local_path_log/path_pts_orig"+str(num)+".csv"
             pd.DataFrame(path_pts[0]).to_csv(path)
-            path = "/home/local_path_log/control_pts_orig"+str(num)+".csv"
+            path = "/home/ros_workspace/local_path_log/control_pts_orig"+str(num)+".csv"
             pd.DataFrame(control_pts[0]).to_csv(path)    
-            path = "/home/local_path_log/waypoints_orig"+str(num)+".csv"
+            path = "/home/ros_workspace/local_path_log/waypoints_orig"+str(num)+".csv"
             pd.DataFrame(waypoints[0]).to_csv(path) 
         else:
-            path = "/home/local_path_log/path_pts"+str(num)+".csv"
+            path = "/home/ros_workspace/local_path_log/path_pts"+str(num)+".csv"
             pd.DataFrame(path_pts[0]).to_csv(path)
-            path = "/home/local_path_log/control_pts"+str(num)+".csv"
+            path = "/home/ros_workspace/local_path_log/control_pts"+str(num)+".csv"
             pd.DataFrame(control_pts[0]).to_csv(path)    
-            path = "/home/local_path_log/waypoints"+str(num)+".csv"
+            path = "/home/ros_workspace/local_path_log/waypoints"+str(num)+".csv"
             pd.DataFrame(waypoints[0]).to_csv(path) 
 
     def local_path_callback(self):

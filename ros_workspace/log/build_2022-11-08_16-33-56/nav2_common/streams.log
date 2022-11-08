@@ -1,0 +1,48 @@
+[0.125s] Invoking command in '/home/ros_workspace/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_workspace/install/static_collision_avoidance:/home/ros_workspace/install/simple_igoneo_commander:/home/ros_workspace/install/mpcc_local_planner:/home/ros_workspace/install/local_path_planner:/home/ros_workspace/install/dynamic_collision_avoidance:/home/ros_workspace/install/cost_map_server:/home/ros_workspace/install/nav2_gazebo_spawner:/home/ros_workspace/install/mpc_igoneo:/home/ros_workspace/install/mpc_dynamic_obstacles:/home/ros_workspace/install/igoneo_dynamic_window:/opt/ros/foxy /usr/bin/cmake /home/ros_workspace/src/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/ros_workspace/install/nav2_common
+[1.457s] -- Found ament_cmake_core: 0.9.11 (/opt/ros/foxy/share/ament_cmake_core/cmake)
+[1.457s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.458s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.458s] -- Found ament_cmake_python: 0.9.11 (/opt/ros/foxy/share/ament_cmake_python/cmake)
+[1.458s] -- Configuring done
+[1.459s] -- Generating done
+[1.460s] -- Build files have been written to: /home/ros_workspace/build/nav2_common
+[1.460s] Invoked command in '/home/ros_workspace/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_workspace/install/static_collision_avoidance:/home/ros_workspace/install/simple_igoneo_commander:/home/ros_workspace/install/mpcc_local_planner:/home/ros_workspace/install/local_path_planner:/home/ros_workspace/install/dynamic_collision_avoidance:/home/ros_workspace/install/cost_map_server:/home/ros_workspace/install/nav2_gazebo_spawner:/home/ros_workspace/install/mpc_igoneo:/home/ros_workspace/install/mpc_dynamic_obstacles:/home/ros_workspace/install/igoneo_dynamic_window:/opt/ros/foxy /usr/bin/cmake /home/ros_workspace/src/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/ros_workspace/install/nav2_common
+[1.463s] Invoking command in '/home/ros_workspace/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_workspace/install/static_collision_avoidance:/home/ros_workspace/install/simple_igoneo_commander:/home/ros_workspace/install/mpcc_local_planner:/home/ros_workspace/install/local_path_planner:/home/ros_workspace/install/dynamic_collision_avoidance:/home/ros_workspace/install/cost_map_server:/home/ros_workspace/install/nav2_gazebo_spawner:/home/ros_workspace/install/mpc_igoneo:/home/ros_workspace/install/mpc_dynamic_obstacles:/home/ros_workspace/install/igoneo_dynamic_window:/opt/ros/foxy /usr/bin/cmake --build /home/ros_workspace/build/nav2_common -- -j8 -l8
+[1.522s] Invoked command in '/home/ros_workspace/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_workspace/install/static_collision_avoidance:/home/ros_workspace/install/simple_igoneo_commander:/home/ros_workspace/install/mpcc_local_planner:/home/ros_workspace/install/local_path_planner:/home/ros_workspace/install/dynamic_collision_avoidance:/home/ros_workspace/install/cost_map_server:/home/ros_workspace/install/nav2_gazebo_spawner:/home/ros_workspace/install/mpc_igoneo:/home/ros_workspace/install/mpc_dynamic_obstacles:/home/ros_workspace/install/igoneo_dynamic_window:/opt/ros/foxy /usr/bin/cmake --build /home/ros_workspace/build/nav2_common -- -j8 -l8
+[1.576s] Invoking command in '/home/ros_workspace/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_workspace/install/static_collision_avoidance:/home/ros_workspace/install/simple_igoneo_commander:/home/ros_workspace/install/mpcc_local_planner:/home/ros_workspace/install/local_path_planner:/home/ros_workspace/install/dynamic_collision_avoidance:/home/ros_workspace/install/cost_map_server:/home/ros_workspace/install/nav2_gazebo_spawner:/home/ros_workspace/install/mpc_igoneo:/home/ros_workspace/install/mpc_dynamic_obstacles:/home/ros_workspace/install/igoneo_dynamic_window:/opt/ros/foxy /usr/bin/cmake --install /home/ros_workspace/build/nav2_common
+[1.589s] -- Install configuration: ""
+[1.590s] -- Installing: /home/ros_workspace/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[1.590s] -- Installing: /home/ros_workspace/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[1.590s] -- Installing: /home/ros_workspace/install/nav2_common/lib/python3.8/site-packages/nav2_common
+[1.591s] -- Installing: /home/ros_workspace/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch
+[1.592s] -- Installing: /home/ros_workspace/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/rewritten_yaml.py
+[1.592s] -- Installing: /home/ros_workspace/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/replace_string.py
+[1.593s] -- Installing: /home/ros_workspace/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/has_node_params.py
+[1.593s] -- Installing: /home/ros_workspace/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/__init__.py
+[1.594s] -- Installing: /home/ros_workspace/install/nav2_common/lib/python3.8/site-packages/nav2_common/__init__.py
+[1.658s] Listing '/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages/nav2_common'...
+[1.659s] Compiling '/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages/nav2_common/__init__.py'...
+[1.659s] Listing '/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch'...
+[1.660s] Compiling '/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/__init__.py'...
+[1.660s] Compiling '/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/has_node_params.py'...
+[1.661s] Compiling '/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/replace_string.py'...
+[1.661s] Compiling '/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/rewritten_yaml.py'...
+[1.669s] -- Installing: /home/ros_workspace/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[1.670s] -- Installing: /home/ros_workspace/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[1.672s] -- Installing: /home/ros_workspace/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[1.673s] -- Installing: /home/ros_workspace/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[1.675s] -- Installing: /home/ros_workspace/install/nav2_common/share/nav2_common/environment/path.sh
+[1.677s] -- Installing: /home/ros_workspace/install/nav2_common/share/nav2_common/environment/path.dsv
+[1.678s] -- Installing: /home/ros_workspace/install/nav2_common/share/nav2_common/local_setup.bash
+[1.680s] -- Installing: /home/ros_workspace/install/nav2_common/share/nav2_common/local_setup.sh
+[1.681s] -- Installing: /home/ros_workspace/install/nav2_common/share/nav2_common/local_setup.zsh
+[1.683s] -- Installing: /home/ros_workspace/install/nav2_common/share/nav2_common/local_setup.dsv
+[1.684s] -- Installing: /home/ros_workspace/install/nav2_common/share/nav2_common/package.dsv
+[1.686s] -- Installing: /home/ros_workspace/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[1.687s] -- Installing: /home/ros_workspace/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[1.689s] -- Installing: /home/ros_workspace/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[1.690s] -- Installing: /home/ros_workspace/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[1.691s] -- Installing: /home/ros_workspace/install/nav2_common/share/nav2_common/package.xml
+[1.693s] -- Up-to-date: /home/ros_workspace/install/nav2_common/share/nav2_common/cmake
+[1.694s] -- Installing: /home/ros_workspace/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[1.708s] Invoked command in '/home/ros_workspace/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros_workspace/install/static_collision_avoidance:/home/ros_workspace/install/simple_igoneo_commander:/home/ros_workspace/install/mpcc_local_planner:/home/ros_workspace/install/local_path_planner:/home/ros_workspace/install/dynamic_collision_avoidance:/home/ros_workspace/install/cost_map_server:/home/ros_workspace/install/nav2_gazebo_spawner:/home/ros_workspace/install/mpc_igoneo:/home/ros_workspace/install/mpc_dynamic_obstacles:/home/ros_workspace/install/igoneo_dynamic_window:/opt/ros/foxy /usr/bin/cmake --install /home/ros_workspace/build/nav2_common

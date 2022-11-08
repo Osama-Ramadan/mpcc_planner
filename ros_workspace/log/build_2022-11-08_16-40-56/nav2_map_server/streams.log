@@ -1,0 +1,126 @@
+[0.072s] Invoking command in '/home/ros_workspace/build/nav2_map_server': CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:/home/ros_workspace/install/nav2_bringup:/home/ros_workspace/install/navigation2:/home/ros_workspace/install/nav2_waypoint_follower:/home/ros_workspace/install/nav2_core:/home/ros_workspace/install/nav2_costmap_2d:/home/ros_workspace/install/nav2_voxel_grid:/home/ros_workspace/install/nav2_rviz_plugins:/home/ros_workspace/install/nav2_map_server:/home/ros_workspace/install/nav2_lifecycle_manager:/home/ros_workspace/install/nav2_bt_navigator:/home/ros_workspace/install/nav2_behavior_tree:/home/ros_workspace/install/mpcc_interfaces:/home/ros_workspace/install/static_collision_avoidance:/home/ros_workspace/install/simple_igoneo_commander:/home/ros_workspace/install/mpcc_local_planner:/home/ros_workspace/install/local_path_planner:/home/ros_workspace/install/dynamic_collision_avoidance:/home/ros_workspace/install/cost_map_server:/home/ros_workspace/install/nav2_gazebo_spawner:/home/ros_workspace/install/mpc_igoneo:/home/ros_workspace/install/mpc_dynamic_obstacles:/home/ros_workspace/install/igoneo_dynamic_window:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_util/lib:/home/ros_workspace/install/nav2_msgs/lib:/home/ros_workspace/install/nav2_waypoint_follower/lib:/home/ros_workspace/install/nav2_costmap_2d/lib:/home/ros_workspace/install/nav2_voxel_grid/lib:/home/ros_workspace/install/nav2_rviz_plugins/lib:/home/ros_workspace/install/nav2_map_server/lib:/home/ros_workspace/install/nav2_lifecycle_manager/lib:/home/ros_workspace/install/nav2_bt_navigator/lib:/home/ros_workspace/install/nav2_behavior_tree/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:/home/ros_workspace/install/static_collision_avoidance/lib/python3.8/site-packages:/home/ros_workspace/install/simple_igoneo_commander/lib/python3.8/site-packages:/home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages:/home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages:/home/ros_workspace/install/dynamic_collision_avoidance/lib/python3.8/site-packages:/home/ros_workspace/install/cost_map_server/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages:/home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages:/home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/ros_workspace/build/nav2_map_server -- -j8 -l8
+[0.160s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.201s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.527s] -- Found nav2_common: 0.4.7 (/home/ros_workspace/install/nav2_common/share/nav2_common/cmake)
+[0.529s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.596s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.601s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.931s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.051s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.056s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.414s] -- Found rclcpp_lifecycle: 2.4.2 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[1.479s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.769s] -- Found nav2_msgs: 0.4.7 (/home/ros_workspace/install/nav2_msgs/share/nav2_msgs/cmake)
+[2.460s] -- Found yaml_cpp_vendor: 7.0.3 (/opt/ros/foxy/share/yaml_cpp_vendor/cmake)
+[2.460s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[2.462s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[2.486s] -- Found nav2_util: 0.4.7 (/home/ros_workspace/install/nav2_util/share/nav2_util/cmake)
+[3.204s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[4.782s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.971s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.981s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.994s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.013s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.014s] -- Configured cppcheck include dirs: /home/ros_workspace/src/navigation2/nav2_map_server/include
+[5.014s] -- Configured cppcheck exclude dirs and/or files: 
+[5.019s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.020s] -- Configured cpplint exclude dirs and/or files: 
+[5.021s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.022s] -- Added test 'lint_cmake' to check CMake code style
+[5.023s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.028s] -- Added test 'uncrustify' to check C / C++ code style
+[5.028s] -- Configured uncrustify additional arguments: 
+[5.029s] -- Added test 'xmllint' to check XML markup files
+[5.039s] -- Configuring done
+[5.628s] -- Generating done
+[5.643s] -- Build files have been written to: /home/ros_workspace/build/nav2_map_server
+[5.709s] [35m[1mScanning dependencies of target map_io[0m
+[5.718s] [  6%] Built target gtest
+[5.767s] [ 12%] Built target gtest_main
+[5.825s] [35m[1mScanning dependencies of target test_map_saver_cli[0m
+[5.833s] [ 16%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_mode.cpp.o[0m
+[5.862s] [ 19%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_io.cpp.o[0m
+[5.988s] [ 22%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o[0m
+[6.021s] [ 25%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o[0m
+[13.839s] [ 29%] [32m[1mLinking CXX shared library libmap_io.so[0m
+[14.231s] [ 29%] Built target map_io
+[14.986s] [ 32%] [32m[1mLinking CXX executable test_map_saver_cli[0m
+[15.278s] [ 32%] Built target test_map_saver_cli
+[15.302s] [35m[1mScanning dependencies of target test_map_saver_publisher[0m
+[15.433s] [ 35%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/test_map_saver_publisher.cpp.o[0m
+[21.615s] [ 38%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/__/test_constants.cpp.o[0m
+[21.795s] [ 41%] [32m[1mLinking CXX executable test_map_saver_publisher[0m
+[22.083s] [ 41%] Built target test_map_saver_publisher
+[22.102s] [35m[1mScanning dependencies of target test_map_io[0m
+[22.180s] [ 45%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/test_map_io.cpp.o[0m
+[28.958s] [ 48%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/__/test_constants.cpp.o[0m
+[29.302s] [ 51%] [32m[1mLinking CXX executable test_map_io[0m
+[29.978s] [ 51%] Built target test_map_io
+[30.045s] [35m[1mScanning dependencies of target map_server_core[0m
+[30.236s] [ 54%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_server/map_server.cpp.o[0m
+[39.999s] [ 58%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_saver/map_saver.cpp.o[0m
+[50.006s] [ 61%] [32m[1mLinking CXX shared library libmap_server_core.so[0m
+[50.394s] [ 61%] Built target map_server_core
+[50.415s] [35m[1mScanning dependencies of target map_server[0m
+[50.473s] [ 64%] [32mBuilding CXX object CMakeFiles/map_server.dir/src/map_server/main.cpp.o[0m
+[52.949s] [ 67%] [32m[1mLinking CXX executable map_server[0m
+[53.335s] [ 67%] Built target map_server
+[53.355s] [35m[1mScanning dependencies of target test_map_server_node[0m
+[53.427s] [ 70%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/test_map_server_node.cpp.o[0m
+[62.033s] [ 74%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/__/test_constants.cpp.o[0m
+[62.368s] [ 77%] [32m[1mLinking CXX executable test_map_server_node[0m
+[63.219s] [ 77%] Built target test_map_server_node
+[63.312s] [35m[1mScanning dependencies of target test_map_saver_node[0m
+[63.660s] [ 80%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/test_map_saver_node.cpp.o[0m
+[70.898s] [ 83%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/__/test_constants.cpp.o[0m
+[71.062s] [ 87%] [32m[1mLinking CXX executable test_map_saver_node[0m
+[71.442s] [ 87%] Built target test_map_saver_node
+[71.460s] [35m[1mScanning dependencies of target map_saver_server[0m
+[71.525s] [ 90%] [32mBuilding CXX object CMakeFiles/map_saver_server.dir/src/map_saver/main_server.cpp.o[0m
+[73.868s] [ 93%] [32m[1mLinking CXX executable map_saver_server[0m
+[74.234s] [ 93%] Built target map_saver_server
+[74.254s] [35m[1mScanning dependencies of target map_saver_cli[0m
+[74.310s] [ 96%] [32mBuilding CXX object CMakeFiles/map_saver_cli.dir/src/map_saver/main_cli.cpp.o[0m
+[76.989s] [100%] [32m[1mLinking CXX executable map_saver_cli[0m
+[77.344s] [100%] Built target map_saver_cli
+[77.364s] Invoked command in '/home/ros_workspace/build/nav2_map_server' returned '0': CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:/home/ros_workspace/install/nav2_bringup:/home/ros_workspace/install/navigation2:/home/ros_workspace/install/nav2_waypoint_follower:/home/ros_workspace/install/nav2_core:/home/ros_workspace/install/nav2_costmap_2d:/home/ros_workspace/install/nav2_voxel_grid:/home/ros_workspace/install/nav2_rviz_plugins:/home/ros_workspace/install/nav2_map_server:/home/ros_workspace/install/nav2_lifecycle_manager:/home/ros_workspace/install/nav2_bt_navigator:/home/ros_workspace/install/nav2_behavior_tree:/home/ros_workspace/install/mpcc_interfaces:/home/ros_workspace/install/static_collision_avoidance:/home/ros_workspace/install/simple_igoneo_commander:/home/ros_workspace/install/mpcc_local_planner:/home/ros_workspace/install/local_path_planner:/home/ros_workspace/install/dynamic_collision_avoidance:/home/ros_workspace/install/cost_map_server:/home/ros_workspace/install/nav2_gazebo_spawner:/home/ros_workspace/install/mpc_igoneo:/home/ros_workspace/install/mpc_dynamic_obstacles:/home/ros_workspace/install/igoneo_dynamic_window:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_util/lib:/home/ros_workspace/install/nav2_msgs/lib:/home/ros_workspace/install/nav2_waypoint_follower/lib:/home/ros_workspace/install/nav2_costmap_2d/lib:/home/ros_workspace/install/nav2_voxel_grid/lib:/home/ros_workspace/install/nav2_rviz_plugins/lib:/home/ros_workspace/install/nav2_map_server/lib:/home/ros_workspace/install/nav2_lifecycle_manager/lib:/home/ros_workspace/install/nav2_bt_navigator/lib:/home/ros_workspace/install/nav2_behavior_tree/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:/home/ros_workspace/install/static_collision_avoidance/lib/python3.8/site-packages:/home/ros_workspace/install/simple_igoneo_commander/lib/python3.8/site-packages:/home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages:/home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages:/home/ros_workspace/install/dynamic_collision_avoidance/lib/python3.8/site-packages:/home/ros_workspace/install/cost_map_server/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages:/home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages:/home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/ros_workspace/build/nav2_map_server -- -j8 -l8
+[77.438s] Invoking command in '/home/ros_workspace/build/nav2_map_server': CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:/home/ros_workspace/install/nav2_bringup:/home/ros_workspace/install/navigation2:/home/ros_workspace/install/nav2_waypoint_follower:/home/ros_workspace/install/nav2_core:/home/ros_workspace/install/nav2_costmap_2d:/home/ros_workspace/install/nav2_voxel_grid:/home/ros_workspace/install/nav2_rviz_plugins:/home/ros_workspace/install/nav2_map_server:/home/ros_workspace/install/nav2_lifecycle_manager:/home/ros_workspace/install/nav2_bt_navigator:/home/ros_workspace/install/nav2_behavior_tree:/home/ros_workspace/install/mpcc_interfaces:/home/ros_workspace/install/static_collision_avoidance:/home/ros_workspace/install/simple_igoneo_commander:/home/ros_workspace/install/mpcc_local_planner:/home/ros_workspace/install/local_path_planner:/home/ros_workspace/install/dynamic_collision_avoidance:/home/ros_workspace/install/cost_map_server:/home/ros_workspace/install/nav2_gazebo_spawner:/home/ros_workspace/install/mpc_igoneo:/home/ros_workspace/install/mpc_dynamic_obstacles:/home/ros_workspace/install/igoneo_dynamic_window:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_util/lib:/home/ros_workspace/install/nav2_msgs/lib:/home/ros_workspace/install/nav2_waypoint_follower/lib:/home/ros_workspace/install/nav2_costmap_2d/lib:/home/ros_workspace/install/nav2_voxel_grid/lib:/home/ros_workspace/install/nav2_rviz_plugins/lib:/home/ros_workspace/install/nav2_map_server/lib:/home/ros_workspace/install/nav2_lifecycle_manager/lib:/home/ros_workspace/install/nav2_bt_navigator/lib:/home/ros_workspace/install/nav2_behavior_tree/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:/home/ros_workspace/install/static_collision_avoidance/lib/python3.8/site-packages:/home/ros_workspace/install/simple_igoneo_commander/lib/python3.8/site-packages:/home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages:/home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages:/home/ros_workspace/install/dynamic_collision_avoidance/lib/python3.8/site-packages:/home/ros_workspace/install/cost_map_server/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages:/home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages:/home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/ros_workspace/build/nav2_map_server
+[77.449s] -- Install configuration: "Release"
+[77.450s] -- Installing: /home/ros_workspace/install/nav2_map_server/lib/libmap_server_core.so
+[77.453s] -- Set runtime path of "/home/ros_workspace/install/nav2_map_server/lib/libmap_server_core.so" to ""
+[77.454s] -- Installing: /home/ros_workspace/install/nav2_map_server/lib/libmap_io.so
+[77.454s] -- Set runtime path of "/home/ros_workspace/install/nav2_map_server/lib/libmap_io.so" to ""
+[77.454s] -- Installing: /home/ros_workspace/install/nav2_map_server/lib/nav2_map_server/map_server
+[77.455s] -- Set runtime path of "/home/ros_workspace/install/nav2_map_server/lib/nav2_map_server/map_server" to ""
+[77.456s] -- Installing: /home/ros_workspace/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+[77.456s] -- Set runtime path of "/home/ros_workspace/install/nav2_map_server/lib/nav2_map_server/map_saver_cli" to ""
+[77.457s] -- Installing: /home/ros_workspace/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+[77.458s] -- Set runtime path of "/home/ros_workspace/install/nav2_map_server/lib/nav2_map_server/map_saver_server" to ""
+[77.458s] -- Up-to-date: /home/ros_workspace/install/nav2_map_server/include/
+[77.458s] -- Up-to-date: /home/ros_workspace/install/nav2_map_server/include//nav2_map_server
+[77.459s] -- Installing: /home/ros_workspace/install/nav2_map_server/include//nav2_map_server/map_saver.hpp
+[77.459s] -- Installing: /home/ros_workspace/install/nav2_map_server/include//nav2_map_server/map_server.hpp
+[77.459s] -- Installing: /home/ros_workspace/install/nav2_map_server/include//nav2_map_server/map_io.hpp
+[77.459s] -- Installing: /home/ros_workspace/install/nav2_map_server/include//nav2_map_server/map_mode.hpp
+[77.460s] -- Up-to-date: /home/ros_workspace/install/nav2_map_server/share/nav2_map_server/launch
+[77.460s] -- Installing: /home/ros_workspace/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+[77.460s] -- Up-to-date: /home/ros_workspace/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+[77.460s] -- Installing: /home/ros_workspace/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+[77.461s] -- Up-to-date: /home/ros_workspace/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+[77.461s] -- Up-to-date: /home/ros_workspace/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+[77.462s] -- Up-to-date: /home/ros_workspace/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+[77.462s] -- Installing: /home/ros_workspace/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+[77.462s] -- Up-to-date: /home/ros_workspace/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+[77.462s] -- Installing: /home/ros_workspace/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+[77.463s] -- Up-to-date: /home/ros_workspace/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+[77.463s] -- Up-to-date: /home/ros_workspace/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+[77.463s] -- Up-to-date: /home/ros_workspace/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+[77.464s] -- Installing: /home/ros_workspace/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+[77.464s] -- Installing: /home/ros_workspace/install/nav2_map_server/share/nav2_map_server/package.dsv
+[77.464s] -- Up-to-date: /home/ros_workspace/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+[77.464s] -- Up-to-date: /home/ros_workspace/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[77.464s] -- Up-to-date: /home/ros_workspace/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+[77.465s] -- Up-to-date: /home/ros_workspace/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+[77.465s] -- Up-to-date: /home/ros_workspace/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+[77.465s] -- Installing: /home/ros_workspace/install/nav2_map_server/share/nav2_map_server/package.xml
+[77.472s] Invoked command in '/home/ros_workspace/build/nav2_map_server' returned '0': CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:/home/ros_workspace/install/nav2_bringup:/home/ros_workspace/install/navigation2:/home/ros_workspace/install/nav2_waypoint_follower:/home/ros_workspace/install/nav2_core:/home/ros_workspace/install/nav2_costmap_2d:/home/ros_workspace/install/nav2_voxel_grid:/home/ros_workspace/install/nav2_rviz_plugins:/home/ros_workspace/install/nav2_map_server:/home/ros_workspace/install/nav2_lifecycle_manager:/home/ros_workspace/install/nav2_bt_navigator:/home/ros_workspace/install/nav2_behavior_tree:/home/ros_workspace/install/mpcc_interfaces:/home/ros_workspace/install/static_collision_avoidance:/home/ros_workspace/install/simple_igoneo_commander:/home/ros_workspace/install/mpcc_local_planner:/home/ros_workspace/install/local_path_planner:/home/ros_workspace/install/dynamic_collision_avoidance:/home/ros_workspace/install/cost_map_server:/home/ros_workspace/install/nav2_gazebo_spawner:/home/ros_workspace/install/mpc_igoneo:/home/ros_workspace/install/mpc_dynamic_obstacles:/home/ros_workspace/install/igoneo_dynamic_window:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_util/lib:/home/ros_workspace/install/nav2_msgs/lib:/home/ros_workspace/install/nav2_waypoint_follower/lib:/home/ros_workspace/install/nav2_costmap_2d/lib:/home/ros_workspace/install/nav2_voxel_grid/lib:/home/ros_workspace/install/nav2_rviz_plugins/lib:/home/ros_workspace/install/nav2_map_server/lib:/home/ros_workspace/install/nav2_lifecycle_manager/lib:/home/ros_workspace/install/nav2_bt_navigator/lib:/home/ros_workspace/install/nav2_behavior_tree/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:/home/ros_workspace/install/static_collision_avoidance/lib/python3.8/site-packages:/home/ros_workspace/install/simple_igoneo_commander/lib/python3.8/site-packages:/home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages:/home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages:/home/ros_workspace/install/dynamic_collision_avoidance/lib/python3.8/site-packages:/home/ros_workspace/install/cost_map_server/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages:/home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages:/home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/ros_workspace/build/nav2_map_server
