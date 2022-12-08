@@ -1,0 +1,75 @@
+[2.450s] Invoking command in '/home/ros_workspace/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/ros_workspace/install/nav2_map_server:/home/ros_workspace/install/nav2_lifecycle_manager:/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_voxel_grid:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_map_server:/home/ros_workspace/install/nav2_lifecycle_manager:/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_voxel_grid:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_map_server/lib:/home/ros_workspace/install/nav2_lifecycle_manager/lib:/home/ros_workspace/install/nav2_util/lib:/home/ros_workspace/install/nav2_voxel_grid/lib:/home/ros_workspace/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros_workspace/build/nav2_costmap_2d -- -j4 -l4
+[3.289s] [ 27%] Built target nav2_costmap_2d_core
+[3.624s] [ 31%] Built target gtest_main
+[3.981s] [ 39%] Built target nav2_costmap_2d_client
+[4.386s] [ 43%] Built target nav2_costmap_2d_markers
+[4.763s] [ 47%] Built target nav2_costmap_2d_cloud
+[5.503s] [ 62%] Built target layers
+[5.822s] [ 66%] Built target gtest
+[6.199s] [ 70%] Built target nav2_costmap_2d
+[6.602s] [ 75%] Built target range_tests_exec
+[6.934s] [ 79%] Built target obstacle_tests_exec
+[7.239s] [ 83%] Built target inflation_tests_exec
+[7.625s] [ 87%] Built target test_collision_checker_exec
+[8.078s] [ 91%] Built target footprint_tests_exec
+[8.442s] [ 95%] Built target array_parser_test
+[8.917s] [100%] Built target collision_footprint_test
+[9.554s] Invoked command in '/home/ros_workspace/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/ros_workspace/install/nav2_map_server:/home/ros_workspace/install/nav2_lifecycle_manager:/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_voxel_grid:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_map_server:/home/ros_workspace/install/nav2_lifecycle_manager:/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_voxel_grid:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_map_server/lib:/home/ros_workspace/install/nav2_lifecycle_manager/lib:/home/ros_workspace/install/nav2_util/lib:/home/ros_workspace/install/nav2_voxel_grid/lib:/home/ros_workspace/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros_workspace/build/nav2_costmap_2d -- -j4 -l4
+[10.886s] Invoking command in '/home/ros_workspace/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/ros_workspace/install/nav2_map_server:/home/ros_workspace/install/nav2_lifecycle_manager:/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_voxel_grid:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_map_server:/home/ros_workspace/install/nav2_lifecycle_manager:/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_voxel_grid:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_map_server/lib:/home/ros_workspace/install/nav2_lifecycle_manager/lib:/home/ros_workspace/install/nav2_util/lib:/home/ros_workspace/install/nav2_voxel_grid/lib:/home/ros_workspace/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros_workspace/build/nav2_costmap_2d
+[10.970s] -- Install configuration: "Release"
+[10.998s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+[11.020s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/lib/liblayers.so
+[11.048s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
+[11.050s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d
+[11.058s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers
+[11.060s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud
+[11.064s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+[11.080s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/include/
+[11.081s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/include//nav2_costmap_2d
+[11.081s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/include//nav2_costmap_2d/inflation_layer.hpp
+[11.081s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/include//nav2_costmap_2d/clear_costmap_service.hpp
+[11.081s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/include//nav2_costmap_2d/range_sensor_layer.hpp
+[11.082s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d_publisher.hpp
+[11.082s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_layer.hpp
+[11.082s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d.hpp
+[11.083s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/include//nav2_costmap_2d/obstacle_layer.hpp
+[11.083s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint_collision_checker.hpp
+[11.083s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/include//nav2_costmap_2d/observation.hpp
+[11.083s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/include//nav2_costmap_2d/layered_costmap.hpp
+[11.084s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_topic_collision_checker.hpp
+[11.084s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/include//nav2_costmap_2d/exceptions.hpp
+[11.084s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_math.hpp
+[11.084s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_subscriber.hpp
+[11.085s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint_subscriber.hpp
+[11.085s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/include//nav2_costmap_2d/array_parser.hpp
+[11.086s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/include//nav2_costmap_2d/cost_values.hpp
+[11.086s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/include//nav2_costmap_2d/voxel_layer.hpp
+[11.086s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint.hpp
+[11.087s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/include//nav2_costmap_2d/static_layer.hpp
+[11.087s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/include//nav2_costmap_2d/observation_buffer.hpp
+[11.088s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/include//nav2_costmap_2d/layer.hpp
+[11.088s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d_ros.hpp
+[11.109s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.sh
+[11.110s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.dsv
+[11.111s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+[11.111s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/share/ament_index/resource_index/package_run_dependencies/nav2_costmap_2d
+[11.111s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/share/ament_index/resource_index/parent_prefix_path/nav2_costmap_2d
+[11.112s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.sh
+[11.112s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.dsv
+[11.112s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.sh
+[11.114s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.dsv
+[11.114s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.bash
+[11.116s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.sh
+[11.118s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.zsh
+[11.118s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.dsv
+[11.119s] -- Installing: /home/ros_workspace/install/nav2_costmap_2d/share/nav2_costmap_2d/package.dsv
+[11.119s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/share/ament_index/resource_index/packages/nav2_costmap_2d
+[11.120s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_costmap_2d
+[11.120s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.121s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_libraries-extras.cmake
+[11.122s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.122s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_definitions-extras.cmake
+[11.123s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig.cmake
+[11.123s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig-version.cmake
+[11.123s] -- Up-to-date: /home/ros_workspace/install/nav2_costmap_2d/share/nav2_costmap_2d/package.xml
+[11.174s] Invoked command in '/home/ros_workspace/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/ros_workspace/install/nav2_map_server:/home/ros_workspace/install/nav2_lifecycle_manager:/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_voxel_grid:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_map_server:/home/ros_workspace/install/nav2_lifecycle_manager:/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_voxel_grid:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_map_server/lib:/home/ros_workspace/install/nav2_lifecycle_manager/lib:/home/ros_workspace/install/nav2_util/lib:/home/ros_workspace/install/nav2_voxel_grid/lib:/home/ros_workspace/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros_workspace/build/nav2_costmap_2d

@@ -1,0 +1,44 @@
+running egg_info
+creating ../../../build/dynamic_collision_avoidance/dynamic_collision_avoidance.egg-info
+writing ../../../build/dynamic_collision_avoidance/dynamic_collision_avoidance.egg-info/PKG-INFO
+writing dependency_links to ../../../build/dynamic_collision_avoidance/dynamic_collision_avoidance.egg-info/dependency_links.txt
+writing entry points to ../../../build/dynamic_collision_avoidance/dynamic_collision_avoidance.egg-info/entry_points.txt
+writing requirements to ../../../build/dynamic_collision_avoidance/dynamic_collision_avoidance.egg-info/requires.txt
+writing top-level names to ../../../build/dynamic_collision_avoidance/dynamic_collision_avoidance.egg-info/top_level.txt
+writing manifest file '../../../build/dynamic_collision_avoidance/dynamic_collision_avoidance.egg-info/SOURCES.txt'
+reading manifest file '../../../build/dynamic_collision_avoidance/dynamic_collision_avoidance.egg-info/SOURCES.txt'
+writing manifest file '../../../build/dynamic_collision_avoidance/dynamic_collision_avoidance.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ros_workspace/build/dynamic_collision_avoidance/build
+creating /home/ros_workspace/build/dynamic_collision_avoidance/build/lib
+creating /home/ros_workspace/build/dynamic_collision_avoidance/build/lib/dynamic_collision_avoidance
+copying dynamic_collision_avoidance/dynamic_collision_avoidance_node.py -> /home/ros_workspace/build/dynamic_collision_avoidance/build/lib/dynamic_collision_avoidance
+copying dynamic_collision_avoidance/dynamic_collision_avoidance.py -> /home/ros_workspace/build/dynamic_collision_avoidance/build/lib/dynamic_collision_avoidance
+copying dynamic_collision_avoidance/__init__.py -> /home/ros_workspace/build/dynamic_collision_avoidance/build/lib/dynamic_collision_avoidance
+creating /home/ros_workspace/build/dynamic_collision_avoidance/build/lib/dynamic_obstacle
+copying dynamic_obstacle/__init__.py -> /home/ros_workspace/build/dynamic_collision_avoidance/build/lib/dynamic_obstacle
+copying dynamic_obstacle/dynamic_obstacle.py -> /home/ros_workspace/build/dynamic_collision_avoidance/build/lib/dynamic_obstacle
+copying dynamic_obstacle/kalman_filter.py -> /home/ros_workspace/build/dynamic_collision_avoidance/build/lib/dynamic_obstacle
+running install
+running install_lib
+creating /home/ros_workspace/install/dynamic_collision_avoidance/lib/python3.8/site-packages/dynamic_obstacle
+copying /home/ros_workspace/build/dynamic_collision_avoidance/build/lib/dynamic_obstacle/__init__.py -> /home/ros_workspace/install/dynamic_collision_avoidance/lib/python3.8/site-packages/dynamic_obstacle
+copying /home/ros_workspace/build/dynamic_collision_avoidance/build/lib/dynamic_obstacle/dynamic_obstacle.py -> /home/ros_workspace/install/dynamic_collision_avoidance/lib/python3.8/site-packages/dynamic_obstacle
+copying /home/ros_workspace/build/dynamic_collision_avoidance/build/lib/dynamic_obstacle/kalman_filter.py -> /home/ros_workspace/install/dynamic_collision_avoidance/lib/python3.8/site-packages/dynamic_obstacle
+creating /home/ros_workspace/install/dynamic_collision_avoidance/lib/python3.8/site-packages/dynamic_collision_avoidance
+copying /home/ros_workspace/build/dynamic_collision_avoidance/build/lib/dynamic_collision_avoidance/dynamic_collision_avoidance_node.py -> /home/ros_workspace/install/dynamic_collision_avoidance/lib/python3.8/site-packages/dynamic_collision_avoidance
+copying /home/ros_workspace/build/dynamic_collision_avoidance/build/lib/dynamic_collision_avoidance/dynamic_collision_avoidance.py -> /home/ros_workspace/install/dynamic_collision_avoidance/lib/python3.8/site-packages/dynamic_collision_avoidance
+copying /home/ros_workspace/build/dynamic_collision_avoidance/build/lib/dynamic_collision_avoidance/__init__.py -> /home/ros_workspace/install/dynamic_collision_avoidance/lib/python3.8/site-packages/dynamic_collision_avoidance
+byte-compiling /home/ros_workspace/install/dynamic_collision_avoidance/lib/python3.8/site-packages/dynamic_obstacle/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/ros_workspace/install/dynamic_collision_avoidance/lib/python3.8/site-packages/dynamic_obstacle/dynamic_obstacle.py to dynamic_obstacle.cpython-38.pyc
+byte-compiling /home/ros_workspace/install/dynamic_collision_avoidance/lib/python3.8/site-packages/dynamic_obstacle/kalman_filter.py to kalman_filter.cpython-38.pyc
+byte-compiling /home/ros_workspace/install/dynamic_collision_avoidance/lib/python3.8/site-packages/dynamic_collision_avoidance/dynamic_collision_avoidance_node.py to dynamic_collision_avoidance_node.cpython-38.pyc
+byte-compiling /home/ros_workspace/install/dynamic_collision_avoidance/lib/python3.8/site-packages/dynamic_collision_avoidance/dynamic_collision_avoidance.py to dynamic_collision_avoidance.cpython-38.pyc
+byte-compiling /home/ros_workspace/install/dynamic_collision_avoidance/lib/python3.8/site-packages/dynamic_collision_avoidance/__init__.py to __init__.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../../build/dynamic_collision_avoidance/dynamic_collision_avoidance.egg-info to /home/ros_workspace/install/dynamic_collision_avoidance/lib/python3.8/site-packages/dynamic_collision_avoidance-0.0.0-py3.8.egg-info
+running install_scripts
+Installing dynamic_collision_avoidance script to /home/ros_workspace/install/dynamic_collision_avoidance/lib/dynamic_collision_avoidance
+writing list of installed files to '/home/ros_workspace/build/dynamic_collision_avoidance/install.log'

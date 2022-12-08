@@ -44,11 +44,11 @@ class LOCAL_PATH_PLANNER(Node):
         self.costmap = MPCC_PlannerCostMap(result.costmap)
         ## Create Local Path Object
         self.path_sampling_para = 100
-        #self.originalwaypoints = [[3,18],[7.5,11.8]]
+        #self.originalwaypoints = [[10,5],[18,10]]
         #self.originalwaypoints = [[3,18],[10,10],[18,15]]
-        self.originalwaypoints = [[17,10.5],[9,9.5],[17,15],[3,18]]
+        self.originalwaypoints = [[38,6.3],[38,18],[22,22],[12,33]]
 
-        self.lookahead = 3
+        self.lookahead = 2
 
         
         # Local Path Message
@@ -60,7 +60,7 @@ class LOCAL_PATH_PLANNER(Node):
         self.calc_path_length(self.local_path_msg)
         
         typef = "Orig"
-        self.log_local_path(self.local_path_msg,typef,0)
+        #elf.log_local_path(self.local_path_msg,typef,0)
         
         st = time.time()
         self.local_path = self.check_path(self.local_path, self.costmap)   
@@ -90,9 +90,7 @@ class LOCAL_PATH_PLANNER(Node):
         points = np.dstack([x_pts,y_pts])[0]
         lengths = np.sqrt(np.sum(np.diff(points, axis=0)**2, axis=1))
         print("Length " + str(np.sum(lengths)))
-    
-    
-      
+     
     def generate_random_point(self,Areas):
         points = []
         for area in Areas:
@@ -106,6 +104,7 @@ class LOCAL_PATH_PLANNER(Node):
             if len(obst_list)==0:
                 points.append([x_p,y_p])
         return points
+    
     def log_local_path(self,local_path_msg,type,num):
         path_pts = np.dstack([local_path_msg.sampled_pt_x,local_path_msg.sampled_pt_y,local_path_msg.sampled_pt_th])
         control_pts = np.dstack([local_path_msg.qx, local_path_msg.qy])
@@ -131,6 +130,7 @@ class LOCAL_PATH_PLANNER(Node):
     
     def check_path(self, local_path, cost_map):
         start_seg = 1
+        counter = 1
         while(start_seg <= len(local_path.segments)):
             seg = local_path.segments[start_seg-1]
             seg_check_result = self.check_seg(seg,cost_map)
@@ -173,6 +173,9 @@ class LOCAL_PATH_PLANNER(Node):
                     new_wps.append(local_path.segments[-1].waypoints[1])
                     print(new_wps)
                     local_path = self.generate_path(self.path_sampling_para,new_wps,self.lookahead)
+                    msg = self.update_local_path_msg(local_path)
+                    self.log_local_path(msg,"Final",counter)
+                    counter = counter+1
                 elif Found == True and result == 2:
                     new_wps = []
                     for j in range(len(local_path.segments)):
@@ -183,6 +186,9 @@ class LOCAL_PATH_PLANNER(Node):
                     new_wps.append(local_path.segments[-1].waypoints[1])
                     print(new_wps)
                     local_path = self.generate_path(self.path_sampling_para,new_wps,self.lookahead)
+                    msg = self.update_local_path_msg(local_path)
+                    self.log_local_path(msg,"Final",counter)
+                    counter = counter+1
             else:
                 start_seg = start_seg+1
             

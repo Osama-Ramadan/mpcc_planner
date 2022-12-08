@@ -1,0 +1,21 @@
+[1.980s] Invoking command in '/home/ros_workspace/src/mpcc_planner/simple_igoneo_commander': PYTHONPATH=/home/ros_workspace/install/simple_igoneo_commander/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/simple_igoneo_commander build --build-base /home/ros_workspace/build/simple_igoneo_commander/build install --prefix /home/ros_workspace/install/simple_igoneo_commander --record /home/ros_workspace/build/simple_igoneo_commander/install.log --single-version-externally-managed
+[2.628s] running egg_info
+[2.630s] writing ../../../build/simple_igoneo_commander/simple_igoneo_commander.egg-info/PKG-INFO
+[2.631s] writing dependency_links to ../../../build/simple_igoneo_commander/simple_igoneo_commander.egg-info/dependency_links.txt
+[2.632s] writing entry points to ../../../build/simple_igoneo_commander/simple_igoneo_commander.egg-info/entry_points.txt
+[2.633s] writing requirements to ../../../build/simple_igoneo_commander/simple_igoneo_commander.egg-info/requires.txt
+[2.633s] writing top-level names to ../../../build/simple_igoneo_commander/simple_igoneo_commander.egg-info/top_level.txt
+[2.755s] reading manifest file '../../../build/simple_igoneo_commander/simple_igoneo_commander.egg-info/SOURCES.txt'
+[2.758s] writing manifest file '../../../build/simple_igoneo_commander/simple_igoneo_commander.egg-info/SOURCES.txt'
+[2.759s] running build
+[2.759s] running build_py
+[2.760s] running install
+[2.762s] running install_lib
+[2.767s] running install_data
+[2.768s] running install_egg_info
+[2.772s] removing '/home/ros_workspace/install/simple_igoneo_commander/lib/python3.8/site-packages/simple_igoneo_commander-0.0.0-py3.8.egg-info' (and everything under it)
+[2.773s] Copying ../../../build/simple_igoneo_commander/simple_igoneo_commander.egg-info to /home/ros_workspace/install/simple_igoneo_commander/lib/python3.8/site-packages/simple_igoneo_commander-0.0.0-py3.8.egg-info
+[2.774s] running install_scripts
+[2.810s] Installing simple_commander script to /home/ros_workspace/install/simple_igoneo_commander/lib/simple_igoneo_commander
+[2.811s] writing list of installed files to '/home/ros_workspace/build/simple_igoneo_commander/install.log'
+[2.865s] Invoked command in '/home/ros_workspace/src/mpcc_planner/simple_igoneo_commander' returned '0': PYTHONPATH=/home/ros_workspace/install/simple_igoneo_commander/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/simple_igoneo_commander build --build-base /home/ros_workspace/build/simple_igoneo_commander/build install --prefix /home/ros_workspace/install/simple_igoneo_commander --record /home/ros_workspace/build/simple_igoneo_commander/install.log --single-version-externally-managed

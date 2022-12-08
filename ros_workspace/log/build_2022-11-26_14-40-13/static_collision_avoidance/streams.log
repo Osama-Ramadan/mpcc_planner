@@ -1,0 +1,21 @@
+[7.582s] Invoking command in '/home/ros_workspace/src/mpcc_planner/static_collision_avoidance': AMENT_PREFIX_PATH=/home/ros_workspace/install/mpcc_interfaces:/home/ros_workspace/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/mpcc_interfaces:/home/ros_workspace/install/nav2_msgs LD_LIBRARY_PATH=/home/ros_workspace/install/mpcc_interfaces/lib:/home/ros_workspace/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_workspace/install/static_collision_avoidance/lib/python3.8/site-packages:/home/ros_workspace/install/mpcc_interfaces/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/static_collision_avoidance build --build-base /home/ros_workspace/build/static_collision_avoidance/build install --prefix /home/ros_workspace/install/static_collision_avoidance --record /home/ros_workspace/build/static_collision_avoidance/install.log --single-version-externally-managed
+[9.061s] running egg_info
+[9.063s] writing ../../../build/static_collision_avoidance/static_collision_avoidance.egg-info/PKG-INFO
+[9.063s] writing dependency_links to ../../../build/static_collision_avoidance/static_collision_avoidance.egg-info/dependency_links.txt
+[9.074s] writing entry points to ../../../build/static_collision_avoidance/static_collision_avoidance.egg-info/entry_points.txt
+[9.074s] writing requirements to ../../../build/static_collision_avoidance/static_collision_avoidance.egg-info/requires.txt
+[9.075s] writing top-level names to ../../../build/static_collision_avoidance/static_collision_avoidance.egg-info/top_level.txt
+[9.324s] reading manifest file '../../../build/static_collision_avoidance/static_collision_avoidance.egg-info/SOURCES.txt'
+[9.351s] writing manifest file '../../../build/static_collision_avoidance/static_collision_avoidance.egg-info/SOURCES.txt'
+[9.352s] running build
+[9.352s] running build_py
+[9.357s] running install
+[9.365s] running install_lib
+[9.375s] running install_data
+[9.377s] running install_egg_info
+[9.403s] removing '/home/ros_workspace/install/static_collision_avoidance/lib/python3.8/site-packages/static_collision_avoidance-0.0.0-py3.8.egg-info' (and everything under it)
+[9.403s] Copying ../../../build/static_collision_avoidance/static_collision_avoidance.egg-info to /home/ros_workspace/install/static_collision_avoidance/lib/python3.8/site-packages/static_collision_avoidance-0.0.0-py3.8.egg-info
+[9.409s] running install_scripts
+[9.530s] Installing static_collision_avoidance script to /home/ros_workspace/install/static_collision_avoidance/lib/static_collision_avoidance
+[9.534s] writing list of installed files to '/home/ros_workspace/build/static_collision_avoidance/install.log'
+[9.684s] Invoked command in '/home/ros_workspace/src/mpcc_planner/static_collision_avoidance' returned '0': AMENT_PREFIX_PATH=/home/ros_workspace/install/mpcc_interfaces:/home/ros_workspace/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/mpcc_interfaces:/home/ros_workspace/install/nav2_msgs LD_LIBRARY_PATH=/home/ros_workspace/install/mpcc_interfaces/lib:/home/ros_workspace/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_workspace/install/static_collision_avoidance/lib/python3.8/site-packages:/home/ros_workspace/install/mpcc_interfaces/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/static_collision_avoidance build --build-base /home/ros_workspace/build/static_collision_avoidance/build install --prefix /home/ros_workspace/install/static_collision_avoidance --record /home/ros_workspace/build/static_collision_avoidance/install.log --single-version-externally-managed

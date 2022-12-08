@@ -1,0 +1,50 @@
+This Folder contain matlab files related to MPCC local planner
+
+The folder contains 4 folders
+
+1. MPC:  This folder contains codes related to early trials in using the MPC to drive the forklift through static obstacles. 
+            * The Dynamics folder have a version of the controller with the dynamic model is used with the MPC, 
+            * The kinematics folder uses the kinematic model based MPC, 
+            * Expermints folder just contains the testing scenarios used with the MPC
+
+2. Dynamic_Window: This folder contains a simple implementation for the dynamic window approach  
+            * The main file in the folder is the Dynamic_Window.m files. In order to run the DW controller the following steps needed:
+                a. Choose the map file at the Map Loading section
+                b. At Generate Trajectory section set the waypoints the vehicle need to go through. 
+                c. If needed the configuration of the forklift and the controller can be changed in the Configurations section.
+                d. If needed the dynamic obstacle can be configured at the Dynamic Obstacles section
+                e. At the start of the Main Loop section set the initial state of the vehicle
+                f. At the main while loop in the Main Loop section specify the simulation steps
+            * Draw_dwa.m is just use to create the vistuals of the scenario.
+            * kalman_Filter.m is used to compute the predicted trajectory of the dynamic obstacle.
+            * Generate_Trajectory.m is used to compute the reference path.
+
+3. MPCC: This folder contains the files needed to run the MPCC planner algorihtm
+            * The main file is the MPCC_TTC_CollTime.m file that runs the planner(The files needs to have casadi installed and added to the matlab path because it uses it to solve for the commands.)
+                a. Choose the map from the Define The Glocal Map section
+                b. At the start of the Initial Values section set the initial state of the vehicle
+                c. At the Generate Trajectory section set he waypoints
+                d. If needed the dynamic obstacle can be configured at the Dynamic Obstacles section
+                f. At the main while loop in the Main Loop section specify the simulation steps
+            * kalman_Filter.m is used to compute the predicted trajectory of the dynamic obstacle.
+            * Generate_Trajectory.m is used to compute the reference path.
+            * dynamic_red_shift.m perform the forward simulation of the vehicle to simulate the behavoir. 
+
+4. Testing_scenarios: This folder contains the scripts used to test the components of the MPCC planner
+            - Folder (Navigation) contains the collected data from Isaac sim for the testing scenarios for both the MPCC and the DW  
+                * In extract_data.m file the Map directory is set in the Set the Map section
+                * In Ros Bag Data Extract section the name of the ros-bag is to be set.
+                * Running the folder would extract the data from the bag files and the Draw_Scenario.m can be used to visualize the needed data.
+                * The same process is repeated for the dynamic_window folder. 
+            - Folder (Path_Planner) contains the pathes used to evaluate the path planner
+                * The map is defined in the Define the Global Map section
+                * The path to the path data can be set in Local Path Data Extract section
+                * Draw path section then visualize the data
+            - Folder (Stability) contains the script used to validate the load stability conditions
+                * In stability.m file the required load configurations of the load 
+                * max gamma and max acceleration are then computed
+            - Folder (Resposne)
+                * rosbag_extractor.m extract the reponse data for the longitudinal reposne. 
+                * steering_bag_extract.m extracts the reposne for the steering system. 
+                * Acceleraion_Iden and Ident_Steering folder contains the data recoreded from the real forklift. 
+

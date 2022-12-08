@@ -1,0 +1,8 @@
+CMake Error at /home/ros_workspace/install/nav2_msgs/share/nav2_msgs/cmake/ament_cmake_export_libraries-extras.cmake:48 (message):
+  Package 'nav2_msgs' exports the library 'nav2_msgs__rosidl_generator_c'
+  which couldn't be found
+Call Stack (most recent call first):
+  /home/ros_workspace/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgsConfig.cmake:41 (include)
+  CMakeLists.txt:22 (find_package)
+
+

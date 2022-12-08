@@ -1,0 +1,33 @@
+[0.292s] Invoking command in '/home/ros_workspace/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_common:/opt/ros/foxy PYTHONPATH=/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros_workspace/build/nav2_voxel_grid -- -j4 -l4
+[0.812s] [ 25%] Built target voxel_grid
+[0.988s] [ 50%] Built target gtest
+[1.147s] [ 75%] Built target gtest_main
+[1.290s] [100%] Built target voxel_grid_tests
+[1.869s] Invoked command in '/home/ros_workspace/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_common:/opt/ros/foxy PYTHONPATH=/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros_workspace/build/nav2_voxel_grid -- -j4 -l4
+[3.376s] Invoking command in '/home/ros_workspace/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_common:/opt/ros/foxy PYTHONPATH=/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros_workspace/build/nav2_voxel_grid
+[3.440s] -- Install configuration: "Release"
+[3.453s] -- Up-to-date: /home/ros_workspace/install/nav2_voxel_grid/lib/libvoxel_grid.so
+[3.453s] -- Up-to-date: /home/ros_workspace/install/nav2_voxel_grid/include
+[3.454s] -- Up-to-date: /home/ros_workspace/install/nav2_voxel_grid/include/nav2_voxel_grid
+[3.454s] -- Up-to-date: /home/ros_workspace/install/nav2_voxel_grid/include/nav2_voxel_grid/voxel_grid.hpp
+[3.454s] -- Up-to-date: /home/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.sh
+[3.455s] -- Up-to-date: /home/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.dsv
+[3.497s] -- Up-to-date: /home/ros_workspace/install/nav2_voxel_grid/share/ament_index/resource_index/package_run_dependencies/nav2_voxel_grid
+[3.497s] -- Up-to-date: /home/ros_workspace/install/nav2_voxel_grid/share/ament_index/resource_index/parent_prefix_path/nav2_voxel_grid
+[3.497s] -- Up-to-date: /home/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.sh
+[3.497s] -- Up-to-date: /home/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.dsv
+[3.498s] -- Up-to-date: /home/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.sh
+[3.498s] -- Up-to-date: /home/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.dsv
+[3.498s] -- Up-to-date: /home/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.bash
+[3.498s] -- Up-to-date: /home/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.sh
+[3.499s] -- Up-to-date: /home/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.zsh
+[3.499s] -- Up-to-date: /home/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.dsv
+[3.503s] -- Installing: /home/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/package.dsv
+[3.535s] -- Up-to-date: /home/ros_workspace/install/nav2_voxel_grid/share/ament_index/resource_index/packages/nav2_voxel_grid
+[3.535s] -- Up-to-date: /home/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.535s] -- Up-to-date: /home/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.535s] -- Up-to-date: /home/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[3.536s] -- Up-to-date: /home/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig.cmake
+[3.536s] -- Up-to-date: /home/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig-version.cmake
+[3.536s] -- Up-to-date: /home/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/package.xml
+[3.565s] Invoked command in '/home/ros_workspace/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_common:/opt/ros/foxy PYTHONPATH=/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros_workspace/build/nav2_voxel_grid

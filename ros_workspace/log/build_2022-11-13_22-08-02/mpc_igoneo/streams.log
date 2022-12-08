@@ -1,0 +1,51 @@
+[4.504s] Invoking command in '/home/ros_workspace/src/mpc_igoneo': PYTHONPATH=/home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mpc_igoneo build --build-base /home/ros_workspace/build/mpc_igoneo/build install --prefix /home/ros_workspace/install/mpc_igoneo --record /home/ros_workspace/build/mpc_igoneo/install.log --single-version-externally-managed
+[5.027s] running egg_info
+[5.028s] creating ../../build/mpc_igoneo/mpc_igoneo.egg-info
+[5.028s] writing ../../build/mpc_igoneo/mpc_igoneo.egg-info/PKG-INFO
+[5.029s] writing dependency_links to ../../build/mpc_igoneo/mpc_igoneo.egg-info/dependency_links.txt
+[5.029s] writing entry points to ../../build/mpc_igoneo/mpc_igoneo.egg-info/entry_points.txt
+[5.029s] writing requirements to ../../build/mpc_igoneo/mpc_igoneo.egg-info/requires.txt
+[5.030s] writing top-level names to ../../build/mpc_igoneo/mpc_igoneo.egg-info/top_level.txt
+[5.071s] writing manifest file '../../build/mpc_igoneo/mpc_igoneo.egg-info/SOURCES.txt'
+[5.166s] reading manifest file '../../build/mpc_igoneo/mpc_igoneo.egg-info/SOURCES.txt'
+[5.169s] writing manifest file '../../build/mpc_igoneo/mpc_igoneo.egg-info/SOURCES.txt'
+[5.169s] running build
+[5.169s] running build_py
+[5.169s] creating /home/ros_workspace/build/mpc_igoneo/build
+[5.169s] creating /home/ros_workspace/build/mpc_igoneo/build/lib
+[5.170s] creating /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo
+[5.170s] copying mpc_igoneo/mpc_controller_track.py -> /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo
+[5.179s] copying mpc_igoneo/helper_functions.py -> /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo
+[5.179s] copying mpc_igoneo/mpc_controller_kin.py -> /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo
+[5.189s] copying mpc_igoneo/mpc_controller.py -> /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo
+[5.192s] copying mpc_igoneo/mpcc_controller.py -> /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo
+[5.192s] copying mpc_igoneo/path_planner.py -> /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo
+[5.193s] copying mpc_igoneo/__init__.py -> /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo
+[5.193s] copying mpc_igoneo/igoneo_model.py -> /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo
+[5.193s] running install
+[5.194s] running install_lib
+[5.195s] creating /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo
+[5.196s] copying /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo/mpc_controller_track.py -> /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo
+[5.196s] copying /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo/helper_functions.py -> /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo
+[5.196s] copying /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo/mpc_controller_kin.py -> /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo
+[5.196s] copying /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo/mpc_controller.py -> /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo
+[5.197s] copying /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo/mpcc_controller.py -> /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo
+[5.197s] copying /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo/path_planner.py -> /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo
+[5.197s] copying /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo/__init__.py -> /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo
+[5.197s] copying /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo/igoneo_model.py -> /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo
+[5.198s] byte-compiling /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo/mpc_controller_track.py to mpc_controller_track.cpython-38.pyc
+[5.205s] byte-compiling /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo/helper_functions.py to helper_functions.cpython-38.pyc
+[5.206s] byte-compiling /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo/mpc_controller_kin.py to mpc_controller_kin.cpython-38.pyc
+[5.211s] byte-compiling /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo/mpc_controller.py to mpc_controller.cpython-38.pyc
+[5.218s] byte-compiling /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo/mpcc_controller.py to mpcc_controller.cpython-38.pyc
+[5.243s] byte-compiling /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo/path_planner.py to path_planner.cpython-38.pyc
+[5.243s] byte-compiling /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo/__init__.py to __init__.cpython-38.pyc
+[5.244s] byte-compiling /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo/igoneo_model.py to igoneo_model.cpython-38.pyc
+[5.245s] running install_data
+[5.247s] running install_egg_info
+[5.248s] Copying ../../build/mpc_igoneo/mpc_igoneo.egg-info to /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo-0.0.0-py3.8.egg-info
+[5.248s] running install_scripts
+[5.282s] Installing mpc script to /home/ros_workspace/install/mpc_igoneo/lib/mpc_igoneo
+[5.283s] Installing path_planner script to /home/ros_workspace/install/mpc_igoneo/lib/mpc_igoneo
+[5.283s] writing list of installed files to '/home/ros_workspace/build/mpc_igoneo/install.log'
+[5.593s] Invoked command in '/home/ros_workspace/src/mpc_igoneo' returned '0': PYTHONPATH=/home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mpc_igoneo build --build-base /home/ros_workspace/build/mpc_igoneo/build install --prefix /home/ros_workspace/install/mpc_igoneo --record /home/ros_workspace/build/mpc_igoneo/install.log --single-version-externally-managed

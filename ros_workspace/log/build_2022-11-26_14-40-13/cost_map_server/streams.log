@@ -1,0 +1,24 @@
+[6.063s] Invoking command in '/home/ros_workspace/src/mpcc_planner/cost_map_server': AMENT_PREFIX_PATH=/home/ros_workspace/install/mpcc_interfaces:/home/ros_workspace/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/mpcc_interfaces:/home/ros_workspace/install/nav2_msgs LD_LIBRARY_PATH=/home/ros_workspace/install/mpcc_interfaces/lib:/home/ros_workspace/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_workspace/install/cost_map_server/lib/python3.8/site-packages:/home/ros_workspace/install/mpcc_interfaces/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/cost_map_server build --build-base /home/ros_workspace/build/cost_map_server/build install --prefix /home/ros_workspace/install/cost_map_server --record /home/ros_workspace/build/cost_map_server/install.log --single-version-externally-managed
+[7.141s] running egg_info
+[7.145s] writing ../../../build/cost_map_server/cost_map_server.egg-info/PKG-INFO
+[7.146s] writing dependency_links to ../../../build/cost_map_server/cost_map_server.egg-info/dependency_links.txt
+[7.147s] writing entry points to ../../../build/cost_map_server/cost_map_server.egg-info/entry_points.txt
+[7.147s] writing requirements to ../../../build/cost_map_server/cost_map_server.egg-info/requires.txt
+[7.147s] writing top-level names to ../../../build/cost_map_server/cost_map_server.egg-info/top_level.txt
+[7.385s] reading manifest file '../../../build/cost_map_server/cost_map_server.egg-info/SOURCES.txt'
+[7.409s] writing manifest file '../../../build/cost_map_server/cost_map_server.egg-info/SOURCES.txt'
+[7.412s] running build
+[7.412s] running build_py
+[7.412s] copying cost_map_server/cost_map_server.py -> /home/ros_workspace/build/cost_map_server/build/lib/cost_map_server
+[7.412s] running install
+[7.417s] running install_lib
+[7.441s] copying /home/ros_workspace/build/cost_map_server/build/lib/cost_map_server/cost_map_server.py -> /home/ros_workspace/install/cost_map_server/lib/python3.8/site-packages/cost_map_server
+[7.442s] byte-compiling /home/ros_workspace/install/cost_map_server/lib/python3.8/site-packages/cost_map_server/cost_map_server.py to cost_map_server.cpython-38.pyc
+[7.447s] running install_data
+[7.448s] running install_egg_info
+[7.461s] removing '/home/ros_workspace/install/cost_map_server/lib/python3.8/site-packages/cost_map_server-0.0.0-py3.8.egg-info' (and everything under it)
+[7.463s] Copying ../../../build/cost_map_server/cost_map_server.egg-info to /home/ros_workspace/install/cost_map_server/lib/python3.8/site-packages/cost_map_server-0.0.0-py3.8.egg-info
+[7.469s] running install_scripts
+[7.560s] Installing cost_map_server script to /home/ros_workspace/install/cost_map_server/lib/cost_map_server
+[7.561s] writing list of installed files to '/home/ros_workspace/build/cost_map_server/install.log'
+[7.650s] Invoked command in '/home/ros_workspace/src/mpcc_planner/cost_map_server' returned '0': AMENT_PREFIX_PATH=/home/ros_workspace/install/mpcc_interfaces:/home/ros_workspace/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/mpcc_interfaces:/home/ros_workspace/install/nav2_msgs LD_LIBRARY_PATH=/home/ros_workspace/install/mpcc_interfaces/lib:/home/ros_workspace/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_workspace/install/cost_map_server/lib/python3.8/site-packages:/home/ros_workspace/install/mpcc_interfaces/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/cost_map_server build --build-base /home/ros_workspace/build/cost_map_server/build install --prefix /home/ros_workspace/install/cost_map_server --record /home/ros_workspace/build/cost_map_server/install.log --single-version-externally-managed

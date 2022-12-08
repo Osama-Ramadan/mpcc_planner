@@ -48,7 +48,6 @@ g = [];
 st  = opt.X(:,1);                                                                   % initial state
 g = [g;st-opt.P(1:n_states)];   
 
-
 Q = diag([50, 1000]);
 R = diag([1,100,1]);                                                             % weighing matrices (controls)
 q_t = 300;

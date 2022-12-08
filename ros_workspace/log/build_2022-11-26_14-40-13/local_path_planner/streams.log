@@ -1,0 +1,24 @@
+[3.933s] Invoking command in '/home/ros_workspace/src/mpcc_planner/local_path_planner': AMENT_PREFIX_PATH=/home/ros_workspace/install/mpcc_interfaces:/home/ros_workspace/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/mpcc_interfaces:/home/ros_workspace/install/nav2_msgs LD_LIBRARY_PATH=/home/ros_workspace/install/mpcc_interfaces/lib:/home/ros_workspace/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages:/home/ros_workspace/install/mpcc_interfaces/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/local_path_planner build --build-base /home/ros_workspace/build/local_path_planner/build install --prefix /home/ros_workspace/install/local_path_planner --record /home/ros_workspace/build/local_path_planner/install.log --single-version-externally-managed
+[5.083s] running egg_info
+[5.096s] writing ../../../build/local_path_planner/local_path_planner.egg-info/PKG-INFO
+[5.097s] writing dependency_links to ../../../build/local_path_planner/local_path_planner.egg-info/dependency_links.txt
+[5.098s] writing entry points to ../../../build/local_path_planner/local_path_planner.egg-info/entry_points.txt
+[5.098s] writing requirements to ../../../build/local_path_planner/local_path_planner.egg-info/requires.txt
+[5.099s] writing top-level names to ../../../build/local_path_planner/local_path_planner.egg-info/top_level.txt
+[5.320s] reading manifest file '../../../build/local_path_planner/local_path_planner.egg-info/SOURCES.txt'
+[5.346s] writing manifest file '../../../build/local_path_planner/local_path_planner.egg-info/SOURCES.txt'
+[5.347s] running build
+[5.347s] running build_py
+[5.348s] copying local_path_planner/local_path_planner.py -> /home/ros_workspace/build/local_path_planner/build/lib/local_path_planner
+[5.363s] running install
+[5.370s] running install_lib
+[5.376s] copying /home/ros_workspace/build/local_path_planner/build/lib/local_path_planner/local_path_planner.py -> /home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages/local_path_planner
+[5.401s] byte-compiling /home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages/local_path_planner/local_path_planner.py to local_path_planner.cpython-38.pyc
+[5.401s] running install_data
+[5.402s] running install_egg_info
+[5.425s] removing '/home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages/local_path_planner-0.0.0-py3.8.egg-info' (and everything under it)
+[5.425s] Copying ../../../build/local_path_planner/local_path_planner.egg-info to /home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages/local_path_planner-0.0.0-py3.8.egg-info
+[5.445s] running install_scripts
+[5.561s] Installing path_planner script to /home/ros_workspace/install/local_path_planner/lib/local_path_planner
+[5.562s] writing list of installed files to '/home/ros_workspace/build/local_path_planner/install.log'
+[5.694s] Invoked command in '/home/ros_workspace/src/mpcc_planner/local_path_planner' returned '0': AMENT_PREFIX_PATH=/home/ros_workspace/install/mpcc_interfaces:/home/ros_workspace/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/mpcc_interfaces:/home/ros_workspace/install/nav2_msgs LD_LIBRARY_PATH=/home/ros_workspace/install/mpcc_interfaces/lib:/home/ros_workspace/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages:/home/ros_workspace/install/mpcc_interfaces/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/local_path_planner build --build-base /home/ros_workspace/build/local_path_planner/build install --prefix /home/ros_workspace/install/local_path_planner --record /home/ros_workspace/build/local_path_planner/install.log --single-version-externally-managed

@@ -1,0 +1,40 @@
+[0.185s] Invoking command in '/home/ros_workspace/build/nav2_bt_navigator': AMENT_PREFIX_PATH=/home/ros_workspace/install/nav2_behavior_tree:/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_behavior_tree:/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_behavior_tree/lib:/home/ros_workspace/install/nav2_util/lib:/home/ros_workspace/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros_workspace/build/nav2_bt_navigator -- -j4 -l4
+[0.982s] [ 60%] Built target bt_navigator_core
+[1.193s] [100%] Built target bt_navigator
+[1.269s] Invoked command in '/home/ros_workspace/build/nav2_bt_navigator' returned '0': AMENT_PREFIX_PATH=/home/ros_workspace/install/nav2_behavior_tree:/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_behavior_tree:/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_behavior_tree/lib:/home/ros_workspace/install/nav2_util/lib:/home/ros_workspace/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros_workspace/build/nav2_bt_navigator -- -j4 -l4
+[1.404s] Invoking command in '/home/ros_workspace/build/nav2_bt_navigator': AMENT_PREFIX_PATH=/home/ros_workspace/install/nav2_behavior_tree:/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_behavior_tree:/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_behavior_tree/lib:/home/ros_workspace/install/nav2_util/lib:/home/ros_workspace/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros_workspace/build/nav2_bt_navigator
+[1.469s] -- Install configuration: "Release"
+[1.482s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/lib/libbt_navigator_core.so
+[1.502s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/lib/nav2_bt_navigator/bt_navigator
+[1.502s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/include/
+[1.503s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/include//nav2_bt_navigator
+[1.503s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/include//nav2_bt_navigator/ros_topic_logger.hpp
+[1.504s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/include//nav2_bt_navigator/bt_navigator.hpp
+[1.504s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees
+[1.505s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/follow_point.xml
+[1.506s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_speed.xml
+[1.507s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_time.xml
+[1.507s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_distance.xml
+[1.507s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_and_recovery.xml
+[1.508s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_and_round_robin_recovery.xml
+[1.518s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/library_path.sh
+[1.518s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/library_path.dsv
+[1.518s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/share/ament_index/resource_index/package_run_dependencies/nav2_bt_navigator
+[1.519s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/share/ament_index/resource_index/parent_prefix_path/nav2_bt_navigator
+[1.520s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/ament_prefix_path.sh
+[1.521s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/ament_prefix_path.dsv
+[1.522s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/path.sh
+[1.523s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/path.dsv
+[1.524s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.bash
+[1.525s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.sh
+[1.531s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.zsh
+[1.533s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.dsv
+[1.534s] -- Installing: /home/ros_workspace/install/nav2_bt_navigator/share/nav2_bt_navigator/package.dsv
+[1.578s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/share/ament_index/resource_index/packages/nav2_bt_navigator
+[1.579s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.579s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/ament_cmake_export_libraries-extras.cmake
+[1.579s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.580s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/nav2_bt_navigatorConfig.cmake
+[1.580s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/nav2_bt_navigatorConfig-version.cmake
+[1.580s] -- Up-to-date: /home/ros_workspace/install/nav2_bt_navigator/share/nav2_bt_navigator/package.xml
+[1.590s] Invoked command in '/home/ros_workspace/build/nav2_bt_navigator' returned '0': AMENT_PREFIX_PATH=/home/ros_workspace/install/nav2_behavior_tree:/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_behavior_tree:/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_behavior_tree/lib:/home/ros_workspace/install/nav2_util/lib:/home/ros_workspace/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros_workspace/build/nav2_bt_navigator

@@ -1,0 +1,40 @@
+[0.125s] Invoking command in '/home/ros_workspace/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/ros_workspace/install/nav2_lifecycle_manager:/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_lifecycle_manager:/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_lifecycle_manager/lib:/home/ros_workspace/install/nav2_util/lib:/home/ros_workspace/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros_workspace/build/nav2_rviz_plugins -- -j4 -l4
+[1.118s] [ 20%] [34m[1mAutomatic MOC for target nav2_rviz_plugins[0m
+[1.459s] [ 20%] Built target nav2_rviz_plugins_autogen
+[2.089s] [100%] Built target nav2_rviz_plugins
+[2.193s] Invoked command in '/home/ros_workspace/build/nav2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/ros_workspace/install/nav2_lifecycle_manager:/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_lifecycle_manager:/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_lifecycle_manager/lib:/home/ros_workspace/install/nav2_util/lib:/home/ros_workspace/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros_workspace/build/nav2_rviz_plugins -- -j4 -l4
+[2.447s] Invoking command in '/home/ros_workspace/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/ros_workspace/install/nav2_lifecycle_manager:/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_lifecycle_manager:/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_lifecycle_manager/lib:/home/ros_workspace/install/nav2_util/lib:/home/ros_workspace/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros_workspace/build/nav2_rviz_plugins
+[2.537s] -- Install configuration: ""
+[2.539s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/share/nav2_rviz_plugins/plugins_description.xml
+[2.581s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/lib/libnav2_rviz_plugins.so
+[2.581s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/include/
+[2.582s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/include//nav2_rviz_plugins
+[2.582s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_tool.hpp
+[2.583s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/include//nav2_rviz_plugins/ros_action_qevent.hpp
+[2.583s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_pose_updater.hpp
+[2.583s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/include//nav2_rviz_plugins/nav2_panel.hpp
+[2.584s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_common.hpp
+[2.584s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/library_path.sh
+[2.584s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/library_path.dsv
+[2.596s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/share/ament_index/resource_index/package_run_dependencies/nav2_rviz_plugins
+[2.597s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/share/ament_index/resource_index/parent_prefix_path/nav2_rviz_plugins
+[2.597s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/ament_prefix_path.sh
+[2.598s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/ament_prefix_path.dsv
+[2.598s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/path.sh
+[2.599s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/path.dsv
+[2.599s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.bash
+[2.599s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.sh
+[2.599s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.zsh
+[2.600s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.dsv
+[2.600s] -- Installing: /home/ros_workspace/install/nav2_rviz_plugins/share/nav2_rviz_plugins/package.dsv
+[2.614s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/share/ament_index/resource_index/packages/nav2_rviz_plugins
+[2.615s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/nav2_rviz_plugins
+[2.632s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsExport.cmake
+[2.632s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsExport-noconfig.cmake
+[2.633s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.633s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[2.634s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.634s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsConfig.cmake
+[2.635s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsConfig-version.cmake
+[2.637s] -- Up-to-date: /home/ros_workspace/install/nav2_rviz_plugins/share/nav2_rviz_plugins/package.xml
+[2.716s] Invoked command in '/home/ros_workspace/build/nav2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/ros_workspace/install/nav2_lifecycle_manager:/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_lifecycle_manager:/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_lifecycle_manager/lib:/home/ros_workspace/install/nav2_util/lib:/home/ros_workspace/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros_workspace/build/nav2_rviz_plugins

@@ -1,0 +1,9 @@
+float32[] waypoints_x
+float32[] waypoints_y
+float32[] qx
+float32[] qy
+float32[] sampled_pt_x
+float32[] sampled_pt_y
+float32[] sampled_pt_th
+int32 nseg
+int32 resolution

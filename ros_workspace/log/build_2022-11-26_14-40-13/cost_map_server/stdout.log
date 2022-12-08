@@ -1,0 +1,22 @@
+running egg_info
+writing ../../../build/cost_map_server/cost_map_server.egg-info/PKG-INFO
+writing dependency_links to ../../../build/cost_map_server/cost_map_server.egg-info/dependency_links.txt
+writing entry points to ../../../build/cost_map_server/cost_map_server.egg-info/entry_points.txt
+writing requirements to ../../../build/cost_map_server/cost_map_server.egg-info/requires.txt
+writing top-level names to ../../../build/cost_map_server/cost_map_server.egg-info/top_level.txt
+reading manifest file '../../../build/cost_map_server/cost_map_server.egg-info/SOURCES.txt'
+writing manifest file '../../../build/cost_map_server/cost_map_server.egg-info/SOURCES.txt'
+running build
+running build_py
+copying cost_map_server/cost_map_server.py -> /home/ros_workspace/build/cost_map_server/build/lib/cost_map_server
+running install
+running install_lib
+copying /home/ros_workspace/build/cost_map_server/build/lib/cost_map_server/cost_map_server.py -> /home/ros_workspace/install/cost_map_server/lib/python3.8/site-packages/cost_map_server
+byte-compiling /home/ros_workspace/install/cost_map_server/lib/python3.8/site-packages/cost_map_server/cost_map_server.py to cost_map_server.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/ros_workspace/install/cost_map_server/lib/python3.8/site-packages/cost_map_server-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../../build/cost_map_server/cost_map_server.egg-info to /home/ros_workspace/install/cost_map_server/lib/python3.8/site-packages/cost_map_server-0.0.0-py3.8.egg-info
+running install_scripts
+Installing cost_map_server script to /home/ros_workspace/install/cost_map_server/lib/cost_map_server
+writing list of installed files to '/home/ros_workspace/build/cost_map_server/install.log'

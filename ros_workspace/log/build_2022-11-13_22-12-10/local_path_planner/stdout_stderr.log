@@ -1,0 +1,41 @@
+running egg_info
+creating ../../../build/local_path_planner/local_path_planner.egg-info
+writing ../../../build/local_path_planner/local_path_planner.egg-info/PKG-INFO
+writing dependency_links to ../../../build/local_path_planner/local_path_planner.egg-info/dependency_links.txt
+writing entry points to ../../../build/local_path_planner/local_path_planner.egg-info/entry_points.txt
+writing requirements to ../../../build/local_path_planner/local_path_planner.egg-info/requires.txt
+writing top-level names to ../../../build/local_path_planner/local_path_planner.egg-info/top_level.txt
+writing manifest file '../../../build/local_path_planner/local_path_planner.egg-info/SOURCES.txt'
+reading manifest file '../../../build/local_path_planner/local_path_planner.egg-info/SOURCES.txt'
+writing manifest file '../../../build/local_path_planner/local_path_planner.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ros_workspace/build/local_path_planner/build
+creating /home/ros_workspace/build/local_path_planner/build/lib
+creating /home/ros_workspace/build/local_path_planner/build/lib/local_path_planner
+copying local_path_planner/local_path_planner_node.py -> /home/ros_workspace/build/local_path_planner/build/lib/local_path_planner
+copying local_path_planner/local_path_planner.py -> /home/ros_workspace/build/local_path_planner/build/lib/local_path_planner
+copying local_path_planner/__init__.py -> /home/ros_workspace/build/local_path_planner/build/lib/local_path_planner
+creating /home/ros_workspace/build/local_path_planner/build/lib/mpcc_planner_costmap
+copying mpcc_planner_costmap/mpcc_planner_costmap.py -> /home/ros_workspace/build/local_path_planner/build/lib/mpcc_planner_costmap
+copying mpcc_planner_costmap/__init__.py -> /home/ros_workspace/build/local_path_planner/build/lib/mpcc_planner_costmap
+running install
+running install_lib
+creating /home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages/local_path_planner
+copying /home/ros_workspace/build/local_path_planner/build/lib/local_path_planner/local_path_planner_node.py -> /home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages/local_path_planner
+copying /home/ros_workspace/build/local_path_planner/build/lib/local_path_planner/local_path_planner.py -> /home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages/local_path_planner
+copying /home/ros_workspace/build/local_path_planner/build/lib/local_path_planner/__init__.py -> /home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages/local_path_planner
+creating /home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages/mpcc_planner_costmap
+copying /home/ros_workspace/build/local_path_planner/build/lib/mpcc_planner_costmap/mpcc_planner_costmap.py -> /home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages/mpcc_planner_costmap
+copying /home/ros_workspace/build/local_path_planner/build/lib/mpcc_planner_costmap/__init__.py -> /home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages/mpcc_planner_costmap
+byte-compiling /home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages/local_path_planner/local_path_planner_node.py to local_path_planner_node.cpython-38.pyc
+byte-compiling /home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages/local_path_planner/local_path_planner.py to local_path_planner.cpython-38.pyc
+byte-compiling /home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages/local_path_planner/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages/mpcc_planner_costmap/mpcc_planner_costmap.py to mpcc_planner_costmap.cpython-38.pyc
+byte-compiling /home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages/mpcc_planner_costmap/__init__.py to __init__.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../../build/local_path_planner/local_path_planner.egg-info to /home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages/local_path_planner-0.0.0-py3.8.egg-info
+running install_scripts
+Installing path_planner script to /home/ros_workspace/install/local_path_planner/lib/local_path_planner
+writing list of installed files to '/home/ros_workspace/build/local_path_planner/install.log'

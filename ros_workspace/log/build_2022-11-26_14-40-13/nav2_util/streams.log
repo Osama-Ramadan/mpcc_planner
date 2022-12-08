@@ -1,0 +1,61 @@
+[0.200s] Invoking command in '/home/ros_workspace/build/nav2_util': AMENT_PREFIX_PATH=/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros_workspace/build/nav2_util -- -j4 -l4
+[0.697s] [  5%] Built target dump_params
+[0.894s] [ 10%] Built target gtest_main
+[1.127s] [ 15%] Built target gtest
+[1.390s] [ 40%] Built target nav2_util_core
+[1.563s] [ 45%] Built target test_execution_timer
+[1.683s] [ 50%] Built target test_string_utils
+[1.856s] [ 55%] Built target test_lifecycle_node
+[2.088s] [ 60%] Built target test_lifecycle_utils
+[2.323s] [ 65%] Built target test_actions
+[2.560s] [ 70%] Built target test_node_utils
+[2.733s] [ 75%] Built target test_lifecycle_cli_node
+[2.945s] [ 80%] Built target test_geometry_utils
+[3.171s] [ 85%] Built target test_odometry_utils
+[3.477s] [ 90%] Built target test_robot_utils
+[3.814s] [ 95%] Built target test_service_client
+[4.088s] [100%] Built target lifecycle_bringup
+[4.147s] Invoked command in '/home/ros_workspace/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros_workspace/build/nav2_util -- -j4 -l4
+[4.281s] Invoking command in '/home/ros_workspace/build/nav2_util': AMENT_PREFIX_PATH=/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros_workspace/build/nav2_util
+[4.323s] -- Install configuration: "Release"
+[4.324s] -- Up-to-date: /home/ros_workspace/install/nav2_util/include/
+[4.325s] -- Up-to-date: /home/ros_workspace/install/nav2_util/include//nav2_util
+[4.325s] -- Up-to-date: /home/ros_workspace/install/nav2_util/include//nav2_util/node_utils.hpp
+[4.326s] -- Up-to-date: /home/ros_workspace/install/nav2_util/include//nav2_util/costmap.hpp
+[4.326s] -- Up-to-date: /home/ros_workspace/install/nav2_util/include//nav2_util/string_utils.hpp
+[4.327s] -- Up-to-date: /home/ros_workspace/install/nav2_util/include//nav2_util/service_client.hpp
+[4.327s] -- Up-to-date: /home/ros_workspace/install/nav2_util/include//nav2_util/lifecycle_node.hpp
+[4.328s] -- Up-to-date: /home/ros_workspace/install/nav2_util/include//nav2_util/robot_utils.hpp
+[4.328s] -- Up-to-date: /home/ros_workspace/install/nav2_util/include//nav2_util/line_iterator.hpp
+[4.329s] -- Up-to-date: /home/ros_workspace/install/nav2_util/include//nav2_util/execution_timer.hpp
+[4.329s] -- Up-to-date: /home/ros_workspace/install/nav2_util/include//nav2_util/node_thread.hpp
+[4.330s] -- Up-to-date: /home/ros_workspace/install/nav2_util/include//nav2_util/geometry_utils.hpp
+[4.331s] -- Up-to-date: /home/ros_workspace/install/nav2_util/include//nav2_util/odometry_utils.hpp
+[4.332s] -- Up-to-date: /home/ros_workspace/install/nav2_util/include//nav2_util/clear_entirely_costmap_service_client.hpp
+[4.332s] -- Up-to-date: /home/ros_workspace/install/nav2_util/include//nav2_util/simple_action_server.hpp
+[4.333s] -- Up-to-date: /home/ros_workspace/install/nav2_util/include//nav2_util/lifecycle_service_client.hpp
+[4.334s] -- Up-to-date: /home/ros_workspace/install/nav2_util/include//nav2_util/lifecycle_utils.hpp
+[4.335s] -- Up-to-date: /home/ros_workspace/install/nav2_util/share/nav2_util/environment/library_path.sh
+[4.341s] -- Up-to-date: /home/ros_workspace/install/nav2_util/share/nav2_util/environment/library_path.dsv
+[4.343s] -- Up-to-date: /home/ros_workspace/install/nav2_util/share/ament_index/resource_index/package_run_dependencies/nav2_util
+[4.344s] -- Up-to-date: /home/ros_workspace/install/nav2_util/share/ament_index/resource_index/parent_prefix_path/nav2_util
+[4.345s] -- Up-to-date: /home/ros_workspace/install/nav2_util/share/nav2_util/environment/ament_prefix_path.sh
+[4.346s] -- Up-to-date: /home/ros_workspace/install/nav2_util/share/nav2_util/environment/ament_prefix_path.dsv
+[4.347s] -- Up-to-date: /home/ros_workspace/install/nav2_util/share/nav2_util/environment/path.sh
+[4.348s] -- Up-to-date: /home/ros_workspace/install/nav2_util/share/nav2_util/environment/path.dsv
+[4.351s] -- Up-to-date: /home/ros_workspace/install/nav2_util/share/nav2_util/local_setup.bash
+[4.351s] -- Up-to-date: /home/ros_workspace/install/nav2_util/share/nav2_util/local_setup.sh
+[4.352s] -- Up-to-date: /home/ros_workspace/install/nav2_util/share/nav2_util/local_setup.zsh
+[4.352s] -- Up-to-date: /home/ros_workspace/install/nav2_util/share/nav2_util/local_setup.dsv
+[4.352s] -- Installing: /home/ros_workspace/install/nav2_util/share/nav2_util/package.dsv
+[4.362s] -- Up-to-date: /home/ros_workspace/install/nav2_util/share/ament_index/resource_index/packages/nav2_util
+[4.362s] -- Up-to-date: /home/ros_workspace/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.362s] -- Up-to-date: /home/ros_workspace/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_libraries-extras.cmake
+[4.362s] -- Up-to-date: /home/ros_workspace/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.363s] -- Up-to-date: /home/ros_workspace/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig.cmake
+[4.363s] -- Up-to-date: /home/ros_workspace/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig-version.cmake
+[4.363s] -- Up-to-date: /home/ros_workspace/install/nav2_util/share/nav2_util/package.xml
+[4.445s] -- Up-to-date: /home/ros_workspace/install/nav2_util/lib/libnav2_util_core.so
+[4.506s] -- Up-to-date: /home/ros_workspace/install/nav2_util/lib/nav2_util/lifecycle_bringup
+[4.523s] -- Up-to-date: /home/ros_workspace/install/nav2_util/lib/nav2_util/dump_params
+[4.590s] Invoked command in '/home/ros_workspace/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros_workspace/build/nav2_util

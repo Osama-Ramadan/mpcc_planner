@@ -1,0 +1,135 @@
+[0.341s] Invoking command in '/home/ros_workspace/build/nav2_behavior_tree': CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:/home/ros_workspace/install/nav2_bringup:/home/ros_workspace/install/navigation2:/home/ros_workspace/install/nav2_waypoint_follower:/home/ros_workspace/install/nav2_navfn_planner:/home/ros_workspace/install/nav2_core:/home/ros_workspace/install/nav2_costmap_2d:/home/ros_workspace/install/nav2_voxel_grid:/home/ros_workspace/install/nav2_rviz_plugins:/home/ros_workspace/install/nav2_map_server:/home/ros_workspace/install/nav2_lifecycle_manager:/home/ros_workspace/install/nav2_bt_navigator:/home/ros_workspace/install/nav2_behavior_tree:/home/ros_workspace/install/mpcc_interfaces:/home/ros_workspace/install/static_collision_avoidance:/home/ros_workspace/install/simple_igoneo_commander:/home/ros_workspace/install/mpcc_local_planner:/home/ros_workspace/install/local_path_planner:/home/ros_workspace/install/dynamic_collision_avoidance:/home/ros_workspace/install/cost_map_server:/home/ros_workspace/install/nav2_gazebo_spawner:/home/ros_workspace/install/mpc_igoneo:/home/ros_workspace/install/mpc_dynamic_obstacles:/home/ros_workspace/install/igoneo_dynamic_window:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_util/lib:/home/ros_workspace/install/nav2_msgs/lib:/home/ros_workspace/install/nav2_waypoint_follower/lib:/home/ros_workspace/install/nav2_navfn_planner/lib:/home/ros_workspace/install/nav2_costmap_2d/lib:/home/ros_workspace/install/nav2_voxel_grid/lib:/home/ros_workspace/install/nav2_rviz_plugins/lib:/home/ros_workspace/install/nav2_map_server/lib:/home/ros_workspace/install/nav2_lifecycle_manager/lib:/home/ros_workspace/install/nav2_bt_navigator/lib:/home/ros_workspace/install/nav2_behavior_tree/lib:/home/ros_workspace/install/mpcc_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:/home/ros_workspace/install/static_collision_avoidance/lib/python3.8/site-packages:/home/ros_workspace/install/simple_igoneo_commander/lib/python3.8/site-packages:/home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages:/home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages:/home/ros_workspace/install/dynamic_collision_avoidance/lib/python3.8/site-packages:/home/ros_workspace/install/cost_map_server/lib/python3.8/site-packages:/home/ros_workspace/install/mpcc_interfaces/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages:/home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages:/home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/ros_workspace/build/nav2_behavior_tree -- -j4 -l4
+[1.248s] [  2%] Built target nav2_transform_available_condition_bt_node
+[1.677s] [  4%] Built target nav2_spin_action_bt_node
+[2.042s] [  6%] Built target nav2_compute_path_to_pose_action_bt_node
+[2.301s] [  8%] Built target nav2_goal_updated_condition_bt_node
+[2.437s] [ 10%] Built target nav2_is_stuck_condition_bt_node
+[2.716s] [ 12%] Built target nav2_behavior_tree
+[3.117s] [ 14%] Built target nav2_goal_updater_node_bt_node
+[3.486s] [ 16%] Built target nav2_follow_path_action_bt_node
+[3.747s] [ 18%] Built target nav2_goal_reached_condition_bt_node
+[3.900s] [ 20%] Built target nav2_initial_pose_received_condition_bt_node
+[4.080s] [ 22%] Built target nav2_time_expired_condition_bt_node
+[4.285s] [ 24%] Built target nav2_distance_traveled_condition_bt_node
+[4.571s] [ 26%] Built target nav2_is_battery_low_condition_bt_node
+[4.830s] [ 28%] Built target nav2_reinitialize_global_localization_service_bt_node
+[5.014s] [ 30%] Built target nav2_rate_controller_bt_node
+[5.328s] [ 32%] Built target nav2_distance_controller_bt_node
+[5.520s] [ 34%] Built target nav2_round_robin_node_bt_node
+[6.004s] [ 36%] Built target nav2_clear_costmap_service_bt_node
+[6.370s] [ 38%] Built target nav2_speed_controller_bt_node
+[6.738s] [ 40%] Built target nav2_truncate_path_action_bt_node
+[7.063s] [ 42%] Built target nav2_navigate_to_pose_action_bt_node
+[7.237s] [ 44%] Built target nav2_back_up_action_bt_node
+[7.437s] [ 46%] Built target nav2_recovery_node_bt_node
+[7.772s] [ 48%] Built target gtest
+[8.063s] [ 51%] Built target gtest_main
+[8.392s] [ 53%] Built target nav2_wait_action_bt_node
+[8.920s] [ 55%] Built target test_condition_distance_traveled
+[9.456s] [ 57%] Built target test_condition_time_expired
+[9.938s] [ 59%] Built target test_condition_goal_updated
+[10.361s] [ 61%] Built target test_condition_initial_pose_received
+[10.796s] [ 63%] Built target test_condition_is_battery_low
+[11.004s] [ 65%] Built target test_condition_transform_available
+[11.247s] [ 67%] Built target test_condition_is_stuck
+[11.576s] [ 69%] Built target test_condition_goal_reached
+[11.844s] [ 71%] Built target test_goal_updater_node
+[12.401s] [ 73%] Built target test_decorator_rate_controller
+[12.809s] [ 75%] Built target test_decorator_speed_controller
+[13.128s] [ 77%] Built target test_decorator_distance_controller
+[13.311s] [ 79%] Built target test_control_round_robin_node
+[13.556s] [ 81%] Built target test_control_recovery_node
+[13.978s] [ 83%] Built target test_truncate_path_action
+[14.313s] [ 85%] Built target test_action_navigate_to_pose_action
+[14.596s] [ 87%] Built target test_action_follow_path_action
+[14.958s] [ 89%] Built target test_action_compute_path_to_pose_action
+[15.195s] [ 91%] Built target test_action_reinitialize_global_localization_service
+[15.441s] [ 93%] Built target test_action_clear_costmap_service
+[15.916s] [ 95%] Built target test_bt_conversions
+[16.315s] [ 97%] Built target nav2_pipeline_sequence_bt_node
+[16.637s] [100%] Built target test_control_pipeline_sequence
+[17.943s] Invoked command in '/home/ros_workspace/build/nav2_behavior_tree' returned '0': CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:/home/ros_workspace/install/nav2_bringup:/home/ros_workspace/install/navigation2:/home/ros_workspace/install/nav2_waypoint_follower:/home/ros_workspace/install/nav2_navfn_planner:/home/ros_workspace/install/nav2_core:/home/ros_workspace/install/nav2_costmap_2d:/home/ros_workspace/install/nav2_voxel_grid:/home/ros_workspace/install/nav2_rviz_plugins:/home/ros_workspace/install/nav2_map_server:/home/ros_workspace/install/nav2_lifecycle_manager:/home/ros_workspace/install/nav2_bt_navigator:/home/ros_workspace/install/nav2_behavior_tree:/home/ros_workspace/install/mpcc_interfaces:/home/ros_workspace/install/static_collision_avoidance:/home/ros_workspace/install/simple_igoneo_commander:/home/ros_workspace/install/mpcc_local_planner:/home/ros_workspace/install/local_path_planner:/home/ros_workspace/install/dynamic_collision_avoidance:/home/ros_workspace/install/cost_map_server:/home/ros_workspace/install/nav2_gazebo_spawner:/home/ros_workspace/install/mpc_igoneo:/home/ros_workspace/install/mpc_dynamic_obstacles:/home/ros_workspace/install/igoneo_dynamic_window:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_util/lib:/home/ros_workspace/install/nav2_msgs/lib:/home/ros_workspace/install/nav2_waypoint_follower/lib:/home/ros_workspace/install/nav2_navfn_planner/lib:/home/ros_workspace/install/nav2_costmap_2d/lib:/home/ros_workspace/install/nav2_voxel_grid/lib:/home/ros_workspace/install/nav2_rviz_plugins/lib:/home/ros_workspace/install/nav2_map_server/lib:/home/ros_workspace/install/nav2_lifecycle_manager/lib:/home/ros_workspace/install/nav2_bt_navigator/lib:/home/ros_workspace/install/nav2_behavior_tree/lib:/home/ros_workspace/install/mpcc_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:/home/ros_workspace/install/static_collision_avoidance/lib/python3.8/site-packages:/home/ros_workspace/install/simple_igoneo_commander/lib/python3.8/site-packages:/home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages:/home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages:/home/ros_workspace/install/dynamic_collision_avoidance/lib/python3.8/site-packages:/home/ros_workspace/install/cost_map_server/lib/python3.8/site-packages:/home/ros_workspace/install/mpcc_interfaces/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages:/home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages:/home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/ros_workspace/build/nav2_behavior_tree -- -j4 -l4
+[20.233s] Invoking command in '/home/ros_workspace/build/nav2_behavior_tree': CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:/home/ros_workspace/install/nav2_bringup:/home/ros_workspace/install/navigation2:/home/ros_workspace/install/nav2_waypoint_follower:/home/ros_workspace/install/nav2_navfn_planner:/home/ros_workspace/install/nav2_core:/home/ros_workspace/install/nav2_costmap_2d:/home/ros_workspace/install/nav2_voxel_grid:/home/ros_workspace/install/nav2_rviz_plugins:/home/ros_workspace/install/nav2_map_server:/home/ros_workspace/install/nav2_lifecycle_manager:/home/ros_workspace/install/nav2_bt_navigator:/home/ros_workspace/install/nav2_behavior_tree:/home/ros_workspace/install/mpcc_interfaces:/home/ros_workspace/install/static_collision_avoidance:/home/ros_workspace/install/simple_igoneo_commander:/home/ros_workspace/install/mpcc_local_planner:/home/ros_workspace/install/local_path_planner:/home/ros_workspace/install/dynamic_collision_avoidance:/home/ros_workspace/install/cost_map_server:/home/ros_workspace/install/nav2_gazebo_spawner:/home/ros_workspace/install/mpc_igoneo:/home/ros_workspace/install/mpc_dynamic_obstacles:/home/ros_workspace/install/igoneo_dynamic_window:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_util/lib:/home/ros_workspace/install/nav2_msgs/lib:/home/ros_workspace/install/nav2_waypoint_follower/lib:/home/ros_workspace/install/nav2_navfn_planner/lib:/home/ros_workspace/install/nav2_costmap_2d/lib:/home/ros_workspace/install/nav2_voxel_grid/lib:/home/ros_workspace/install/nav2_rviz_plugins/lib:/home/ros_workspace/install/nav2_map_server/lib:/home/ros_workspace/install/nav2_lifecycle_manager/lib:/home/ros_workspace/install/nav2_bt_navigator/lib:/home/ros_workspace/install/nav2_behavior_tree/lib:/home/ros_workspace/install/mpcc_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:/home/ros_workspace/install/static_collision_avoidance/lib/python3.8/site-packages:/home/ros_workspace/install/simple_igoneo_commander/lib/python3.8/site-packages:/home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages:/home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages:/home/ros_workspace/install/dynamic_collision_avoidance/lib/python3.8/site-packages:/home/ros_workspace/install/cost_map_server/lib/python3.8/site-packages:/home/ros_workspace/install/mpcc_interfaces/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages:/home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages:/home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/ros_workspace/build/nav2_behavior_tree
+[20.338s] -- Install configuration: "Release"
+[20.338s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_behavior_tree.so
+[20.340s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_compute_path_to_pose_action_bt_node.so
+[20.341s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_follow_path_action_bt_node.so
+[20.342s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_back_up_action_bt_node.so
+[20.344s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_spin_action_bt_node.so
+[20.347s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_wait_action_bt_node.so
+[20.349s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_clear_costmap_service_bt_node.so
+[20.351s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_is_stuck_condition_bt_node.so
+[20.357s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_transform_available_condition_bt_node.so
+[20.359s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_goal_reached_condition_bt_node.so
+[20.360s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_goal_updated_condition_bt_node.so
+[20.368s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_time_expired_condition_bt_node.so
+[20.370s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_distance_traveled_condition_bt_node.so
+[20.372s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_initial_pose_received_condition_bt_node.so
+[20.377s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_is_battery_low_condition_bt_node.so
+[20.381s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_reinitialize_global_localization_service_bt_node.so
+[20.382s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_rate_controller_bt_node.so
+[20.386s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_distance_controller_bt_node.so
+[20.391s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_speed_controller_bt_node.so
+[20.399s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_truncate_path_action_bt_node.so
+[20.404s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_goal_updater_node_bt_node.so
+[20.405s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_recovery_node_bt_node.so
+[20.422s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_navigate_to_pose_action_bt_node.so
+[20.427s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_pipeline_sequence_bt_node.so
+[20.428s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_round_robin_node_bt_node.so
+[20.432s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include/
+[20.434s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree
+[20.435s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins
+[20.436s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action
+[20.437s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/follow_path_action.hpp
+[20.439s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/clear_costmap_service.hpp
+[20.440s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_to_pose_action.hpp
+[20.442s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_action.hpp
+[20.443s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_action.hpp
+[20.445s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_to_pose_action.hpp
+[20.446s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/reinitialize_global_localization_service.hpp
+[20.452s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_action.hpp
+[20.461s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_action.hpp
+[20.465s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition
+[20.467s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/transform_available_condition.hpp
+[20.469s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_reached_condition.hpp
+[20.471s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/initial_pose_received_condition.hpp
+[20.472s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/time_expired_condition.hpp
+[20.472s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_battery_low_condition.hpp
+[20.473s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_stuck_condition.hpp
+[20.475s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/distance_traveled_condition.hpp
+[20.476s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_updated_condition.hpp
+[20.476s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator
+[20.481s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/distance_controller.hpp
+[20.487s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/rate_controller.hpp
+[20.488s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/speed_controller.hpp
+[20.489s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updater_node.hpp
+[20.492s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control
+[20.492s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/round_robin_node.hpp
+[20.493s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/recovery_node.hpp
+[20.493s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/pipeline_sequence.hpp
+[20.494s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/behavior_tree_engine.hpp
+[20.494s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_conversions.hpp
+[20.494s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_node.hpp
+[20.496s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_service_node.hpp
+[20.500s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/nav2_tree_nodes.xml
+[20.500s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.sh
+[20.500s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.dsv
+[20.501s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/ament_index/resource_index/package_run_dependencies/nav2_behavior_tree
+[20.501s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/ament_index/resource_index/parent_prefix_path/nav2_behavior_tree
+[20.501s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.sh
+[20.502s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.dsv
+[20.502s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.sh
+[20.502s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.dsv
+[20.502s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.bash
+[20.503s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.sh
+[20.509s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.zsh
+[20.510s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.dsv
+[20.511s] -- Installing: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/package.dsv
+[20.511s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/ament_index/resource_index/packages/nav2_behavior_tree
+[20.511s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.512s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_libraries-extras.cmake
+[20.512s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.513s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig.cmake
+[20.513s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig-version.cmake
+[20.513s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/package.xml
+[20.532s] Invoked command in '/home/ros_workspace/build/nav2_behavior_tree' returned '0': CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:/home/ros_workspace/install/nav2_bringup:/home/ros_workspace/install/navigation2:/home/ros_workspace/install/nav2_waypoint_follower:/home/ros_workspace/install/nav2_navfn_planner:/home/ros_workspace/install/nav2_core:/home/ros_workspace/install/nav2_costmap_2d:/home/ros_workspace/install/nav2_voxel_grid:/home/ros_workspace/install/nav2_rviz_plugins:/home/ros_workspace/install/nav2_map_server:/home/ros_workspace/install/nav2_lifecycle_manager:/home/ros_workspace/install/nav2_bt_navigator:/home/ros_workspace/install/nav2_behavior_tree:/home/ros_workspace/install/mpcc_interfaces:/home/ros_workspace/install/static_collision_avoidance:/home/ros_workspace/install/simple_igoneo_commander:/home/ros_workspace/install/mpcc_local_planner:/home/ros_workspace/install/local_path_planner:/home/ros_workspace/install/dynamic_collision_avoidance:/home/ros_workspace/install/cost_map_server:/home/ros_workspace/install/nav2_gazebo_spawner:/home/ros_workspace/install/mpc_igoneo:/home/ros_workspace/install/mpc_dynamic_obstacles:/home/ros_workspace/install/igoneo_dynamic_window:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_util/lib:/home/ros_workspace/install/nav2_msgs/lib:/home/ros_workspace/install/nav2_waypoint_follower/lib:/home/ros_workspace/install/nav2_navfn_planner/lib:/home/ros_workspace/install/nav2_costmap_2d/lib:/home/ros_workspace/install/nav2_voxel_grid/lib:/home/ros_workspace/install/nav2_rviz_plugins/lib:/home/ros_workspace/install/nav2_map_server/lib:/home/ros_workspace/install/nav2_lifecycle_manager/lib:/home/ros_workspace/install/nav2_bt_navigator/lib:/home/ros_workspace/install/nav2_behavior_tree/lib:/home/ros_workspace/install/mpcc_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:/home/ros_workspace/install/static_collision_avoidance/lib/python3.8/site-packages:/home/ros_workspace/install/simple_igoneo_commander/lib/python3.8/site-packages:/home/ros_workspace/install/mpcc_local_planner/lib/python3.8/site-packages:/home/ros_workspace/install/local_path_planner/lib/python3.8/site-packages:/home/ros_workspace/install/dynamic_collision_avoidance/lib/python3.8/site-packages:/home/ros_workspace/install/cost_map_server/lib/python3.8/site-packages:/home/ros_workspace/install/mpcc_interfaces/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages:/home/ros_workspace/install/mpc_dynamic_obstacles/lib/python3.8/site-packages:/home/ros_workspace/install/igoneo_dynamic_window/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/ros_workspace/build/nav2_behavior_tree

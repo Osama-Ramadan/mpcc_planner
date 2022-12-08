@@ -1,0 +1,135 @@
+[0.243s] Invoking command in '/home/ros_workspace/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_util/lib:/home/ros_workspace/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros_workspace/build/nav2_behavior_tree -- -j4 -l4
+[0.936s] [  2%] Built target nav2_transform_available_condition_bt_node
+[1.303s] [  4%] Built target nav2_spin_action_bt_node
+[1.713s] [  6%] Built target nav2_compute_path_to_pose_action_bt_node
+[1.947s] [  8%] Built target nav2_goal_updated_condition_bt_node
+[2.313s] [ 10%] Built target nav2_is_stuck_condition_bt_node
+[2.654s] [ 12%] Built target nav2_behavior_tree
+[2.978s] [ 14%] Built target nav2_goal_updater_node_bt_node
+[3.428s] [ 16%] Built target nav2_follow_path_action_bt_node
+[3.843s] [ 18%] Built target nav2_goal_reached_condition_bt_node
+[4.098s] [ 20%] Built target nav2_initial_pose_received_condition_bt_node
+[4.571s] [ 22%] Built target nav2_time_expired_condition_bt_node
+[5.067s] [ 24%] Built target nav2_distance_traveled_condition_bt_node
+[5.365s] [ 26%] Built target nav2_is_battery_low_condition_bt_node
+[5.822s] [ 28%] Built target nav2_reinitialize_global_localization_service_bt_node
+[6.237s] [ 30%] Built target nav2_rate_controller_bt_node
+[6.587s] [ 32%] Built target nav2_distance_controller_bt_node
+[6.868s] [ 34%] Built target nav2_round_robin_node_bt_node
+[7.206s] [ 36%] Built target nav2_clear_costmap_service_bt_node
+[7.486s] [ 38%] Built target nav2_speed_controller_bt_node
+[7.830s] [ 40%] Built target nav2_truncate_path_action_bt_node
+[8.112s] [ 42%] Built target nav2_navigate_to_pose_action_bt_node
+[8.360s] [ 44%] Built target nav2_back_up_action_bt_node
+[8.501s] [ 46%] Built target nav2_recovery_node_bt_node
+[8.649s] [ 48%] Built target gtest
+[8.842s] [ 51%] Built target gtest_main
+[9.064s] [ 53%] Built target nav2_wait_action_bt_node
+[9.366s] [ 55%] Built target test_condition_distance_traveled
+[9.912s] [ 57%] Built target test_condition_time_expired
+[10.364s] [ 59%] Built target test_condition_goal_updated
+[10.834s] [ 61%] Built target test_condition_initial_pose_received
+[11.125s] [ 63%] Built target test_condition_is_battery_low
+[11.465s] [ 65%] Built target test_condition_transform_available
+[11.917s] [ 67%] Built target test_condition_is_stuck
+[12.489s] [ 69%] Built target test_condition_goal_reached
+[12.742s] [ 71%] Built target test_goal_updater_node
+[13.011s] [ 73%] Built target test_decorator_rate_controller
+[13.436s] [ 75%] Built target test_decorator_speed_controller
+[13.815s] [ 77%] Built target test_decorator_distance_controller
+[14.168s] [ 79%] Built target test_control_round_robin_node
+[14.518s] [ 81%] Built target test_control_recovery_node
+[14.933s] [ 83%] Built target test_truncate_path_action
+[15.356s] [ 85%] Built target test_action_navigate_to_pose_action
+[15.808s] [ 87%] Built target test_action_follow_path_action
+[16.280s] [ 89%] Built target test_action_compute_path_to_pose_action
+[16.673s] [ 91%] Built target test_action_reinitialize_global_localization_service
+[17.041s] [ 93%] Built target test_action_clear_costmap_service
+[17.246s] [ 95%] Built target test_bt_conversions
+[17.436s] [ 97%] Built target nav2_pipeline_sequence_bt_node
+[17.765s] [100%] Built target test_control_pipeline_sequence
+[18.034s] Invoked command in '/home/ros_workspace/build/nav2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_util/lib:/home/ros_workspace/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros_workspace/build/nav2_behavior_tree -- -j4 -l4
+[19.804s] Invoking command in '/home/ros_workspace/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_util/lib:/home/ros_workspace/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros_workspace/build/nav2_behavior_tree
+[19.913s] -- Install configuration: "Release"
+[19.916s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_behavior_tree.so
+[19.935s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_compute_path_to_pose_action_bt_node.so
+[19.985s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_follow_path_action_bt_node.so
+[19.994s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_back_up_action_bt_node.so
+[19.998s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_spin_action_bt_node.so
+[20.004s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_wait_action_bt_node.so
+[20.026s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_clear_costmap_service_bt_node.so
+[20.034s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_is_stuck_condition_bt_node.so
+[20.045s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_transform_available_condition_bt_node.so
+[20.060s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_goal_reached_condition_bt_node.so
+[20.066s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_goal_updated_condition_bt_node.so
+[20.082s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_time_expired_condition_bt_node.so
+[20.098s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_distance_traveled_condition_bt_node.so
+[20.106s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_initial_pose_received_condition_bt_node.so
+[20.174s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_is_battery_low_condition_bt_node.so
+[20.181s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_reinitialize_global_localization_service_bt_node.so
+[20.186s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_rate_controller_bt_node.so
+[20.190s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_distance_controller_bt_node.so
+[20.200s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_speed_controller_bt_node.so
+[20.211s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_truncate_path_action_bt_node.so
+[20.224s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_goal_updater_node_bt_node.so
+[20.240s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_recovery_node_bt_node.so
+[20.240s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_navigate_to_pose_action_bt_node.so
+[20.261s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_pipeline_sequence_bt_node.so
+[20.270s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/lib/libnav2_round_robin_node_bt_node.so
+[20.271s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include/
+[20.272s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree
+[20.273s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins
+[20.274s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action
+[20.275s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/follow_path_action.hpp
+[20.276s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/clear_costmap_service.hpp
+[20.279s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_to_pose_action.hpp
+[20.281s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_action.hpp
+[20.282s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_action.hpp
+[20.283s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_to_pose_action.hpp
+[20.285s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/reinitialize_global_localization_service.hpp
+[20.286s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_action.hpp
+[20.297s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_action.hpp
+[20.298s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition
+[20.301s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/transform_available_condition.hpp
+[20.302s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_reached_condition.hpp
+[20.303s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/initial_pose_received_condition.hpp
+[20.304s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/time_expired_condition.hpp
+[20.305s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_battery_low_condition.hpp
+[20.306s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_stuck_condition.hpp
+[20.307s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/distance_traveled_condition.hpp
+[20.308s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_updated_condition.hpp
+[20.309s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator
+[20.310s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/distance_controller.hpp
+[20.311s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/rate_controller.hpp
+[20.313s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/speed_controller.hpp
+[20.314s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updater_node.hpp
+[20.317s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control
+[20.321s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/round_robin_node.hpp
+[20.324s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/recovery_node.hpp
+[20.339s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/pipeline_sequence.hpp
+[20.339s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/behavior_tree_engine.hpp
+[20.340s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_conversions.hpp
+[20.354s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_node.hpp
+[20.354s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_service_node.hpp
+[20.355s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/nav2_tree_nodes.xml
+[20.355s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.sh
+[20.355s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.dsv
+[20.356s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/ament_index/resource_index/package_run_dependencies/nav2_behavior_tree
+[20.363s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/ament_index/resource_index/parent_prefix_path/nav2_behavior_tree
+[20.364s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.sh
+[20.369s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.dsv
+[20.370s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.sh
+[20.371s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.dsv
+[20.373s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.bash
+[20.375s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.sh
+[20.376s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.zsh
+[20.380s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.dsv
+[20.381s] -- Installing: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/package.dsv
+[20.382s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/ament_index/resource_index/packages/nav2_behavior_tree
+[20.382s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.382s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_libraries-extras.cmake
+[20.382s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.383s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig.cmake
+[20.383s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig-version.cmake
+[20.383s] -- Up-to-date: /home/ros_workspace/install/nav2_behavior_tree/share/nav2_behavior_tree/package.xml
+[20.425s] Invoked command in '/home/ros_workspace/build/nav2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros_workspace/install/nav2_util:/home/ros_workspace/install/nav2_msgs:/home/ros_workspace/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros_workspace/install/nav2_util/lib:/home/ros_workspace/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros_workspace/build/nav2_behavior_tree

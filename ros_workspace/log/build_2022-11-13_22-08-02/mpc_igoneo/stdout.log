@@ -1,0 +1,49 @@
+running egg_info
+creating ../../build/mpc_igoneo/mpc_igoneo.egg-info
+writing ../../build/mpc_igoneo/mpc_igoneo.egg-info/PKG-INFO
+writing dependency_links to ../../build/mpc_igoneo/mpc_igoneo.egg-info/dependency_links.txt
+writing entry points to ../../build/mpc_igoneo/mpc_igoneo.egg-info/entry_points.txt
+writing requirements to ../../build/mpc_igoneo/mpc_igoneo.egg-info/requires.txt
+writing top-level names to ../../build/mpc_igoneo/mpc_igoneo.egg-info/top_level.txt
+writing manifest file '../../build/mpc_igoneo/mpc_igoneo.egg-info/SOURCES.txt'
+reading manifest file '../../build/mpc_igoneo/mpc_igoneo.egg-info/SOURCES.txt'
+writing manifest file '../../build/mpc_igoneo/mpc_igoneo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ros_workspace/build/mpc_igoneo/build
+creating /home/ros_workspace/build/mpc_igoneo/build/lib
+creating /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo
+copying mpc_igoneo/mpc_controller_track.py -> /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo
+copying mpc_igoneo/helper_functions.py -> /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo
+copying mpc_igoneo/mpc_controller_kin.py -> /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo
+copying mpc_igoneo/mpc_controller.py -> /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo
+copying mpc_igoneo/mpcc_controller.py -> /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo
+copying mpc_igoneo/path_planner.py -> /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo
+copying mpc_igoneo/__init__.py -> /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo
+copying mpc_igoneo/igoneo_model.py -> /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo
+running install
+running install_lib
+creating /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo
+copying /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo/mpc_controller_track.py -> /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo
+copying /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo/helper_functions.py -> /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo
+copying /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo/mpc_controller_kin.py -> /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo
+copying /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo/mpc_controller.py -> /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo
+copying /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo/mpcc_controller.py -> /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo
+copying /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo/path_planner.py -> /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo
+copying /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo/__init__.py -> /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo
+copying /home/ros_workspace/build/mpc_igoneo/build/lib/mpc_igoneo/igoneo_model.py -> /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo
+byte-compiling /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo/mpc_controller_track.py to mpc_controller_track.cpython-38.pyc
+byte-compiling /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo/helper_functions.py to helper_functions.cpython-38.pyc
+byte-compiling /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo/mpc_controller_kin.py to mpc_controller_kin.cpython-38.pyc
+byte-compiling /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo/mpc_controller.py to mpc_controller.cpython-38.pyc
+byte-compiling /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo/mpcc_controller.py to mpcc_controller.cpython-38.pyc
+byte-compiling /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo/path_planner.py to path_planner.cpython-38.pyc
+byte-compiling /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo/igoneo_model.py to igoneo_model.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../build/mpc_igoneo/mpc_igoneo.egg-info to /home/ros_workspace/install/mpc_igoneo/lib/python3.8/site-packages/mpc_igoneo-0.0.0-py3.8.egg-info
+running install_scripts
+Installing mpc script to /home/ros_workspace/install/mpc_igoneo/lib/mpc_igoneo
+Installing path_planner script to /home/ros_workspace/install/mpc_igoneo/lib/mpc_igoneo
+writing list of installed files to '/home/ros_workspace/build/mpc_igoneo/install.log'

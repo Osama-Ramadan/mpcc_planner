@@ -62,7 +62,9 @@ u_f = [];
 sim_steps = 0;
 current_waypoint = 1;
 
-while sim_steps < 600
+
+sim_total_steps = 600;
+while sim_steps < sim_total_steps
 
     % Update Dynamic Obstacle Pose
     obs_position = current_obs_pose + config.dt*x_dot_obs;     % one forward step for the dynamic obstacle

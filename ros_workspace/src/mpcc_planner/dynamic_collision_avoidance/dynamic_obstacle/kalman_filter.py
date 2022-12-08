@@ -20,9 +20,9 @@ class KALMAN_FILTER():
         Q_pose = 10*0.5*dt**2
         Q_vel = 10*dt
         self.Q_noise = np.array([[Q_pose, 0, 0, 0],
-                  [0 , Q_pose, 0, 0],
-                  [0, 0, Q_vel, Q_vel],
-                  [0, 0, 0, Q_vel]])
+                                 [0 , Q_pose, 0, 0],
+                                 [0, 0, Q_vel, 0],
+                                 [0, 0, 0, Q_vel]])
 
         self.u = 0
 
